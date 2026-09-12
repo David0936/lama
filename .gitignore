@@ -1,0 +1,11 @@
+# Accidental local staging only. Not encryption or an access-control system.
+/private-local/
+/vault/
+/intake-local/
+/private-catalog/
+/private-indexes/
+/private-exports/
+.env
+.env.*
+!.env.example
+.DS_Store
