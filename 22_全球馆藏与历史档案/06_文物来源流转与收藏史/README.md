@@ -8,4 +8,13 @@
 
 British Museum 2016,3040.2、1926,1209.1 的目录包含取得字段；Rubin F1997.19.3 和 Smithsonian S2017.53 也公开了部分来源／捐赠信息。后续如研究争议，必须逐件记录主张者、证据和处理状态。
 
+## R023 首批对象卡
+
+| 对象 | 馆方公开流转信息 | 可写结论 | 仍未知 |
+|---|---|---|---|
+| Rubin F1997.19.3 守护王图 | Credit Line：Shelley and Donald Rubin Foundation 赠与 Rubin Museum | 可登记该馆现有 credit line | 制作后至基金会前的持有链、取得地点、交易记录 |
+| Smithsonian S2017.53 胜乐金刚唐卡 | Credit Line：Alice S. Kandell Collection；Provenance：research underway | 可登记馆方仍在进行来源研究 | 进入 Kandell Collection 前的流转、具体取得方式及完整链条 |
+
+“赠与”“馆藏系列”“来源研究进行中”均是馆方当前目录字段。它们不能证明完整、无争议或合法的历史流转，也不能单凭缺失字段推出相反结论。
+
 [专题目录](../README.md) · [馆藏与历史规划](../../docs/全球馆藏与历代演变规划.md)
