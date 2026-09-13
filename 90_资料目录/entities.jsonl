@@ -53,3 +53,7 @@
 {"id":"Z010001","type":"buddha","title_zh":"释迦牟尼佛","title_bo":null,"aliases":["Buddha Shakyamuni","Siddhartha Gautama"],"path":"06_佛菩萨与尊格/释迦牟尼佛/README.md","status":"review_required"}
 {"id":"N010001","type":"narrative_topic","title_zh":"释迦牟尼佛生平与十二行公开教学入口","title_bo":null,"aliases":["Life of the Buddha"],"path":"07_故事与叙事/释迦牟尼佛生平与十二行/README.md","status":"review_required"}
 {"id":"O010001","type":"museum_object","title_zh":"史密森尼释迦牟尼像","title_bo":null,"aliases":["Smithsonian S2015.28.2"],"path":"06_佛菩萨与尊格/释迦牟尼佛/README.md","status":"metadata_checked"}
+{"id":"A-R025-001","type":"archive_record","title_zh":"LOC《Tibetan Manor》照片记录","title_bo":null,"aliases":["LOC 2021670592"],"path":"22_全球馆藏与历史档案/04_档案书信游记与旧照片/README.md","status":"metadata_checked"}
+{"id":"A-R025-002","type":"archive_collection","title_zh":"Joseph F. Rock西南中国和东藏照片集","title_bo":null,"aliases":["LOC 2009631001"],"path":"22_全球馆藏与历史档案/04_档案书信游记与旧照片/README.md","status":"metadata_checked"}
+{"id":"A-R025-003","type":"archive_collection","title_zh":"LOC《Scenes in Tibet, 1930–39》","title_bo":null,"aliases":["LOC 2005678824"],"path":"22_全球馆藏与历史档案/04_档案书信游记与旧照片/README.md","status":"metadata_checked"}
+{"id":"A-R025-004","type":"digitized_travel_book","title_zh":"《Journey to Lhasa and central Tibet》","title_bo":null,"aliases":["Wellcome secxvt32"],"path":"22_全球馆藏与历史档案/04_档案书信游记与旧照片/README.md","status":"metadata_checked"}
