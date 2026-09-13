@@ -44,3 +44,7 @@
 {"id":"D000001","type":"historical_period","title_zh":"元代中国与藏传佛教历史线索","title_bo":null,"aliases":["Yuan period"],"path":"11_历史与地域/04_元代时期/README.md","status":"review_required"}
 {"id":"D000002","type":"historical_period","title_zh":"清代中国与藏传佛教历史线索","title_bo":null,"aliases":["Qing period"],"path":"11_历史与地域/06_清代时期/README.md","status":"review_required"}
 {"id":"O000007","type":"museum_object","title_zh":"乾隆帝作文殊菩萨像","title_bo":null,"aliases":["Smithsonian F2000.4"],"path":"11_历史与地域/06_清代时期/README.md","status":"metadata_checked"}
+{"id":"W000001","type":"work","title_zh":"《入菩萨行论》","title_bo":null,"aliases":["Bodhicharyavatara"],"path":"04_经典与文献/入菩萨行论/README.md","status":"review_required"}
+{"id":"W000002","type":"work","title_zh":"《佛子行三十七颂》","title_bo":null,"aliases":["The Thirty-Seven Practices of a Bodhisattva"],"path":"04_经典与文献/佛子行三十七颂/README.md","status":"review_required"}
+{"id":"W000003","type":"work","title_zh":"《不忘》","title_bo":null,"aliases":["Always Remember"],"path":"04_经典与文献/不忘/README.md","status":"review_required"}
+{"id":"W000004","type":"work","title_zh":"法王1993年海外讲法整理本《A Journey to the West》","title_bo":null,"aliases":["A Journey to the West"],"path":"04_经典与文献/法王1993年海外讲法整理本_A_Journey_to_the_West/README.md","status":"review_required"}
