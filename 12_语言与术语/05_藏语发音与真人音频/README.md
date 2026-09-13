@@ -6,4 +6,10 @@
 
 R015 试样暂没有学院教师或目标地区母语者授权录音，因此所有词句的“发音”字段保持待核；公开教材附带的音频只能作为教材示范，不能自动标为喇荣口音。
 
+## 已发现的公开音频入口
+
+- [Michigan State University Basic Tibetan greetings vocabulary audio](https://openbooks.lib.msu.edu/app/uploads/sites/128/2024/10/AUDIO_Greetings-1.2-vocabulary.m4a)：与公开教材第 4.2 节词表配套，可用于逐词跟读和教材版本核对。
+- 当前未知：录音者、录音地点、目标方言、是否包含慢速版本，以及与色达／喇荣口语的差异。
+- 使用规则：只登记远程音频链接，不下载或再分发；没有母语者比对前，R015 的发音字段仍保持 `待核`。
+
 [返回专题](../README.md)

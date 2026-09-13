@@ -23,3 +23,4 @@
 {"id":"X000023","subject_id":"L000001","predicate":"uses_language_source","object_id":"S000026","valid_from":null,"valid_to":null,"tradition":null,"evidence":[{"source_id":"S000026","locator":"公开教材"}],"review_status":"review_required"}
 {"id":"X000024","subject_id":"L000001","predicate":"uses_language_source","object_id":"S000027","valid_from":null,"valid_to":null,"tradition":null,"evidence":[{"source_id":"S000027","locator":"Wylie练习PDF"}],"review_status":"review_required"}
 {"id":"X000025","subject_id":"L000001","predicate":"uses_language_source","object_id":"S000028","valid_from":null,"valid_to":null,"tradition":null,"evidence":[{"source_id":"S000028","locator":"短语表"}],"review_status":"review_required"}
+{"id":"X000026","subject_id":"L000001","predicate":"has_audio_resource","object_id":"V000001","valid_from":null,"valid_to":null,"tradition":null,"evidence":[{"source_id":"S000029","locator":"M4A音频入口"}],"review_status":"review_required"}

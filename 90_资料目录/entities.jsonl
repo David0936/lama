@@ -29,3 +29,4 @@
 {"id":"T000004","type":"tradition","title_zh":"格鲁派","title_bo":"dge lugs","aliases":["Gelug"],"path":"03_教派与传承/格鲁派/README.md","status":"review_required"}
 {"id":"R000002","type":"comparative_topic","title_zh":"藏传、汉传与印度佛教关系框架","title_bo":null,"aliases":["Tibetan Chinese Indian Buddhism framework"],"path":"19_佛教传统与宗教关系简明导览/02_藏传汉传与南传的关联/README.md","status":"review_required"}
 {"id":"L000001","type":"language_sample","title_zh":"藏语基础交流30词12句试样","title_bo":"bod skad beginner sample","aliases":["R015 Tibetan language sample"],"path":"12_语言与术语/03_300词场景词表/README.md","status":"review_required"}
+{"id":"V000001","type":"audio_resource","title_zh":"Basic Tibetan问候词表配套音频","title_bo":null,"aliases":["MSU Basic Tibetan greetings audio"],"path":"12_语言与术语/05_藏语发音与真人音频/README.md","status":"review_required"}
