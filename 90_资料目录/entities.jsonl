@@ -41,3 +41,6 @@
 {"id":"O000006","type":"museum_object","title_zh":"英国博物馆嘎巴拉碗","title_bo":null,"aliases":["British Museum 1926,1209.1"],"path":"08_法物与艺术/04_人体材料相关器物/README.md","status":"metadata_checked"}
 {"id":"M000001","type":"research_gap","title_zh":"“人皮唐卡”材料证据缺口","title_bo":null,"aliases":["human-skin thangka evidence gap"],"path":"08_法物与艺术/07_争议称谓与误传辨析/README.md","status":"review_required"}
 {"id":"C000001","type":"collection_index","title_zh":"欧美藏传佛教馆藏机构首批索引","title_bo":null,"aliases":["R022 museum index"],"path":"22_全球馆藏与历史档案/01_欧美博物馆与美术馆/README.md","status":"metadata_checked"}
+{"id":"D000001","type":"historical_period","title_zh":"元代中国与藏传佛教历史线索","title_bo":null,"aliases":["Yuan period"],"path":"11_历史与地域/04_元代时期/README.md","status":"review_required"}
+{"id":"D000002","type":"historical_period","title_zh":"清代中国与藏传佛教历史线索","title_bo":null,"aliases":["Qing period"],"path":"11_历史与地域/06_清代时期/README.md","status":"review_required"}
+{"id":"O000007","type":"museum_object","title_zh":"乾隆帝作文殊菩萨像","title_bo":null,"aliases":["Smithsonian F2000.4"],"path":"11_历史与地域/06_清代时期/README.md","status":"metadata_checked"}
