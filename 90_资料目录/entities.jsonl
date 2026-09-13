@@ -33,3 +33,6 @@
 {"id":"Y000001","type":"symbol_set","title_zh":"八吉祥符号组合","title_bo":"bkra shis rtags brgyad","aliases":["Eight Auspicious Emblems"],"path":"12_语言与术语/08_宗教图像与符号识读/README.md","status":"review_required"}
 {"id":"Y000002","type":"script_feature","title_zh":"藏文 tsheg 与 shad 标点","title_bo":"tshig / shad","aliases":["Tibetan intersyllabic and vertical marks"],"path":"12_语言与术语/07_藏文字母数字与标点/README.md","status":"review_required"}
 {"id":"H000001","type":"custom_topic","title_zh":"天葬／鸟葬公开资料专题","title_bo":"bya gtor","aliases":["sky burial","jhator"],"path":"21_藏族习俗与生命礼仪/06_天葬/README.md","status":"review_required"}
+{"id":"O000001","type":"museum_object","title_zh":"守护王图唐卡","title_bo":null,"aliases":["Rubin F1997.19.3"],"path":"08_法物与艺术/06_馆藏实物与来源履历/README.md","status":"metadata_checked"}
+{"id":"O000002","type":"museum_object","title_zh":"尸陀林胜乐金刚唐卡","title_bo":null,"aliases":["Smithsonian S2017.53"],"path":"08_法物与艺术/06_馆藏实物与来源履历/README.md","status":"metadata_checked"}
+{"id":"O000003","type":"museum_object","title_zh":"过去佛尸弃唐卡","title_bo":null,"aliases":["The Met 828440"],"path":"08_法物与艺术/06_馆藏实物与来源履历/README.md","status":"metadata_checked"}
