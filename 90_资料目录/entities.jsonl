@@ -12,3 +12,9 @@
 {"id":"A000001","type":"role","title_zh":"堪布（Khenpo）教学资格语境","title_bo":null,"aliases":["Khenpo"],"path":"13_入门出家与身份路径/05_堪布堪姆与教学资格/README.md","status":"review_required"}
 {"id":"A000002","type":"role","title_zh":"堪姆（Khenmo）教学资格语境","title_bo":null,"aliases":["Khenmo"],"path":"13_入门出家与身份路径/05_堪布堪姆与教学资格/README.md","status":"review_required"}
 {"id":"U000001","type":"course","title_zh":"《入菩萨行论》公开线上课程（2019）","title_bo":null,"aliases":["Bodhicharyavatara online course"],"path":"14_教育课程与人才培养/04_经论课程与阅读顺序/README.md","status":"review_required"}
+{"id":"G000001","type":"place","title_zh":"喇荣沟与喇荣五明佛学院区域","title_bo":null,"aliases":["Larung Gar","Larung Valley"],"path":"16_地图建筑与功能空间/01_区域位置与地形/README.md","status":"review_required"}
+{"id":"K000001","type":"map","title_zh":"喇荣区域公开地图入口","title_bo":null,"aliases":["Larung Gar public map sources"],"path":"16_地图建筑与功能空间/02_学院总览与功能分区/README.md","status":"review_required"}
+{"id":"B000001","type":"building_candidate","title_zh":"大经堂（候选）","title_bo":null,"aliases":["Great Sutra Hall"],"path":"16_地图建筑与功能空间/03_建筑名录/README.md","status":"review_required"}
+{"id":"B000002","type":"building_candidate","title_zh":"汉经堂（候选）","title_bo":null,"aliases":["Han Sutra Hall"],"path":"16_地图建筑与功能空间/03_建筑名录/README.md","status":"review_required"}
+{"id":"B000003","type":"building_candidate","title_zh":"觉姆经堂（候选）","title_bo":null,"aliases":["Nuns’ Sutra Hall"],"path":"16_地图建筑与功能空间/03_建筑名录/README.md","status":"review_required"}
+{"id":"B000004","type":"building_candidate","title_zh":"山顶坛城／转经空间（候选）","title_bo":null,"aliases":["Summit mandala / circumambulation space"],"path":"16_地图建筑与功能空间/03_建筑名录/README.md","status":"review_required"}
