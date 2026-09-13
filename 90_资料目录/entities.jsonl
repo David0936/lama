@@ -60,3 +60,5 @@
 {"id":"G-R026-001","type":"research_topic","title_zh":"历代政府政策与学院公开记录","title_bo":null,"aliases":["government policy and Larung public records"],"path":"11_历史与地域/10_制度称谓与政教关系/历代政府政策与学院公开记录/README.md","status":"review_required"}
 {"id":"G-R026-002","type":"government_regulation","title_zh":"《藏传佛教活佛转世管理办法》","title_bo":null,"aliases":["国家宗教事务局令第5号"],"path":"11_历史与地域/10_制度称谓与政教关系/历代政府政策与学院公开记录/README.md","status":"metadata_checked"}
 {"id":"G-R026-003","type":"government_record","title_zh":"2014年四川省涉及喇荣的考察记录","title_bo":null,"aliases":["四川省政府2014年甘孜州考察报道"],"path":"11_历史与地域/10_制度称谓与政教关系/历代政府政策与学院公开记录/README.md","status":"metadata_checked"}
+{"id":"D-R027-001","type":"historical_period","title_zh":"明代涉藏制度史线索","title_bo":null,"aliases":["Ming-period Tibetan regions policy leads"],"path":"11_历史与地域/05_明代时期/README.md","status":"review_required"}
+{"id":"D-R027-002","type":"historical_period","title_zh":"民国涉藏事务机构线索","title_bo":null,"aliases":["Republican-era Tibetan affairs institution leads"],"path":"11_历史与地域/07_民国时期/README.md","status":"review_required"}
