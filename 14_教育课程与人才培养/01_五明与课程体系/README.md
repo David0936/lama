@@ -9,3 +9,11 @@
 ## 关联
 
 [专题目录](../README.md) · [扩编设计](../../docs/学院运转与空间扩编.md)
+
+## 公开课程线索
+
+学院相关公开讲座将喇荣课程描述为系统的佛教哲学学习与修持；另一篇官方教学介绍称，五部大论是喇荣的重要必修内容之一。这里先记录“公开来源如此描述”，不把宣传或讲座中的概述直接改写成完整课程表。
+
+课程、学制、班级和考核仍需按具体时期与学习群体核查。共同文化、藏汉语言和其他课程若没有对应院内课程来源，暂不列为确定的全院统一设置。
+
+来源：[2017 年公开讲座：静修与五部大论](https://khenposodargye.org/talks/2017/12/meditation-in-action-dancing-with-life/) · [2019 年《入菩萨行论》线上课程公告](https://khenposodargye.org/news/2019/05/online-course-beginning-may-2019-bodhicharyavatara/)
