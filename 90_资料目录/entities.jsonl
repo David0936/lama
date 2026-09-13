@@ -23,3 +23,7 @@
 {"id":"E000001","type":"exchange_event","title_zh":"索达吉堪布2013年哥伦比亚大学相关讲座","title_bo":null,"aliases":["2013 Columbia lecture"],"path":"18_院际海外与跨宗教交流/02_海外访问与公开讲学/README.md","status":"review_required"}
 {"id":"E000002","type":"exchange_event","title_zh":"索达吉堪布2013年马希隆大学讲座","title_bo":null,"aliases":["2013 Mahidol Faith and Times"],"path":"18_院际海外与跨宗教交流/02_海外访问与公开讲学/README.md","status":"review_required"}
 {"id":"E000003","type":"exchange_event","title_zh":"2019年《入菩萨行论》英语线上课程","title_bo":null,"aliases":["2019 Bodhicharyavatara online course"],"path":"18_院际海外与跨宗教交流/06_交流年表与关系索引/README.md","status":"review_required"}
+{"id":"T000001","type":"tradition","title_zh":"宁玛派","title_bo":"rnying ma","aliases":["Nyingma"],"path":"03_教派与传承/宁玛派/README.md","status":"review_required"}
+{"id":"T000002","type":"tradition","title_zh":"噶举派","title_bo":"bka' brgyud","aliases":["Kagyu"],"path":"03_教派与传承/噶举派/README.md","status":"review_required"}
+{"id":"T000003","type":"tradition","title_zh":"萨迦派","title_bo":"sa skya","aliases":["Sakya"],"path":"03_教派与传承/萨迦派/README.md","status":"review_required"}
+{"id":"T000004","type":"tradition","title_zh":"格鲁派","title_bo":"dge lugs","aliases":["Gelug"],"path":"03_教派与传承/格鲁派/README.md","status":"review_required"}
