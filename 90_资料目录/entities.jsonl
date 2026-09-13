@@ -27,4 +27,4 @@
 {"id":"T000002","type":"tradition","title_zh":"噶举派","title_bo":"bka' brgyud","aliases":["Kagyu"],"path":"03_教派与传承/噶举派/README.md","status":"review_required"}
 {"id":"T000003","type":"tradition","title_zh":"萨迦派","title_bo":"sa skya","aliases":["Sakya"],"path":"03_教派与传承/萨迦派/README.md","status":"review_required"}
 {"id":"T000004","type":"tradition","title_zh":"格鲁派","title_bo":"dge lugs","aliases":["Gelug"],"path":"03_教派与传承/格鲁派/README.md","status":"review_required"}
-{"id":"R000001","type":"comparative_topic","title_zh":"基督宗教与佛教对话背景","title_bo":null,"aliases":["Buddhist-Christian dialogue background"],"path":"19_佛教传统与宗教关系简明导览/05_基督宗教与佛教的异同和接触/README.md","status":"review_required"}
+{"id":"R000002","type":"comparative_topic","title_zh":"藏传、汉传与印度佛教关系框架","title_bo":null,"aliases":["Tibetan Chinese Indian Buddhism framework"],"path":"19_佛教传统与宗教关系简明导览/02_藏传汉传与南传的关联/README.md","status":"review_required"}
