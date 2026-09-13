@@ -32,3 +32,4 @@
 {"id":"V000001","type":"audio_resource","title_zh":"Basic Tibetan问候词表配套音频","title_bo":null,"aliases":["MSU Basic Tibetan greetings audio"],"path":"12_语言与术语/05_藏语发音与真人音频/README.md","status":"review_required"}
 {"id":"Y000001","type":"symbol_set","title_zh":"八吉祥符号组合","title_bo":"bkra shis rtags brgyad","aliases":["Eight Auspicious Emblems"],"path":"12_语言与术语/08_宗教图像与符号识读/README.md","status":"review_required"}
 {"id":"Y000002","type":"script_feature","title_zh":"藏文 tsheg 与 shad 标点","title_bo":"tshig / shad","aliases":["Tibetan intersyllabic and vertical marks"],"path":"12_语言与术语/07_藏文字母数字与标点/README.md","status":"review_required"}
+{"id":"H000001","type":"custom_topic","title_zh":"天葬／鸟葬公开资料专题","title_bo":"bya gtor","aliases":["sky burial","jhator"],"path":"21_藏族习俗与生命礼仪/06_天葬/README.md","status":"review_required"}
