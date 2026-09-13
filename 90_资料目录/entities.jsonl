@@ -49,3 +49,7 @@
 {"id":"W000003","type":"work","title_zh":"《不忘》","title_bo":null,"aliases":["Always Remember"],"path":"04_经典与文献/不忘/README.md","status":"review_required"}
 {"id":"W000004","type":"work","title_zh":"法王1993年海外讲法整理本《A Journey to the West》","title_bo":null,"aliases":["A Journey to the West"],"path":"04_经典与文献/法王1993年海外讲法整理本_A_Journey_to_the_West/README.md","status":"review_required"}
 {"id":"V010001","type":"media_collection","title_zh":"《A Journey to the West》公开讲解媒体入口","title_bo":null,"aliases":["A Journey to the West audio and video teachings"],"path":"04_经典与文献/法王1993年海外讲法整理本_A_Journey_to_the_West/媒体清单.md","status":"review_required"}
+{"id":"F010001","type":"festival_topic","title_zh":"萨嘎达瓦公开节历与教学样本","title_bo":null,"aliases":["Saga Dawa"],"path":"10_法会与节历/萨嘎达瓦/README.md","status":"review_required"}
+{"id":"Z010001","type":"buddha","title_zh":"释迦牟尼佛","title_bo":null,"aliases":["Buddha Shakyamuni","Siddhartha Gautama"],"path":"06_佛菩萨与尊格/释迦牟尼佛/README.md","status":"review_required"}
+{"id":"N010001","type":"narrative_topic","title_zh":"释迦牟尼佛生平与十二行公开教学入口","title_bo":null,"aliases":["Life of the Buddha"],"path":"07_故事与叙事/释迦牟尼佛生平与十二行/README.md","status":"review_required"}
+{"id":"O010001","type":"museum_object","title_zh":"史密森尼释迦牟尼像","title_bo":null,"aliases":["Smithsonian S2015.28.2"],"path":"06_佛菩萨与尊格/释迦牟尼佛/README.md","status":"metadata_checked"}
