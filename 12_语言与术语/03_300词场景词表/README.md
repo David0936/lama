@@ -44,3 +44,44 @@
 | 30 | ག་ཚོད་ | 多少／多少钱 | how much | ga tshod | 待核 |
 
 30 个词条暂按词形去重；“多少”在不同场景的礼貌表达仍待核。
+
+## 增补词条（31–60）
+
+以下项目来自同一套公开初级教材的国家、课堂、家庭、住房和时间章节。教材把部分项目列为短语或敬语形式；本表保留教材形态，不擅自拆词。Wylie 为本项目规范化转写，不是口语发音；发音、敬语等级和色达／喇荣适用性仍待核。
+
+| # | 藏文 | 汉文 | English | Wylie | 发音 |
+|---:|---|---|---|---|---|
+| 31 | བོད་པ། | 藏族人／藏人 | Tibetan | bod pa | 待核 |
+| 32 | རྒྱ་ནག | 中国 | China | rgya nag | 待核 |
+| 33 | ཨ་རི་བ། | 美国人 | American | a ri ba | 待核 |
+| 34 | ཨིན་ཇི་བ། | 英国人／英语人士 | English person | in ji ba | 待核 |
+| 35 | ཡིན། | 是／我是 | am／is | yin | 待核 |
+| 36 | མིན། | 不是／我不是 | am not／is not | min | 待核 |
+| 37 | ལེགས་སོ། | 好／可以 | okay | legs so | 待核 |
+| 38 | རྗེས་མར་མཇལ་ཡོང་། | 下次见 | See you next time | rjes mar mjal yong | 待核 |
+| 39 | ཁོང་། | 他／她（敬语） | he／she (hon.) | khong | 待核 |
+| 40 | སུ། | 谁 | who | su | 待核 |
+| 41 | གྲོགས་མོ། | 女朋友／女性朋友 | female friend | grogs mo | 待核 |
+| 42 | ག་པར། | 哪里 | where | ga par | 待核 |
+| 43 | བཞུགས། | 居住（敬语） | live (hon.) | bzhugs | 待核 |
+| 44 | རྒྱ་གར། | 印度 | India | rgya gar | 待核 |
+| 45 | སྡོད། | 居住 | live | sdod | 待核 |
+| 46 | རྒྱ་གར་བ། | 印度人 | Indian | rgya gar ba | 待核 |
+| 47 | ལུང་པ། | 国家／地方 | country | lung pa | 待核 |
+| 48 | ཉི་ཧོང་བ། | 日本人 | Japanese | nyi hong ba | 待核 |
+| 49 | དགོངས་པ་ཞུ། | 告辞／请原谅 | excuse me／I take leave | dgongs pa zhu | 待核 |
+| 50 | རྒྱ་མི། | 中国人 | Chinese person | rgya mi | 待核 |
+| 51 | ཨབ་རི་ཁ་བ། | 非洲人 | African | ab ri kha ba | 待核 |
+| 52 | ཨི་ཊ་ལི་བ། | 意大利人 | Italian | i ta li ba | 待核 |
+| 53 | ཁ་པར་ཨང་གྲངས། | 电话号码 | phone number | kha par ang grangs | 待核 |
+| 54 | ང་ལ་གནང་དང་། | 请给我 | Please give me | nga la gnang dang | 待核 |
+| 55 | ཁང་པ། | 房子 | house | khang pa | 待核 |
+| 56 | ཐོག་ག | 楼上 | upstairs | thog ga | 待核 |
+| 57 | ཐོག་རྩེག་ | 楼层／层数 | stories (building) | thog rtseg | 待核 |
+| 58 | ཁང་མིག | 房间 | room | khang mig | 待核 |
+| 59 | གསར་པ། | 新的 | new | gsar pa | 待核 |
+| 60 | བར་ཁང་། | 中间楼层 | middle floor | bar khang | 待核 |
+
+本批先完成60词中的31—60号；住房、楼层、时间、家庭和课堂词汇仍可从同教材后续章节继续扩展。表中“女性朋友”“告辞”等汉译需结合句子和地区用法复核，不作为固定词典义。
+
+来源：[Basic Tibetan 5.2 Vocabulary](https://openbooks.lib.msu.edu/basictibetan/chapter/5-2/) · [9.2 Vocabulary](https://openbooks.lib.msu.edu/basictibetan/chapter/9-2/)
