@@ -196,3 +196,25 @@
 课堂沟通音频：[Classroom vocabulary 2（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Classroom-vocabulary-2.m4a)。音频与词表同页提供；“请留步”等汉译是便于理解的工作译法，待语境和母语者复核。
 
 来源：[Basic Tibetan 6.3 Vocabulary 2](https://openbooks.lib.msu.edu/basictibetan/chapter/6-3/)
+
+## 增补词条（130–140）
+
+本批采用公开教材第7.2节的随身物品与日常设备词汇。教材附有词汇音频；Wylie为规范化转写，发音栏待母语者核听。
+
+| # | 藏文 | 汉文 | English | Wylie | 发音 |
+|---:|---|---|---|---|---|
+| 130 | ཁ་པར། | 电话 | phone | kha par | 待核 |
+| 131 | མིག་ཤེལ། | 眼镜 | eyeglasses | mig shel | 待核 |
+| 132 | པར་ཆས། | 相机 | camera | par chas | 待核 |
+| 133 | ཚགས་པར། | 报纸 | newspaper | tshags par | 待核 |
+| 134 | གློག་ཀླད། | 电脑 | computer | glog klad | 待核 |
+| 135 | ཉི་གདུགས། | 雨伞 | umbrella | nyi gdugs | 待核 |
+| 136 | ལྡེ་མིག | 钥匙 | keys | lde mig | 待核 |
+| 137 | དངུལ། | 钱 | money | dngul | 待核 |
+| 138 | དངུལ་ཁུག | 钱包 | wallet | dngul khug | 待核 |
+| 139 | གློག | 电／电力 | electricity | glog | 待核 |
+| 140 | ཆུ་དམ། | 水瓶 | water bottle | chu dam | 待核 |
+
+随身物品词汇音频：[Chapter 7 Vocabulary 1（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-7-Vocabulary-1.m4a)。音频与教材词表同页提供；“钥匙”按教材英文复数保留，汉译不据此判断数量。
+
+来源：[Basic Tibetan 7.2 Vocabulary 1](https://openbooks.lib.msu.edu/basictibetan/chapter/7-2/)
