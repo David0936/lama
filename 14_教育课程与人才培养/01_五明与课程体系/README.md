@@ -43,3 +43,17 @@
 学院官网的 Larung Gar 介绍把课程分为显乘（Sutrayana）与密乘（Tantrayana）：显乘部分围绕戒律、俱舍、因明、中观、般若五部大论；密乘部分列出续部、起次第、圆满次第、大圆满和上师窍诀等类别。页面还列出藏医、天文、藏文书法、藏语修辞与韵律等世间课程例子。
 
 这是官网的概览性介绍，未给出班级、学期、考试和当前开设清单；因此只作为课程分类入口，不替代学院现行教务文件。
+
+## R123｜传统“五明”概念与学院课程分开
+
+芝加哥大学公开论文以萨迦班智达对“五大明处”（*rig gnas che ba lnga*）的说明为线索，列举语法、因明／推理、医方、内明（佛法）与外明／工巧五个知识领域。它提供传统分类的学术性入口，不是一张喇荣课程表。
+
+| 传统分类 | 论文给出的英文对照 | 与学院官网课程的关系 |
+| --- | --- | --- |
+| 语法 | language／grammar | 官网列藏文书法、修辞与韵律，但不能由相近名称确认一一对应。 |
+| 因明 | reasoning／logic | 官网列佛教因明；具体教材、学时和考试仍待核。 |
+| 医方 | medicine | 官网列藏医；不推断临床训练、资格或服务。 |
+| 内明 | Buddhist Dharma | 官网的显密课程可作检索方向，不能合并成唯一课程体系。 |
+| 外明／工巧 | crafts | 官网列世间课程示例；须逐门查证。 |
+
+来源：[Epperson, University of Chicago dissertation PDF](https://knowledge.uchicago.edu/nanna/record/792/files/Epperson_uchicago_0330D_13686.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0)，第59页引用萨迦班智达关于五明的分类。该转引仍需以后续藏文原典与可靠校勘本复核。
