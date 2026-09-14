@@ -96,3 +96,20 @@
 | 55 | བསྟན་འཛིན། ངའི་གཅེན་པོ་ལོ་ཉི་ཤུ་རེད། ཨ་ནི་ ངའི་གཅེན་མོ་ལོ་བཅོ་བརྒྱད་རེད། | 丹增：我哥哥20岁，我姐姐18岁。 | Tenzin: My elder brother is 20 and my elder sister is 18. | bstan 'dzin nga'i gcen po lo nyi shu red a ni nga'i gcen mo lo bco brgyad red | 待核 |
 
 来源：[Basic Tibetan 9.4 Sentence Structure 2](https://openbooks.lib.msu.edu/basictibetan/chapter/9-4/) · [8.4 Guess Their Age](https://openbooks.lib.msu.edu/basictibetan/chapter/8-4/)。页面提供配套音频；本批只登记页面和句子，不下载音频。
+
+## 对话卡 D01：课堂日程与晚间约见
+
+来源是公开教材10.1节的课堂对话。这里采用六个短选段和情境摘要，不复制整段对话；原文、完整音频和练习请回到来源页。
+
+**情境**：两位同学在课堂见面，谈现在时间、当天课程、早餐、晚间散步和下一次见面。对话中的人名是教材示例人物。
+
+| 选段 | 藏文 | 汉文工作译 | English | Wylie |
+|---:|---|---|---|---|
+| 1 | ཨེ་མ། བསྟན་འཛིན་ལགས། ཆུ་ཚོད་ག་ཚོད་རེད། | 艾玛：丹增，现在几点？ | Ema: What time is it? | e ma bstan 'dzin lags chu tshod ga tshod red |
+| 2 | བསྟན་འཛིན། ཆུ་ཚོད་དགུ་དང་ཕྱེད་ཀ་རེད། | 丹增：九点半。 | Tenzin: It is half past nine. | bstan 'dzin chu tshod dgu dang phyed ka red |
+| 3 | དེ་རིང་ང་ལ་འཛིན་གྲྭ་གསུམ་ཡོད། | 今天我有三节课。 | I have three classes today. | de ring nga la 'dzin grwa gsum yod |
+| 4 | ངས་ཚན་རིག་སློབ་སྦྱོང་བྱེད་ཀྱི་ཡོད། | 我在学习科学。 | I am studying science. | ngas tshan rig slob sbyong byed kyi yod |
+| 5 | ངས་བོད་ཇ་དང་བོད་ཀྱི་བག་ལེབ་བཟས་པ་ཡིན། | 我喝了藏茶，吃了藏式面包。 | I had Tibetan tea and bread. | ngas bod ja dang bod kyi bag leb zas pa yin |
+| 6 | དགོང་དྲོ་མཇལ་ཡོང་། | 晚上见。 | See you in the evening. | dgong dro mjal yong |
+
+配套音频：[Chapter 10 Dialogue（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-10-Dialogue.m4a)。来源：[Basic Tibetan 10.1 Dialogue](https://openbooks.lib.msu.edu/basictibetan/chapter/10-1/)。选段的汉译、Wylie和发音均待核；完整对话的时间点待后续记录。
