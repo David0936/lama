@@ -85,3 +85,44 @@
 本批先完成60词中的31—60号；住房、楼层、时间、家庭和课堂词汇仍可从同教材后续章节继续扩展。表中“女性朋友”“告辞”等汉译需结合句子和地区用法复核，不作为固定词典义。
 
 来源：[Basic Tibetan 5.2 Vocabulary](https://openbooks.lib.msu.edu/basictibetan/chapter/5-2/) · [9.2 Vocabulary](https://openbooks.lib.msu.edu/basictibetan/chapter/9-2/)
+
+## 增补词条（61–90）
+
+本批取公开教材的课堂、家庭、时间和住房章节。部分项目是敬语短语或完整表达，保留教材形态；Wylie仍是规范化转写，不是口语读音。
+
+| # | 藏文 | 汉文 | English | Wylie | 发音 |
+|---:|---|---|---|---|---|
+| 61 | དགེ་རྒན། | 老师 | teacher | dge rgan | 待核 |
+| 62 | སློབ་ཕྲུག | 学生 | student | slob phrug | 待核 |
+| 63 | ང་ཚོ། | 我们 | we | nga tsho | 待核 |
+| 64 | ང་ཚོའི་ | 我们的 | our | nga tsho'i | 待核 |
+| 65 | ཁོང་ཚོ། | 他们／她们（敬语） | they (hon.) | khong tsho | 待核 |
+| 66 | ཁོང་ཚོའི་ | 他们的／她们的（敬语） | their (hon.) | khong tsho'i | 待核 |
+| 67 | ཁོང་ཡང་། | 他／她也（敬语） | he／she also (hon.) | khong yang | 待核 |
+| 68 | གཟིགས་དང་། | 请看 | Look! | gzigs dang | 待核 |
+| 69 | ངའི་ནང་མི། | 我的家人 | my family members | nga'i nang mi | 待核 |
+| 70 | ཨ་མ་ལགས། | 母亲 | mother | a ma lags | 待核 |
+| 71 | སྙིང་རྗེ་པ་ལ། | 真可爱／真惹人怜 | It is so cute! | snying rje pa la | 待核 |
+| 72 | པ་ལགས། | 父亲 | father | pa lags | 待核 |
+| 73 | ནང་མི། | 家人 | family member | nang mi | 待核 |
+| 74 | སྤོ་ལགས། | 祖父 | grandfather | spo lags | 待核 |
+| 75 | སུ་སུ། | 哪些人／都有谁 | who and who | su su | 待核 |
+| 76 | རྨོ་མོ་ལགས། | 祖母 | grandmother | rmo mo lags | 待核 |
+| 77 | ག་གི། | 哪一个 | which | ga gi | 待核 |
+| 78 | ཆུ་ཚོད། | 时间／几点 | time／o'clock | chu tshod | 待核 |
+| 79 | སྐར་མ་ལྔ། | 五分钟 | five minutes | skar ma lnga | 待核 |
+| 80 | ཆུ་ཚོད་ཕྱེད་ཀ། | 半小时 | half an hour | chu tshod phyed ka | 待核 |
+| 81 | ཆུ་ཚོད་ག་ཚོད་རེད། | 现在几点？ | What time is it? | chu tshod ga tshod red | 待核 |
+| 82 | ཆུ་ཚོད་དང་པོ། | 一点钟 | one o'clock | chu tshod dang po | 待核 |
+| 83 | ཆུ་ཚོད་གཉིས་པ། | 两点钟 | two o'clock | chu tshod gnyis pa | 待核 |
+| 84 | ཆུ་ཚོད་གསུམ་པ། | 三点钟 | three o'clock | chu tshod gsum pa | 待核 |
+| 85 | ཆུ་ཚོད་བཞི་པ། | 四点钟 | four o'clock | chu tshod bzhi pa | 待核 |
+| 86 | ཆུ་ཚོད་བཅུ་པ། | 十点钟 | ten o'clock | chu tshod bcu pa | 待核 |
+| 87 | ཆུ་ཚོད་བཅུ་གཅིག | 十一点钟 | eleven o'clock | chu tshod bcu gcig | 待核 |
+| 88 | འོག་ཁང་། | 地下层／下层房间 | basement | 'og khang | 待核 |
+| 89 | ཡར་ཕེབས་གནང་། | 请进 | Come in, please! | yar phebs gnang | 待核 |
+| 90 | སྔོན་ལ། | 首先 | first | sngon la | 待核 |
+
+本批将候选词表推进到90号；“可爱”“祖父／祖母”等汉译和敬语使用需结合教材对话、地区语境及母语者核听。
+
+来源：[Basic Tibetan 7.3 Vocabulary 2](https://openbooks.lib.msu.edu/basictibetan/chapter/7-3/) · [8.2 Vocabulary](https://openbooks.lib.msu.edu/basictibetan/chapter/8-2/) · [10.2 Vocabulary](https://openbooks.lib.msu.edu/basictibetan/chapter/10-2/) · [9.2 Vocabulary](https://openbooks.lib.msu.edu/basictibetan/chapter/9-2/)
