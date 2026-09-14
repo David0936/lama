@@ -52,6 +52,14 @@ KMaps 特征页仍公开列出 GML、KML 与 Shapefile 三种“feature alone”
 
 来源：[OpenStreetMap Nominatim 搜索接口](https://nominatim.openstreetmap.org/search?q=Larung+Gar%2C+Sichuan&format=jsonv2&limit=5) · [OpenStreetMap 版权说明](https://www.openstreetmap.org/copyright)
 
+## R213 OSM 标签快照（2026-09-14）
+
+对 `way 410417343` 的公开 API 与 Overpass 快照还可读到 `amenity=college`、`landuse=religious`、`religion=buddhist`、`denomination=tibetan`、中文／藏文／英文多语名称、`wikidata=Q18658243` 等标签；Overpass 返回的数据时间戳为 `2026-09-14T14:11:19Z`。标签还包含 `operator` 与 `operator:type` 字段，但它们只是 OSM 贡献者维护的地图属性，不能替代政府文件、学院章程或现行组织关系证据。
+
+本快照适合做地图字段和名称异写索引：可以把“宗教土地用途标签”“多语名称标签”和“运营方字段”分开保存；不能从这些标签推导学院的行政性质、政策关系、建筑功能、招生规则或当前开放状态。
+
+来源：[OSM way 410417343 JSON](https://www.openstreetmap.org/api/0.6/way/410417343.json) · [Overpass 标签查询](https://overpass-api.de/api/interpreter?data=%5Bout:json%5D%3Bway(410417343)%3Bout%20tags%3B)
+
 ## 当前缺口
 
 尚未找到一份由学院发布、带日期且可核对边界的公开总平面图。精确坐标、院寺边界、道路名称、建筑数量与当前功能均待核；历史照片或报道中的布局不自动代表今天。
