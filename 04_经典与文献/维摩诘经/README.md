@@ -44,6 +44,14 @@ CBETA 公开文本将 T0475 标为《维摩诘所说经》，题下注明“姚�
 
 来源审计：[CBETA T0475 HTML](https://jnbooks.oss-cn-qingdao.aliyuncs.com/books/cbeta2016html/T/%E7%B6%AD%E6%91%A9%E8%A9%B0%E6%89%80%E8%AA%AA%E7%B6%93%20T0475.html) · [CBETA T0475 PDF 镜像](https://dlbs.liberal.ntu.edu.tw/FULLTEXT/sutra/T/T14n0475.pdf)。
 
+## 汉文异译入口：T0476《说无垢称经》（R239）
+
+deerpark 的 CBETA 目录将 T0476 标为《说无垢称经》，作者栏注明“唐玄奘译”，并记录六卷、十四品。其品名与 T0475 不完全相同，例如 T0476 使用“序品”“显不思议方便善巧品”“观有情品”“菩提分品”“观如来品”等；这适合作为同经异译的结构对照入口，不能把品名差异直接解释成教义差异。
+
+本批核验的 CBETA PDF 镜像为 63 页、1,008,437 bytes，SHA-256 `6b651a9d19bc5f165217dcddbede75b5cf807ee1f67b8de0adb2e8074a71696c`；PDF 1.4，标题 `T0476 說無垢稱經`，作者 `唐 玄奘譯`，未加密。抽样页可提取目录和正文文字。T0475 与 T0476 都是汉文译本，但译者、卷数、品名和文字层需要分开登记。
+
+来源审计：[deerpark T0476 目录](https://deerpark.app/cbeta/T0476) · [CBETA T0476 PDF 镜像](https://dlbs.liberal.ntu.edu.tw/FULLTEXT/sutra/T/T14n0476.pdf)。
+
 ## 关联
 
 [经典总览](../README.md) · [经论课程](../../14_教育课程与人才培养/04_经论课程与阅读顺序/README.md) · [线上学习](../../14_教育课程与人才培养/09_线上学习与在家学习/README.md)
