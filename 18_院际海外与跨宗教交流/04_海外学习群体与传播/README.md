@@ -15,6 +15,17 @@
 
 这些资料说明了公开数字学习与翻译传播的入口；它们不能替代[院际或寺院交流](../01_与其他佛学院寺院的交流/README.md)的机构证据，也不能把个人讲学或译本页面写成正式合作关系。
 
+## R187｜海外机构公开视频与法会入口
+
+核查日期：2026-09-14。以下链接用于展示海外机构怎样把藏语教学、公开讲授和法会转为网络媒体。它们是独立机构案例，不证明喇荣学院与这些机构存在合作、转播或传承关系。
+
+| 媒体 | 机构页面能确认 | 不能确认 |
+| --- | --- | --- |
+| [Tibet House New Delhi：Introduction to Buddhism](https://tibethouse.in/teaching-on-introduction-to-buddhism/) | 页面说明课程以藏语授课，计划通过官方 YouTube 直播并保存到播放列表；页面给出 2024-02-02 起每周六的历史安排。 | 当前播放列表、单集视频 ID、完整存档、讲者授权或喇荣关联。 |
+| [Fundació Casa del Tibet Barcelona：Full Moon Puja](https://casadeltibetbcn.org/actividad-puntual/puja-de-luna-llena-dirigida-por-thubten-wangchen/) | 页面记录 2026-02-01 的满月普迦活动、公开 YouTube 频道入口、诵持与供养的活动说明及线上观看方式。 | 直播是否保留、视频时长、完整仪轨文本、参加者身份或与喇荣的关系。 |
+
+本批把“机构页面指向 YouTube”与“已核对具体视频内容”分开。后续若取得视频 ID、发布日期和时间码，再增加单集媒体卡；不从频道首页或活动宣传页推断念诵内容。
+
 ## 待核
 
 1. 每个页面在2026年后的可访问性、报名条件、课程语言和录播状态。
