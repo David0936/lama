@@ -318,3 +318,21 @@
 | 200 | ལངས། | 起身 | to get up | langs | 待核 |
 
 来源：[Basic Tibetan 2.3 How to Identify Root Letters in Words](https://openbooks.lib.msu.edu/basictibetan/chapter/2-3/)。本批让候选场景词表达到 200 项；词义、Wylie、发音和色达／喇荣使用语境仍待母语者复核。
+
+## 增补词条（201–209）
+
+本批补入先前教材页中未使用的时间表达和拼写识读例词。前四项来自第10.2节并有配套音频，后五项来自第2.3节；后者是识字示例，不作为学院口语证明。
+
+| # | 藏文 | 汉文工作译 | English | Wylie | 发音 |
+|---:|---|---|---|---|---|
+| 201 | དེ་རིང་། | 今天 | today | de ring | 待核 |
+| 202 | སང་ཉིན། | 明天 | tomorrow | sang nyin | 待核 |
+| 203 | ཆུ་ཚོད་ག་ཚོད། | 几小时 | how many hours | chu tshod ga tshod | 待核 |
+| 204 | སྔོན་ལ། | 之前／首先 | before | sngon la | 待核 |
+| 205 | རགས། | 获得 | to obtain | rags | 待核 |
+| 206 | རངས། | 高兴 | be delighted | rangs | 待核 |
+| 207 | རབས། | 世代 | generation | rabs | 待核 |
+| 208 | རམས། | 靛蓝 | indigo | rams | 待核 |
+| 209 | སངས། | 去除 | to remove | sangs | 待核 |
+
+来源：[Basic Tibetan 10.2 Vocabulary](https://openbooks.lib.msu.edu/basictibetan/chapter/10-2/) · [Basic Tibetan 2.3 How to Identify Root Letters in Words](https://openbooks.lib.msu.edu/basictibetan/chapter/2-3/)。词义、Wylie、发音和色达／喇荣使用语境仍待母语者复核。
