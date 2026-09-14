@@ -273,3 +273,20 @@
 星期音频：[Chapter 10 Seven Days of the Week（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-10-SEVEN-DAYS-OF-THE-WEEK.m4a)；周次词汇音频：[Chapter 10 Relevant Words（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-10-relevant-wrods.m4a)。教材同页还提供课堂日程句型音频；本批只登记词汇，不据此推导喇荣学院的周课表。
 
 来源：[Basic Tibetan 10.3 Sentence Structure 1](https://openbooks.lib.msu.edu/basictibetan/chapter/10-3/)
+
+## 增补词条（174–181）
+
+本批采用公开教材第10.4节“通常做什么”的现在时与习惯表达。以下多为短语或句型片段，按教材场景登记，不当作孤立词根；Wylie为项目规范化转写，发音栏待母语者核听。
+
+| # | 藏文 | 汉文工作译 | English | Wylie | 发音 |
+|---:|---|---|---|---|---|
+| 174 | ག་རེ་བྱེད་ཀྱི་ཡོད། | 在做什么 | what are you doing | ga re byed kyi yod | 待核 |
+| 175 | བོད་ཡིག་ཚགས་པར་ཀློག་གི་ཡོད། | 正在读藏文报纸 | reading a Tibetan newspaper | bod yig tshags par kloc gi yod | 待核 |
+| 176 | ཉལ་གྱི་ཡོད། | 通常睡觉／正在睡 | sleep / be sleeping | nyal gyi yod | 待核 |
+| 177 | ཨ་རི་ལ་སྡོད་ཀྱི་ཡོད། | 住在美国 | live in the United States | a ri la sdod kyi yod | 待核 |
+| 178 | ཁ་ལག་ཟ་ཡི་ཡོད། | 吃饭／吃食物 | eat food | kha lag za yi yod | 待核 |
+| 179 | ཟ་ཁང་། | 餐馆 | restaurant | za khang | 待核 |
+| 180 | འཛིན་གྲྭ་ལ་འགྲོ། | 去上课 | go to class | 'dzin grwa la 'gro | 待核 |
+| 181 | སློབ་སྦྱོང་བྱེད། | 学习 | study | slob sbyong byed | 待核 |
+
+现在时音频：[Chapter 10 Present tense（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-10-Present-tense.m4a)。来源：[Basic Tibetan 10.4 Sentence Structure 2](https://openbooks.lib.msu.edu/basictibetan/chapter/10-4/)。教材页面把这些项目放在问答和练习句中；英文与汉文均为工作译文，不能据此推断喇荣学院的口语规范。
