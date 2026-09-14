@@ -28,3 +28,17 @@
 
 - 在版权和公开访问状态允许的范围内，逐册取得并核验 PDF 页数、文本层与 SHA-256。
 - 把每条音频／视频按讲解、诵读或仪式记录，并记录对应章节与时间码。
+
+## R082 公开版本直链与媒体层（2026-09-14）
+
+官方作品页目前可直接定位以下六个公开版本入口：
+
+| 语言 | 第 I 册 | 第 II 册 | 状态 |
+| --- | --- | --- | --- |
+| 藏文 | [Tibetan I](https://khenposodargye.org/content/uploads/2023/12/A-Journey-to-the-West-1-Tibetan-20231223.pdf) | [Tibetan II](https://khenposodargye.org/content/uploads/2023/12/A-Journey-to-the-West-2-Tibetan-20231223.pdf) | 公开直链；文件大小、页数和哈希待核 |
+| 英文 | [English I](https://khenposodargye.org/content/uploads/2023/12/A-Journey-to-the-West-1-English-20231223.pdf) | [English II](https://khenposodargye.org/content/uploads/2023/12/A-Journey-to-the-West-2-English-20231223.pdf) | 公开直链；文件大小、页数和哈希待核 |
+| 繁体中文 | [Traditional Chinese I](https://khenposodargye.org/content/uploads/2023/12/A-Journey-to-the-West-1-Traditional-Chinese-20231223.pdf) | [Traditional Chinese II](https://khenposodargye.org/content/uploads/2023/12/A-Journey-to-the-West-2-Traditional-Chinese-20231223.pdf) | 公开直链；文件大小、页数和哈希待核 |
+
+官方[讲解页](https://khenposodargye.org/teachings/khenpos-classical-teachings/a-journey-to-the-west/)另列英语／日语同步翻译的 SoundCloud 音频和英语同步翻译的 YouTube 视频。它们登记为**讲解媒体**；当前没有证据证明是 1993 年现场录音、经文诵读或法会实录。页面还提示相关密续内容需具备合格传承上师的灌顶、传承和指导，因此本项目只提供公开索引，不提供修法指导。
+
+版本状态按“页面列出 → 直链可访问 → 文件已下载核验 → 文本逐段核对”四级推进。只有完成文件级核验后，才填写页数、字节数和 SHA-256；只有完成版本对读后，才登记藏汉英段落关系。
