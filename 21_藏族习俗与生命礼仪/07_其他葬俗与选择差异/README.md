@@ -20,4 +20,17 @@ Smithsonian Research Repository 收录 Chandra L. Reedy 的 **Body Relics in Tib
 
 来源：[Smithsonian Research Repository PDF](https://repository.si.edu/server/api/core/bitstreams/09ce017d-c2db-4f1b-a816-4524554f6ea3/content)。
 
+## R215 热贡田野与早期文献的对照入口
+
+Jagiellonian University Repository 收录的一份 2016 年硕士论文，以青海热贡（Rma lho，今黄南藏族自治州）两户家庭的田野材料为对象；摘要把遗体处置按地、水、火、风的分类线索并列为埋葬、沉水、火葬和暴露／天葬，并明确把论文的具体步骤与行为规则限定在热贡案例。该资料适合说明“其他葬俗”不是天葬的同义词，也不能外推到喇荣或整个藏区。
+
+Yale eHRAF 页面另收录 Walter Asboe 1932 年 *Man* 文章的目录与摘要，说明其讨论西藏遗体处置、哀悼者活动、葬礼后续以及西藏西部比较；页面同时标出原始覆盖地点和材料评级，全文内容当前受访问限制。因此它只能作为历史文献索引，不能直接补写具体仪式步骤。
+
+| 证据 | 可确认 | 不能推出 |
+| --- | --- | --- |
+| 2016 热贡硕士论文摘要 | 地区、两户田野案例、葬俗分类与研究范围 | 喇荣现行做法、全藏区比例或统一仪式 |
+| 1932 *Man* 文献目录 | 早期文献曾讨论葬俗、哀悼与西藏西部比较 | 未取得全文时的具体流程、当代延续或社区共识 |
+
+来源：[Jagiellonian University Repository](https://ruj.uj.edu.pl/handle/item/210419) · [Yale eHRAF：Disposal of the dead in Tibet](https://ehrafworldcultures.yale.edu/cultures/aj01/documents/013)
+
 [专题目录](../README.md) · [扩编设计](../../docs/习俗生命礼仪与人体材料专题.md)
