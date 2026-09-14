@@ -38,3 +38,9 @@ Walters Art Museum 的 [W.856](https://art.thewalters.org/object/W.856/) 对象�
 来源：[84000｜The Perfection of Wisdom in Eight Thousand Lines](https://84000.co/translation/toh12) · [84000｜Perfection of Wisdom Kangyur section](https://84000.co/post/perfection-of-wisdom-kangyur-section) · [84000｜Sadāprarudita authority entry](https://scholar.84000.co/authority/43914)。
 
 关联：[常啼菩萨求法故事](../../07_故事与叙事/常啼菩萨求法故事/README.md)。
+
+## R249｜公开英文诵读媒体
+
+84000 活动页记录，Sravasti Abbey 于 **2026 年 5 月 27—31 日**举办《八千颂般若经》英文完整诵读，现场和线上开放。84000 后续编辑文章说明，YouTube 直播按 12 场发布，约 60 人现场参加，并提供公开播放列表入口。该活动由 Sravasti Abbey 与 84000 关联，**不是喇荣学院法会记录**；本库只登记媒体入口和活动元数据，不把英文诵读当作藏文／汉文原文音频。
+
+媒体入口：[Sravasti Abbey／84000 YouTube 播放列表](https://www.youtube.com/playlist?list=PL8DRNsjySiiYcoudM1-HcxUxIYBBkTHl5)。当前未逐场核验视频 ID、起止时间、音频完整性和字幕语言。
