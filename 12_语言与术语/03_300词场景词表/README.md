@@ -251,3 +251,25 @@
 日常词汇音频：[Chapter 10 Vocabulary（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-10-Vocabulary.m4a)。教材英文义中的“two and half”等保留原意，数量和量词表达需结合完整句复核。
 
 来源：[Basic Tibetan 10.2 Vocabulary](https://openbooks.lib.msu.edu/basictibetan/chapter/10-2/)
+
+## 增补词条（163–173）
+
+本批采用公开教材第10.3节的“星期七日”和“周次”词汇。星期名称与“本周／下周／上周／周末”作为时间安排场景词登记；Wylie为项目规范化转写，发音栏待母语者核听。
+
+| # | 藏文 | 汉文 | English | Wylie | 发音 |
+|---:|---|---|---|---|---|
+| 163 | གཟའ་ཟླ་བ། | 星期一 | Monday | gza' zla ba | 待核 |
+| 164 | གཟའ་མིག་དམར། | 星期二 | Tuesday | gza' mig dmar | 待核 |
+| 165 | གཟའ་ལྷག་པ། | 星期三 | Wednesday | gza' lhag pa | 待核 |
+| 166 | གཟའ་ཕུར་བུ། | 星期四 | Thursday | gza' phur bu | 待核 |
+| 167 | གཟའ་པ་སངས། | 星期五 | Friday | gza' pa sangs | 待核 |
+| 168 | གཟའ་སྤེན་པ། | 星期六 | Saturday | gza' spen pa | 待核 |
+| 169 | གཟའ་ཉི་མ། | 星期日 | Sunday | gza' nyi ma | 待核 |
+| 170 | གཟའ་འཁོར་འདི། | 本周 | this week | gza' 'khor 'di | 待核 |
+| 171 | གཟའ་འཁོར་རྗེས་མར། | 下周 | next week | gza' 'khor rjes mar | 待核 |
+| 172 | གཟའ་འཁོར་སྔོན་མར། | 上周 | last week | gza' 'khor sngon mar | 待核 |
+| 173 | གཟའ་མཇུག | 周末 | weekend | gza' mjug | 待核 |
+
+星期音频：[Chapter 10 Seven Days of the Week（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-10-SEVEN-DAYS-OF-THE-WEEK.m4a)；周次词汇音频：[Chapter 10 Relevant Words（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-10-relevant-wrods.m4a)。教材同页还提供课堂日程句型音频；本批只登记词汇，不据此推导喇荣学院的周课表。
+
+来源：[Basic Tibetan 10.3 Sentence Structure 1](https://openbooks.lib.msu.edu/basictibetan/chapter/10-3/)
