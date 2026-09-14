@@ -26,4 +26,16 @@
 
 这是馆方对象记录与图像学说明。它能作为不丹地区唐卡织绣的公开样本，不能证明该物曾在喇荣使用，也不能据馆方标签推导特定仪轨。
 
+## R136 The Met 对象卡：Hevajra and Nairātmyā
+
+[The Metropolitan Museum of Art 官方对象记录](https://www.metmuseum.org/art/collection/search/714875)登记一件藏地雕塑：
+
+- 馆方题名：*Hevajra and Nairātmyā*；文化归属：Tibet；年代：late 12th century。
+- 材料：brass with silver and pigment；分类：Sculpture；尺寸：31.8 × 23.5 × 7 cm。
+- 馆藏／对象号：L.2020.3；部门：Asian Art；来源字段为 Promised Gift of Mr. and Mrs. Richard L. Chilton Jr.，纪念博物馆150周年。
+- 页面标示当前在 The Met Fifth Avenue Gallery 253 展出，但同时注明为借展（on loan）；因此“展出地点”与“馆藏所有权”不能混写。
+- 馆方概述将其置于藏地金刚乘艺术与印度中世纪密续传播的语境，并提到阿底峡与 Hevajra Tantra 的历史关联。这是馆方解释框架，不等同于对该件作品具体制作地点、传承线或仪轨使用的证明。
+
+这张对象卡用于示范欧美博物馆记录如何同时提供馆藏号、材质、年代、展陈状态和策展解释。它不能证明该物曾在喇荣使用，也不能据“密续尊格”标签推导现代学院的修法、灌顶或法会安排；后续若要讨论图像学，应另接原始文献和学术研究。
+
 [专题目录](../README.md) · [馆藏与历史规划](../../docs/全球馆藏与历代演变规划.md)
