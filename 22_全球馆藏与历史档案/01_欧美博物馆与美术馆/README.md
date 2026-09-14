@@ -14,4 +14,15 @@
 
 本表是公开目录索引；对象详情、材料争议与来源流转仍保留在对应专题，避免复制出多个互相矛盾的描述。
 
+## R085 Rubin Museum 对象卡：不丹 19 世纪释迦牟尼唐卡织物
+
+[Rubin Museum 官方记录 C2006.30.1](https://rubinmuseum.org/collection/c2006-30-1/) 给出以下字段：
+
+- 馆方题名：*Buddha Shakyamuni*；地区：Bhutan；年代：19th century。
+- 材料：silk textile appliqué with embroidery；分类：thangka textiles。
+- 尺寸：58 × 32 7/8 × 1 in（147.3 × 83.5 × 2.5 cm）。馆藏号：C2006.30.1；HAR Number：65652。
+- 图像学标签：Touching the Earth（触地印）与 Lotus Position（莲花坐）。馆方解释前者关联释迦牟尼觉悟见证，后者关联禅修姿势。
+
+这是馆方对象记录与图像学说明。它能作为不丹地区唐卡织绣的公开样本，不能证明该物曾在喇荣使用，也不能据馆方标签推导特定仪轨。
+
 [专题目录](../README.md) · [馆藏与历史规划](../../docs/全球馆藏与历代演变规划.md)

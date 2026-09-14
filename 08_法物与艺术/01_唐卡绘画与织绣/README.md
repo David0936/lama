@@ -20,3 +20,5 @@
 三件作品来自不同机构、地区和历史语境，只作为物质文化与馆藏研究入口，不作为喇荣学院现存法物或课程教材的证据。
 
 来源：[Smithsonian 唐卡课程资料](https://asia-archive.si.edu/wp-content/uploads/2018/02/Thangka-Lesson-Plan.pdf) · [Rubin F1997.19.3](https://rubinmuseum.org/collection/f1997-19-3/) · [Smithsonian S2017.53](https://asia-archive.si.edu/object/S2017.53/) · [The Met 828440](https://www.metmuseum.org/art/collection/search/828440)
+
+补充对象：[Rubin Museum C2006.30.1：不丹 19 世纪释迦牟尼织绣唐卡](../../22_全球馆藏与历史档案/01_欧美博物馆与美术馆/README.md)。该对象显示唐卡不只限于颜料画，也包括丝绸贴绣；材料与图像学字段应分开记录。
