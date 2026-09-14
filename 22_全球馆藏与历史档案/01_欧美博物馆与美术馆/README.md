@@ -36,6 +36,14 @@ Rubin Museum of Himalayan Art 的对象 **C2005.16.45** 题名为 *Green Tara*�
 
 来源：[Rubin Museum：Green Tara（C2005.16.45）](https://rubinmuseum.org/collection/c2005-16-45/enlarge/altviews/2315/)（正文第 24—63 行）。
 
+## R227 Rubin Museum 对象卡：可能与丹萨替寺相关的大黑天
+
+Rubin Museum 对象 **C2005.16.20** 题名为 *Mahakala*，来源栏写作“Central Tibet, possibly Densatil Monastery”，年代为 14 世纪中叶至 15 世纪中叶；材质为镶嵌半宝石和颜料的鎏金铜合金，馆藏号 C2005.16.20，HAR 编号 65443。馆方对象说明记录大黑天作为护法尊格的外观，包括大头、张口、厚重衣靴和双手持檀香木棍。
+
+同页把丹萨替寺描述为 12 世纪建立的中藏宗教艺术中心，提到其 13—15 世纪舍利塔装饰和 1966—1976 年文化大革命期间的毁坏及遗产散佚。此处的“可能为丹萨替寺”是馆方来源栏的限定语；对象卡不将其改写为确定寺院旧藏，也不从馆方公共教育标签推导喇荣学院护法制度。
+
+来源：[Rubin Museum：Mahakala（C2005.16.20）](https://rubinmuseum.org/collection/c2005-16-20/)（正文第 6—17、18—55 行）。
+
 ## R136 The Met 对象卡：Hevajra and Nairātmyā
 
 [The Metropolitan Museum of Art 官方对象记录](https://www.metmuseum.org/art/collection/search/714875)登记一件藏地雕塑：
