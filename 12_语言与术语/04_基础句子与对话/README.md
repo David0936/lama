@@ -78,3 +78,21 @@
 | 46 | ཨུ་མ། དཀྱིལ་དེ་ངའི་གཅུང་མོ་ཤི་ལ་རེད། ཁོང་ནིའུ་ཡོག་ལ་བཞུགས་ཀྱི་ཡོད་རེད། | 乌玛：中间是我妹妹希拉，她住在纽约。 | Uma: The one in the middle is my sister Shila. She lives in New York. | u ma dkyil de nga'i gcung mo shi la red khong ni'u yorg la bzhugs kyi yod red | 待核 |
 
 来源：[Basic Tibetan 8.3 Sentence Structure 1](https://openbooks.lib.msu.edu/basictibetan/chapter/8-3/)。页面提供两段家庭照片练习音频；本批登记句子与音频入口，不将教材人物关系当作真实人物资料。
+
+## 教材句型增补（47–55）
+
+本批采用公开教材9.4节住房参访句和8.4节年龄问答句，补齐“60句”目标的最后一组候选。Wylie为项目规范化转写，发音状态待母语者核听。
+
+| # | 藏文 | 汉文 | English | Wylie | 发音状态 |
+|---:|---|---|---|---|---|
+| 47 | འདི་སུའི་ཉལ་ཁང་རེད། | 这是谁的卧室？ | Whose bedroom is this? | 'di su'i nyal khang red | 待核 |
+| 48 | འདི་ངའི་ཨ་ཅག་གི་ཉལ་ཁང་རེད། | 这是我姐姐的卧室。 | This is my sister's bedroom. | 'di nga'i a cag gi nyal khang red | 待核 |
+| 49 | ལས་ཁུངས་ཀྱི་འཁྲིས་འདི་འཁྲུ་ཁང་རེད། | 办公室旁边是浴室。 | Next to the office is the bathroom. | las khungs kyi 'khris 'di 'khrus khang red | 待核 |
+| 50 | འཁྲུ་ཁང་གི་གཡས་འདི་གསང་སྤྱོད་རེད། | 浴室右边是厕所。 | Right to the bathroom is the restroom. | 'khrus khang gi g.yas 'di gsang spyod red | 待核 |
+| 51 | ཁྱེད་རང་ཚོའི་ཐབ་ཚང་ག་པར་ཡོད་རེད། | 你们的厨房在哪里？ | Where is your kitchen? | khyed rang tsho'i thab tshang ga par yod red | 待核 |
+| 52 | ང་ཚོའི་ཐབ་ཚང་བར་ཁང་ལ་ཡོད། | 我们的厨房在中间楼层。 | Our kitchen is on the middle floor. | nga tsho'i thab tshang bar khang la yod | 待核 |
+| 53 | ད་ང་ཚོ་བར་ཁང་ལ་ཕེབས་དོ། | 现在我们去中间楼层。 | Now let's go to the middle floor. | da nga tsho bar khang la phebs do | 待核 |
+| 54 | ང་ཚོའི་ཐབ་ཚང་གི་རྒྱབ་ལ་ཀ་ཕིབས་ཆུང་ཆུང་གཅིག་ཡོད། | 我们厨房后面有一个小门廊。 | There is a small porch behind our kitchen. | nga tsho'i thab tshang gi rgyab la ka phibs chung chung gcig yod | 待核 |
+| 55 | བསྟན་འཛིན། ངའི་གཅེན་པོ་ལོ་ཉི་ཤུ་རེད། ཨ་ནི་ ངའི་གཅེན་མོ་ལོ་བཅོ་བརྒྱད་རེད། | 丹增：我哥哥20岁，我姐姐18岁。 | Tenzin: My elder brother is 20 and my elder sister is 18. | bstan 'dzin nga'i gcen po lo nyi shu red a ni nga'i gcen mo lo bco brgyad red | 待核 |
+
+来源：[Basic Tibetan 9.4 Sentence Structure 2](https://openbooks.lib.msu.edu/basictibetan/chapter/9-4/) · [8.4 Guess Their Age](https://openbooks.lib.msu.edu/basictibetan/chapter/8-4/)。页面提供配套音频；本批只登记页面和句子，不下载音频。
