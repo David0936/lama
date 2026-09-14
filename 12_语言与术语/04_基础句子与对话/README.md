@@ -196,6 +196,39 @@
 
 配套音频：[Present tense（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-10-Present-tense.m4a)。来源：[Basic Tibetan 10.4 Sentence Structure 2](https://openbooks.lib.msu.edu/basictibetan/chapter/10-4/)。Wylie、发音和敬语层级待母语者复核。
 
+## 句型卡 D10：询问通常睡眠时间
+
+本卡采用公开教材 10.4 节的习惯时问答，练习“通常”与时间表达。数字和作息均为教材例句，不反映学院日常安排。
+
+| 角色 | 藏文（教材短句） | 汉文工作译 | English | Wylie |
+|---|---|---|---|---|
+| 问 | ནམ་རྒྱུན་ཁྱེད་རང་ཆུ་ཚོད་ག་ཚོད་ལ་ཉལ་གྱི་ཡོད། | 你通常几点睡？ | What time do you usually go to bed? | nam rgyun khyed rang chu tshod ga tshod la nyal gyi yod |
+| 答 | ནམ་རྒྱུན་ང་ཆུ་ཚོད་བཅུ་པ་ལ་ཉལ་གྱི་ཡོད། | 我通常十点睡。 | I usually go to bed at ten. | nam rgyun nga chu tshod bcu pa la nyal gyi yod |
+
+配套音频：[Present tense（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-10-Present-tense.m4a)。来源：[Basic Tibetan 10.4 Sentence Structure 2](https://openbooks.lib.msu.edu/basictibetan/chapter/10-4/)。Wylie、发音和敬语层级待母语者复核。
+
+## 句型卡 D11：安排晚间外出
+
+本卡采用公开教材 10.5 节的未来时问答，练习询问和说明晚间时间安排。餐馆与时间均为教材例句，不是学院活动安排。
+
+| 角色 | 藏文（教材短句） | 汉文工作译 | English | Wylie |
+|---|---|---|---|---|
+| 问 | ཁྱེད་རང་དགོང་དྲོ་ཆུ་ཚོད་ག་ཚོད་ལ་བོད་པའི་ཟ་ཁང་ལ་འགྲོ་ཡི་ཡིན། | 您今晚几点去藏餐馆？ | What time will you go to a Tibetan restaurant this evening? | khyed rang dgong dro chu tshod ga tshod la bod pa'i za khang la 'gro yi yin |
+| 答 | ང་དགོང་དྲོ་ཆུ་ཚོད་དྲུག་པ་ཙམ་ལ་བོད་པའི་ཟ་ཁང་ལ་འགྲོ་ཡི་ཡིན། | 我今晚大约六点去藏餐馆。 | I will go to a Tibetan restaurant at about six this evening. | nga dgong dro chu tshod drug pa tsam la bod pa'i za khang la 'gro yi yin |
+
+配套音频：[Future tense（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-10-Future-tense.m4a)。来源：[Basic Tibetan 10.5 Sentence Structure 3](https://openbooks.lib.msu.edu/basictibetan/chapter/10-5/)。Wylie、发音和敬语层级待母语者复核。
+
+## 句型卡 D12：询问课堂物品
+
+本卡采用公开教材 6.4 节的物品问答，练习“这是什么”的基础交流。课本是教材物品，不说明学院指定教材。
+
+| 角色 | 藏文（教材短句） | 汉文工作译 | English | Wylie |
+|---|---|---|---|---|
+| 问 | འདི་ག་རེ་རེད། | 这是什么？ | What is it? | 'di ga re red |
+| 答 | འདི་སློབ་དེབ་རེད། | 这是课本。 | This is a textbook. | 'di slob deb red |
+
+配套音频：[Chapter 6 Sentence Pattern（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-6-sentences-pattern.m4a)。来源：[Basic Tibetan 6.4 Sentence Structure](https://openbooks.lib.msu.edu/basictibetan/chapter/6-4/)。Wylie、发音和敬语层级待母语者复核。
+
 ## 句型卡 D06：询问厨房位置
 
 本卡继续采用公开教材 9.4 节，练习地点提问、回答和邀请同行。地点、楼层和空间描述均为教材示例。
