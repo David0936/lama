@@ -32,9 +32,11 @@ WCDU 线上课程页又记录 2019-04-14 的续学安排：从第四品“菩萨
 
 本批已下载并核验英文 PDF（211 页，6,931,010 bytes，SHA-256 `f311ae2648c0a6f0ed9200031031379d01e46cc0411827c20be3921985b60bf5`）与简体中文 PDF（156 页，7,202,688 bytes，SHA-256 `ede2e8cde0db9dece78dd687c2e65149d70f31832e1359a3ddd5fc86d82e2a85`）。两份文件的封面页以图像为主，抽样页没有可用文字层；这只说明当前文件不适合直接文本提取，不代表内容为空或不存在可视文字。英文 PDF 的目录将经文分为 12 章，并另置评论部分；这与学院官网列出的 14 章课程导航不是同一章节编号体系，不能自动逐章对应。
 
+繁体中文入口也已下载核验：[84000 繁体中文 PDF](https://api.84000.co/storage/v1/object/public/assets/pdf/Vimalakirti%20Book%20TC%20Screen_compressed.pdf)，156 页、7,246,777 bytes，SHA-256 `5de6b7679a7af6f7fbb1497ce03f209a42e20845df8e79baa04e13f5fe5c07b8`。PDF 1.6，Creator 为 Adobe InDesign CS6 (Windows)，Producer 为 iLovePDF，创建时间 2017-07-24 08:54:29 +08:00，修改时间 2025-03-03 03:14:23Z，未加密；第 3 页可提取书名和译者文字，封面与多数版面仍以图像／矢量为主，不能据少量文字层推断整本可直接检索。
+
 84000 的 Toh 176 藏文入口记录为“译入藏文者 Chönyi Tsultrim”；本批保留官方直链，但因下载请求发生重定向，未登记文件页数、字节数或校验值。藏文版本、简体中文版本、英文翻译和学院英文讲义应作为不同版本登记，不能把英译或讲义当作藏汉原文。
 
-来源审计：[84000 版本公告](https://84000.co/post/a-new-illustrated-edition-of-the-teaching-of-vimalakirti) · [英文 PDF](https://api.84000.co/storage/v1/object/public/assets/pdf/Vimalakirti%20Book%20E_compressed.pdf) · [简体中文 PDF](https://api.84000.co/storage/v1/object/public/assets/pdf/Vimalakirti%20Book%20SC%20Screen_compressed.pdf) · [Toh 176 藏文入口](https://direct-read.84000.co/data/toh176_84000-the-teaching-of-vimalakirti.pdf)。
+来源审计：[84000 版本公告](https://84000.co/post/a-new-illustrated-edition-of-the-teaching-of-vimalakirti) · [英文 PDF](https://api.84000.co/storage/v1/object/public/assets/pdf/Vimalakirti%20Book%20E_compressed.pdf) · [简体中文 PDF](https://api.84000.co/storage/v1/object/public/assets/pdf/Vimalakirti%20Book%20SC%20Screen_compressed.pdf) · [繁体中文 PDF](https://api.84000.co/storage/v1/object/public/assets/pdf/Vimalakirti%20Book%20TC%20Screen_compressed.pdf) · [Toh 176 藏文入口](https://direct-read.84000.co/data/toh176_84000-the-teaching-of-vimalakirti.pdf)。
 
 ## 汉文原典入口：CBETA T0475（R238）
 
