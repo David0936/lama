@@ -26,3 +26,11 @@
 这些记录只说明具体馆藏对象的材料和馆方解释；不能推断来源人身份、取得是否合乎当地伦理，或该器物与喇荣学院有关。
 
 来源：[British Museum 2016,3040.2](https://www.britishmuseum.org/collection/object/A_2016-3040-2) · [Rubin SC2019.3.2](https://rubinmuseum.org/collection/sc2019-3-2/) · [British Museum 1926,1209.1](https://www.britishmuseum.org/collection/object/A_1926-1209-1)
+
+## 展览语境卡：Tantra 页面的人体材料与社区声音
+
+大英博物馆 **Tantra: enlightenment to revolution** 展览网页另设“Human remains in Tibetan Buddhism today”和“The Chöd ritual and human remains”音频栏目。页面说明，前一栏目邀请藏人社区成员谈个人视角与经验，后一栏目同时收录由藏传佛教僧人表演的删节版 Chöd 仪式，以及研究藏族人体遗存的学者评论。该页面还提供部分音频文字稿入口。
+
+本卡的用途是记录“博物馆如何呈现材料、仪式和当代社区解释”的证据链：社区访谈、仪式录音、学者评论和馆方展览文本分别登记。它不证明所有藏传传统都使用人体材料，不证明某件馆藏的来源伦理，也不证明喇荣学院采用展览中所示仪式。涉及人体材料的描述，应回到具体馆藏号、馆方材质字段和原始文字稿逐项核对。
+
+来源：[Tantra content（British Museum）](https://www.britishmuseum.org/tantra-content) · [Tantra at the British Museum — Collecting histories](https://www.britishmuseum.org/exhibitions/tantra-enlightenment-revolution/tantra-collecting-histories)
