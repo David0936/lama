@@ -126,3 +126,22 @@
 本批将候选词表推进到90号；“可爱”“祖父／祖母”等汉译和敬语使用需结合教材对话、地区语境及母语者核听。
 
 来源：[Basic Tibetan 7.3 Vocabulary 2](https://openbooks.lib.msu.edu/basictibetan/chapter/7-3/) · [8.2 Vocabulary](https://openbooks.lib.msu.edu/basictibetan/chapter/8-2/) · [10.2 Vocabulary](https://openbooks.lib.msu.edu/basictibetan/chapter/10-2/) · [9.2 Vocabulary](https://openbooks.lib.msu.edu/basictibetan/chapter/9-2/)
+
+## 增补词条（91–100）
+
+本批完成第一阶段“扩至100词”目标。项目仍保留教材形态，Wylie为规范化转写，发音和地区用法待核。
+
+| # | 藏文 | 汉文 | English | Wylie | 发音 |
+|---:|---|---|---|---|---|
+| 91 | གཅུང་མོ། | 妹妹 | younger sister | gcung mo | 待核 |
+| 92 | གཅེན་མོ། | 姐姐 | older sister | gcen mo | 待核 |
+| 93 | གཅུང་པོ། | 弟弟 | younger brother | gcung po | 待核 |
+| 94 | གཅེན་པོ། | 哥哥 | elder brother | gcen po | 待核 |
+| 95 | གཡས་འདི། | 右边这个 | the one on the right | g.yas 'di | 待核 |
+| 96 | གཡོན་འདི། | 左边这个 | the one on the left | g.yon 'di | 待核 |
+| 97 | སྲུ་མོ་ལགས། | 姨母／舅母（教材义） | maternal aunt | sru mo lags | 待核 |
+| 98 | ཨ་ཞང་ལགས། | 舅舅 | maternal uncle | a zhang lags | 待核 |
+| 99 | དེ་རིང་། | 今天 | today | de ring | 待核 |
+| 100 | སང་ཉིན། | 明天 | tomorrow | sang nyin | 待核 |
+
+“姨母／舅母（教材义）”保留教材的 maternal aunt 译法；亲属称谓在不同地区和家庭语境可能不同，不能只靠汉译确定实际称呼。
