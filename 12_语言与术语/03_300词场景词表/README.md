@@ -423,3 +423,43 @@
 | 269 | ཧྭ་ཤང་། | 和尚 | monk | hwa shang | 待核 |
 
 来源：[Basic Tibetan 1.1 The Consonants](https://openbooks.lib.msu.edu/basictibetan/chapter/1-1/) · [Basic Tibetan 3.1 Frequent Expressions and Subjoined Letters](https://openbooks.lib.msu.edu/basictibetan/chapter/3-1/)。单字词和拼读例词不等于高频交际词；词义、Wylie、发音和色达／喇荣使用语境仍待母语者复核。
+
+## 增补词条（270–300）
+
+本批完成 300 项首轮配额。第 270—281 项来自拼读例词；第 282—295 项为问候和礼貌表达；第 296—300 项来自公开课堂活动的个人信息字段。三类材料分开理解：没有一类可单独证明学院的实际用语、身份登记或现行制度。
+
+| # | 藏文 | 汉文工作译 | English | Wylie | 发音 |
+|---:|---|---|---|---|---|
+| 270 | ཁ་བ། | 雪 | snow | kha ba | 待核 |
+| 271 | རེ་བ། | 希望 | hope | re ba | 待核 |
+| 272 | བདེ་བ། | 快乐／安乐 | happiness | bde ba | 待核 |
+| 273 | རྒོ་བ། | 藏原羚 | antelope | rgo ba | 待核 |
+| 274 | བྱ་བ། | 行动 | action | bya ba | 待核 |
+| 275 | དབར། | 中间 | in between | dbar | 待核 |
+| 276 | དབེན་པ། | 偏远／寂静 | remote | dben pa | 待核 |
+| 277 | དབྱར་ཁ། | 夏天 | summer | dbyar kha | 待核 |
+| 278 | དབྱིབས། | 形状 | shape | dbyibs | 待核 |
+| 279 | དབྲལ། | 撕开／分离 | to tear | dbral | 待核 |
+| 280 | དབུལ་པོ། | 穷人 | poor person | dbul po | 待核 |
+| 281 | དབྱུག་པ། | 棍子 | stick | dbyug pa | 待核 |
+| 282 | སྔ་དྲོ་བདེ་ལེགས། | 早上好 | Good morning | snga dro bde legs | 待核 |
+| 283 | ཉིན་མོ་བདེ་ལེགས། | 下午好 | Good afternoon | nyin mo bde legs | 待核 |
+| 284 | མཚན་མོ་བདེ་ལེགས། | 晚上好／晚安 | Good evening/night | mtshan mo bde legs | 待核 |
+| 285 | གཟིམ་འཇགས་གནང་གོ། | 请睡好／晚安 | Have a good sleep | gzim 'jags gnang go | 待核 |
+| 286 | སང་ཉིན་མཇལ་ཡོང་། | 明天见 | See you tomorrow | sang nyin mjal yong | 待核 |
+| 287 | སྐུ་ཁམས་བཟང་། | 您好吗／身体安好 | Hello./Good health | sku khams bzang | 待核 |
+| 288 | གཟབ་གཟབ་གནང་གོ། | 请小心 | Be careful | gzab gzab gnang go | 待核 |
+| 289 | སྤྲོ་པོ་གནང་གོ། | 玩得愉快 | Have fun/enjoy | spro po gnang go | 待核 |
+| 290 | བཀའ་དྲིན་ཆེ། | 感谢／承您情 | Thanks./It is so kind of you | bka' drin che | 待核 |
+| 291 | བཞུགས་དང་། | 请坐 | Please have a seat | bzhugs dang | 待核 |
+| 292 | གའི་གནང་གི་མ་རེད། | 不客气 | You are welcome | ga'i gnang gi ma red | 待核 |
+| 293 | ལ་སོ་ལ་སོ། | 好的，好的 | Okay, okay | la so la so | 待核 |
+| 294 | ངས་ཤེས་མ་སོང་། | 我没明白 | I did not understand | ngas shes ma song | 待核 |
+| 295 | ངས་ཤེས་སོང་། | 我明白了 | I understood | ngas shes song | 待核 |
+| 296 | ས་གནས། | 家乡城镇 | hometown city | sa gnas | 待核 |
+| 297 | མི་རིགས། | 国籍／民族 | nationality | mi rigs | 待核 |
+| 298 | བཞུགས་ཡུལ། | 居住地（敬语） | residence | bzhugs yul | 待核 |
+| 299 | གྲོགས་མོའི་མིང་། | 朋友的名字 | friend’s name | grogs mo'i ming | 待核 |
+| 300 | ནང་སྦྱོང་། | 家庭作业 | homework | nang sbyong | 待核 |
+
+来源：[Basic Tibetan 3.2 Prefix Letters](https://openbooks.lib.msu.edu/basictibetan/chapter/3-2/) · [Basic Tibetan 1.1 The Consonants](https://openbooks.lib.msu.edu/basictibetan/chapter/1-1/) · [Basic Tibetan 3.1 Frequent Expressions and Subjoined Letters](https://openbooks.lib.msu.edu/basictibetan/chapter/3-1/) · [Basic Tibetan 2.1 Frequent Expressions](https://openbooks.lib.msu.edu/basictibetan/chapter/2-1/) · [Basic Tibetan 5.5 Interactive Activity](https://openbooks.lib.msu.edu/basictibetan/chapter/5-5/)。第 300 项与第 156 项同形：此表原有重复计数，首轮达到“300 行”而非 300 个完全去重词形。后续须去重、重排编号，才可称为“300 个不重复词”。
