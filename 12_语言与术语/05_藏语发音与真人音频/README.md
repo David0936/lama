@@ -24,4 +24,17 @@ R015 试样暂没有学院教师或目标地区母语者授权录音，因此所
 
 媒体记录见 `M-R186-001`—`M-R186-003`。本批不下载、不剪辑、不重新托管音频；未完成逐音节核听，发音字段继续保持“待核”。
 
+## R189｜教材音频扩展
+
+继续登记四个与 300 词场景表直接对应的公开 M4A：课堂沟通短语、随身物品、时间与日常安排、星期词汇。它们扩大教材跟读入口，不改变“教材示范音频≠喇荣现场发音”的证据边界。
+
+| 媒体 ID | 对应场景 | 入口 | 当前状态 |
+| --- | --- | --- | --- |
+| `M-R189-001` | 课堂沟通短语 | [Classroom vocabulary 2](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Classroom-vocabulary-2.m4a) | 页面与直链登记；未核时长、录音者和方言 |
+| `M-R189-002` | 随身物品与设备 | [Chapter 7 Vocabulary 1](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-7-Vocabulary-1.m4a) | 页面与直链登记；未核时长、录音者和方言 |
+| `M-R189-003` | 时间、日常安排与饮食 | [Chapter 10 Vocabulary](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-10-Vocabulary.m4a) | 页面与直链登记；未核时长、录音者和方言 |
+| `M-R189-004` | 星期与周次 | [Seven Days of the Week](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-10-SEVEN-DAYS-OF-THE-WEEK.m4a) | 页面与直链登记；未核时长、录音者和方言 |
+
+完整词表仍回到教材章节；Wylie、汉译和发音继续按词条单独核验。
+
 [返回专题](../README.md)
