@@ -18,4 +18,13 @@
 
 来源：[Horniman Museum Reting sky burial slide](https://www.horniman.ac.uk/object/ARC/BAL/002/005/012/) · [Oxford Pitt Rivers Museum 1920–21 record](https://tibet.prm.ox.ac.uk/photo_1998.285.194.1.html) · [Lo Bue 2009 study record](https://cris.unibo.it/handle/11585/80363)
 
+## R152 两件历史影像档案的对象级核验
+
+| 对象 | 馆方可核字段 | 证据边界 |
+|---|---|---|
+| Horniman Museum，`ARC/BAL/002/005/012` | 题名为 Reting 天葬地点幻灯片；馆方文字描述地点、亲属、僧人和遗体处置序列，并记录尺寸 50 × 50 mm | 这是馆方对历史影像的说明，不能据此重建所有地区的仪式流程，也不能当作喇荣当前实践 |
+| Pitt Rivers Museum，`1998.285.194.1` | 1920—1921 年、Lhasa Area、Sir Charles Bell collection、玻璃底片；题名记录遗体由两名 *tongden* 运往处置地点，馆方注明摄影者可能是 Rabden Lepcha | 馆方进一步说明 Bell 的文字可能来自谈话而非亲见，影像与文字的来源关系需保留不确定性 |
+
+两件对象都应按“馆藏号—题名—时间—地点—馆方说明—来源流转—解释限制”登记。历史影像可以说明某一地点和时期的记录方式，不能替代社区自述、当代法规或学院周边现行情况。
+
 [专题目录](../README.md) · [扩编设计](../../docs/习俗生命礼仪与人体材料专题.md)
