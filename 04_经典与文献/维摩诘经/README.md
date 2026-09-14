@@ -36,6 +36,14 @@ WCDU 线上课程页又记录 2019-04-14 的续学安排：从第四品“菩萨
 
 来源审计：[84000 版本公告](https://84000.co/post/a-new-illustrated-edition-of-the-teaching-of-vimalakirti) · [英文 PDF](https://api.84000.co/storage/v1/object/public/assets/pdf/Vimalakirti%20Book%20E_compressed.pdf) · [简体中文 PDF](https://api.84000.co/storage/v1/object/public/assets/pdf/Vimalakirti%20Book%20SC%20Screen_compressed.pdf) · [Toh 176 藏文入口](https://direct-read.84000.co/data/toh176_84000-the-teaching-of-vimalakirti.pdf)。
 
+## 汉文原典入口：CBETA T0475（R238）
+
+CBETA 公开文本将 T0475 标为《维摩诘所说经》，题下注明“姚秦 鸠摩罗什译”，目录列出十四品。CBETA 编辑说明指出，电子文本来自其电子佛典集成，并说明 Unicode、组字式和校订字的处理；页面还写明可自由流通但禁止营利使用。该入口适合做汉文原典检索与章节定位，不等于某一纸本大藏经影印件，也不替代异译本校勘。
+
+本批核验的 NTU 镜像 PDF 以 CBETA 2023.Q4 数据为说明，46 页、859,138 bytes，SHA-256 `bdc583111266a659473c839012bdc315b60810567a1da8104c8ba1aabb86649c`；PDF 1.4，标题 `T0475 維摩詰所說經`，作者 `姚秦 鳩摩羅什譯`，未加密。抽样页可提取目录和正文文字。该 PDF 与 84000 简体中文插图版属于不同版本记录，后续需逐品、逐段对读。
+
+来源审计：[CBETA T0475 HTML](https://jnbooks.oss-cn-qingdao.aliyuncs.com/books/cbeta2016html/T/%E7%B6%AD%E6%91%A9%E8%A9%B0%E6%89%80%E8%AA%AA%E7%B6%93%20T0475.html) · [CBETA T0475 PDF 镜像](https://dlbs.liberal.ntu.edu.tw/FULLTEXT/sutra/T/T14n0475.pdf)。
+
 ## 关联
 
 [经典总览](../README.md) · [经论课程](../../14_教育课程与人才培养/04_经论课程与阅读顺序/README.md) · [线上学习](../../14_教育课程与人才培养/09_线上学习与在家学习/README.md)
