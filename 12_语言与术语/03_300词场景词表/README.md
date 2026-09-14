@@ -169,3 +169,30 @@
 课堂词汇音频：[Classroom vocabulary 1（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Classroom-vocabulary-1.m4a)。该音频与词表同页公开提供，音频是否适合喇荣具体课堂场景仍待核。
 
 来源：[Basic Tibetan 6.2 Vocabulary 1](https://openbooks.lib.msu.edu/basictibetan/chapter/6-2/)
+
+## 增补词条（114–129）
+
+本批采用同一公开教材第6.3节的课堂沟通短语。它们多为完整句或礼貌表达，按“场景词”登记，不能当作单字词典条目。教材提供对应音频，发音栏仍待母语者核听。
+
+| # | 藏文 | 汉文 | English | Wylie | 发音 |
+|---:|---|---|---|---|---|
+| 114 | བོད་སྐད་ལ། | 用藏语／在藏语中 | in Tibetan | bod skad la | 待核 |
+| 115 | ཟེར་ན། | 意思是／称作 | called | zer na | 待核 |
+| 116 | ངས་ཧ་གོ་མ་སོང་། | 我没听懂 | I did not understand it | ngas ha go ma song | 待核 |
+| 117 | ག་རེ་རེད། | 这是什么？ | What is it? | ga re red | 待核 |
+| 118 | ཡང་བསྐྱར་གསུངས་དང་། | 请再说一遍 | Please say it again | yang bskyar gsungs dang | 待核 |
+| 119 | དགོངས་དག | 对不起／抱歉 | Sorry! | dgongs dag | 待核 |
+| 120 | ག་ལེར་གསུངས་དང་། | 请说慢一点 | Please say it slowly | ga ler gsungs dang | 待核 |
+| 121 | ཁྱེད་རང་ལ། | 给你／对你 | to you | khyed rang la | 待核 |
+| 122 | བོད་ཡིག་ཚིག་མཛོད། | 藏文词典 | Tibetan dictionary | bod yig tshig mdzod | 待核 |
+| 123 | འདིར་ཡོད། | 在这里 | It is over here | 'dir yod | 待核 |
+| 124 | ག་པར་ཡོད། | 在哪里？ | Where is it? | ga par yod | 待核 |
+| 125 | འོ་ན་བཞུགས་ཨང་། | 那就保重／请留步 | Stay well then | 'o na bzhugs ang | 待核 |
+| 126 | སྟོད་ཕད་ཀྱི་ནང་ལ་ཡོད། | 在背包里 | It is in the backpack | stod phad kyi nang la yod | 待核 |
+| 127 | ཡོད་པས། | 有吗？ | Do you have? | yod pas | 待核 |
+| 128 | ང་འགྲོ་གི་ཡིན། | 我要走了 | I am taking off | nga 'gro gi yin | 待核 |
+| 129 | མགྱོགས་པོར་མཇལ་ཡོང་། | 很快再见 | See you soon | mgyogs por mjal yong | 待核 |
+
+课堂沟通音频：[Classroom vocabulary 2（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Classroom-vocabulary-2.m4a)。音频与词表同页提供；“请留步”等汉译是便于理解的工作译法，待语境和母语者复核。
+
+来源：[Basic Tibetan 6.3 Vocabulary 2](https://openbooks.lib.msu.edu/basictibetan/chapter/6-3/)
