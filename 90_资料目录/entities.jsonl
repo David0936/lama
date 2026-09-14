@@ -103,3 +103,4 @@
 {"id":"V-R064-001","type":"visitor_access_policy","title_zh":"喇荣外来者访问公告（2021语境）","title_bo":null,"aliases":["Larung visitor access notices 2021"],"path":"17_外来者理解与访学/02_游客朝圣者听课者与求学者/README.md","status":"review_required"}
 {"id":"W-R065-001","type":"ritual_text_collection","title_zh":"喇荣日常课诵本（2021版）","title_bo":"བླ་རུང་ཞལ་འདོན་ཕྱོགས་བསྒྲིགས།","aliases":["Larung Daily Chant Book","Larung Daily Prayers"],"path":"09_修持与仪轨/喇荣日常课诵本/README.md","status":"review_required"}
 {"id":"R-R068-001","type":"ritual_topic","title_zh":"Wang Dü（大云）公开修持与供养语境","title_bo":"dbang dus","aliases":["Wang Dü","The Great Cloud of Blessings"],"path":"09_修持与仪轨/Wang Dü（大云）公开语境/README.md","status":"review_required"}
+{"id":"F-R070-001","type":"festival_topic","title_zh":"喇荣护法日（讲记节历线索）","title_bo":"chos skyong gi dus ston","aliases":["Larung Dharma Protector’s Day"],"path":"10_法会与节历/护法日公开讲记/README.md","status":"review_required"}
