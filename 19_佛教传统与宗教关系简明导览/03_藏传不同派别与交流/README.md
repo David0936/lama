@@ -17,4 +17,18 @@
 
 来源：[How Do the Tibetan Buddhist Traditions Differ?](https://studybuddhism.com/en/advanced-studies/abhidharma-tenet-systems/the-tibetan-traditions/how-do-the-tibetan-buddhist-traditions-differ) · [达赖喇嘛关于多传统与非宗派的讲话](https://kr.dalailama.com/news/2010/his-holiness-the-dalai-lama-in-new-york-ny-may-19-2010)
 
+## R073 证据层索引（2026-09-14）
+
+本页把“共同源流”“教派分类”和“喇荣机构关系”拆开记录：
+
+| 证据层 | 来源与用途 | 可以支持 | 不能支持 |
+| --- | --- | --- | --- |
+| 博物馆教育页 | [Smithsonian Sacred Spaces](https://asia.si.edu/interactives/sacred-spaces/key-terms.html#four-schools-of-tibetan-buddhism) | 四大传统的公共分类、旧译／新译的简要背景 | 具体寺院谱系、学院现行立场 |
+| 教育性比较 | [Study Buddhism](https://studybuddhism.com/en/advanced-studies/abhidharma-tenet-systems/the-tibetan-traditions/how-do-the-tibetan-buddhist-traditions-differ) | 四派在戒律、经续并修、辩论与空性解释上的比较框架 | 将比较框架当作所有寺院的统一制度 |
+| 传统持有者公开讲话 | [达赖喇嘛 2010 年讲话](https://kr.dalailama.com/news/2010/his-holiness-the-dalai-lama-in-new-york-ny-may-19-2010) | 那烂陀传统与藏传多学校、非宗派取向的公共表述 | 喇荣与某一学校的正式合作或行政隶属 |
+
+三层材料共同提示：藏传各派共享印度佛教（尤其那烂陀学术与戒律资源）的历史根基，同时形成不同的文本解释、师承网络和制度语境。“共享根基”是比较史判断，不等于同一传承；“某位上师跨派授课”也不自动等于学院改宗或机构合作。喇荣相关结论仍须回到学院官网、课程页或正式公告逐条核验。
+
+本批只处理藏传、汉传与印度佛教的关系索引；基督宗教比较目录暂不扩展。
+
 [返回专题](../README.md)
