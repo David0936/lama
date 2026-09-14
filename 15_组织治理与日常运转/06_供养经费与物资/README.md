@@ -6,6 +6,12 @@
 
 以来源支持的概述、具体案例或资料卡回答本专题；每条说明适用机构、时期、群体及核查状态。事实未查到时登记缺口，不生成默认答案。
 
+## R068 供养叙述的证据边界
+
+官网 Wang Dü 页面叙述曾为喇荣僧众日常念诵作供养，并把念诵次数从每次讲法／辅导前三遍叙述为后来每天五遍。该材料可登记“供养—日常修持”的传统叙述关系，但没有金额、捐赠名册、财务报表或现行预算，不能据此推测经费规模、个人收入或今天的供养制度。
+
+来源：[Wang Dü: The Great Cloud of Blessings](https://khenposodargye.org/teachings/khenpos-classical-teachings/wang-du-great-cloud-blessings/)。
+
 ## 关联
 
 [专题目录](../README.md) · [扩编设计](../../docs/学院运转与空间扩编.md)
