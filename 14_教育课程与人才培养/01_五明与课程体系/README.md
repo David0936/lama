@@ -17,3 +17,9 @@
 课程、学制、班级和考核仍需按具体时期与学习群体核查。共同文化、藏汉语言和其他课程若没有对应院内课程来源，暂不列为确定的全院统一设置。
 
 来源：[2017 年公开讲座：静修与五部大论](https://khenposodargye.org/talks/2017/12/meditation-in-action-dancing-with-life/) · [2019 年《入菩萨行论》线上课程公告](https://khenposodargye.org/news/2019/05/online-course-beginning-may-2019-bodhicharyavatara/)
+
+## R066 学院官网课程框架
+
+学院官网的 Larung Gar 介绍把课程分为显乘（Sutrayana）与密乘（Tantrayana）：显乘部分围绕戒律、俱舍、因明、中观、般若五部大论；密乘部分列出续部、起次第、圆满次第、大圆满和上师窍诀等类别。页面还列出藏医、天文、藏文书法、藏语修辞与韵律等世间课程例子。
+
+这是官网的概览性介绍，未给出班级、学期、考试和当前开设清单；因此只作为课程分类入口，不替代学院现行教务文件。
