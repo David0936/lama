@@ -336,3 +336,32 @@
 | 209 | སངས། | 去除 | to remove | sangs | 待核 |
 
 来源：[Basic Tibetan 10.2 Vocabulary](https://openbooks.lib.msu.edu/basictibetan/chapter/10-2/) · [Basic Tibetan 2.3 How to Identify Root Letters in Words](https://openbooks.lib.msu.edu/basictibetan/chapter/2-3/)。词义、Wylie、发音和色达／喇荣使用语境仍待母语者复核。
+
+## 增补词条（210–229）
+
+本批采用公开教材 9.2 节的住房与方位词，以及 3.1 节的连缀字拼读例词。前者用于普通空间描述，后者用于识字练习；二者均不证明学院建筑名称、功能或地区口音。
+
+| # | 藏文 | 汉文工作译 | English | Wylie | 发音 |
+|---:|---|---|---|---|---|
+| 210 | རྙིང་པ། | 旧的 | old | rnying pa | 待核 |
+| 211 | སྟེང་ཁང་། | 顶层 | top floor | steng khang | 待核 |
+| 212 | མཆོད། | 吃／喝（敬语） | eat, drink (hon.) | mchod | 待核 |
+| 213 | ཆུང་ཆུང་། | 小的 | small | chung chung | 待核 |
+| 214 | ཡག་ག་ལ། | 真好！ | How good! | yag ga la | 待核 |
+| 215 | དངོས་གནས། | 确实／真的 | really | dngos gnas | 待核 |
+| 216 | ཁ་སྤྲོད། | 对面 | opposite | kha sprod | 待核 |
+| 217 | ཀྱང་། | 也（书面） | also (literary) | kyang | 待核 |
+| 218 | རེད་དམ། | 是吗？ | Is it? | red dam | 待核 |
+| 219 | ཡང་ན། | 或者 | or | yang na | 待核 |
+| 220 | རླངས་འཁོར་བཞག་ས། | 停车处 | car parking | rlangs 'khor bzhag sa | 待核 |
+| 221 | དེ་ནས། | 然后 | and then | de nas | 待核 |
+| 222 | ཚོན་མདོག | 颜色 | color | tshon mdog | 待核 |
+| 223 | ལྗང་ཁུ། | 绿色 | green | ljang khu | 待核 |
+| 224 | ཁྱི། | 狗 | dog | khyi | 待核 |
+| 225 | ཕྱུ་པ། | 藏式服装 | Tibetan dress | phyu pa | 待核 |
+| 226 | ཕྱི་ལོགས། | 外面 | outside | phyi logs | 待核 |
+| 227 | བྱ་ཤ། | 鸡肉 | chicken (meat) | bya sha | 待核 |
+| 228 | ལས་ཀ་བྱེད། | 做工作 | to do work | las ka byed | 待核 |
+| 229 | རོགས་པ་བྱེད། | 帮忙 | to help | rogs pa byed | 待核 |
+
+来源：[Basic Tibetan 9.2 Vocabulary](https://openbooks.lib.msu.edu/basictibetan/chapter/9-2/) · [Basic Tibetan 3.1 Frequent Expressions and Subjoined Letters](https://openbooks.lib.msu.edu/basictibetan/chapter/3-1/)。词义、Wylie、发音和色达／喇荣使用语境仍待母语者复核。

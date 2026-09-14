@@ -129,3 +129,4 @@
 {"id":"D-R093-001","type":"language_dialogue_sample","title_zh":"藏语对话卡D10：询问通常睡眠时间","title_bo":"bod skad dialogue card D10 sleep routine","aliases":["R093 dialogue D10"],"path":"12_语言与术语/04_基础句子与对话/README.md","status":"review_required"}
 {"id":"D-R093-002","type":"language_dialogue_sample","title_zh":"藏语对话卡D11：安排晚间外出","title_bo":"bod skad dialogue card D11 evening plan","aliases":["R093 dialogue D11"],"path":"12_语言与术语/04_基础句子与对话/README.md","status":"review_required"}
 {"id":"D-R093-003","type":"language_dialogue_sample","title_zh":"藏语对话卡D12：询问课堂物品","title_bo":"bod skad dialogue card D12 classroom object","aliases":["R093 dialogue D12"],"path":"12_语言与术语/04_基础句子与对话/README.md","status":"review_required"}
+{"id":"L-R094-001","type":"language_sample","title_zh":"藏语场景词表210—229项","title_bo":"bod skad vocabulary sample 210-229 items","aliases":["R094 Tibetan vocabulary 210-229"],"path":"12_语言与术语/03_300词场景词表/README.md","status":"review_required"}
