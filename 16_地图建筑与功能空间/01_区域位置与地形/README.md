@@ -24,6 +24,14 @@
 
 KMaps 与高德的点位相距约数百米，可能来自要素中心点、检索点或底图时期差异。本项目因此只登记“区域级位置”，不计算面积、人口、建筑数量，也不把任一点视为学院大门或中心建筑。
 
+## R109 名称字段与 GIS 下载状态（2026-09-14）
+
+University of Virginia KMaps 的 Feature 5224 将原名字段写作 **བླ་རུང་སྒར།**，并列出 THL Simplified Tibetan Transcription 的 **Larung Gar** 与 THL Extended Wylie Transliteration 的 **bla rung sgar**。这些是该数据库的名称和转写字段，不是本地口语录音、学院官方汉文定名或所有地图服务的统一写法。
+
+该页面链接 KML、GML、Shapefile 等 GIS 资源；本次对 KML 直链进行读取检查时获得空响应，未取得可解析几何。因此本库不生成 GeoJSON、路线或边界图，也不把“有下载链接”写成“边界数据已核”。
+
+来源：[KMaps Feature 5224](https://places.kmaps.virginia.edu/features/5224) · [KML 资源端点](https://places.kmaps.virginia.edu/features/gis_resources/5224.kml)
+
 ## 当前缺口
 
 尚未找到一份由学院发布、带日期且可核对边界的公开总平面图。精确坐标、院寺边界、道路名称、建筑数量与当前功能均待核；历史照片或报道中的布局不自动代表今天。
