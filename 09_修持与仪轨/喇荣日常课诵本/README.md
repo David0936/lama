@@ -12,6 +12,17 @@
 - 转写和英文是公开辅助入口；藏文底本、版本沿革和学院内部编排尚未做校勘。
 - 本页不提供修法指导，不从目录推导喇荣学院现行早晚课时间或所有僧众的统一实践。
 
+## R083 讲法前后念诵册目录索引（2026-09-14）
+
+官网另列 [Chanting Prayers Before and After Dharma Teachings](https://khenposodargye.org/content/uploads/2021/03/Chanting-Prayers-Before-and-After-Dharma-Teachings-20210313.pdf)，封面标注 **Tibetan–Transliteration–English，March 2021 Edition**，网页解析显示 133 页。其目录把文本按讲法前（Before Dharma Teaching）和讲法后（After Dharma Teaching）分组：
+
+| 分组 | 目录项目（英文题名） | 印刷页码 | 可登记的范围 |
+| --- | --- | ---: | --- |
+| 讲法前 | Mantra for Multiplying the Power of Recitation；The Verses of the Eight Noble Auspicious Ones；Preliminary Offerings；The King of Aspiration Prayers: The Seven Preliminaries for Purifying the Mind；The Ritual for the Bodhisattva Vow；Wang Dü: “The Great Cloud of Blessings”；The Seven Line Prayer；The Prayer which is the Source of All True Realization；The Treasury of Blessings: A Practice of Buddha Śākyamuni；Offering Prayers to Dharma Protectors；The Swift Bestowal of Blessings: A Guru Yoga；The Praise to Mañjuśrī | 2–77 | 目录与公开三语文本入口 |
+| 讲法后 | Dedication of Merit；The King of Aspiration Prayers: The Actual Aspiration；Prayer for the Long Life of H.H. Jigme Phuntsok Rinpoche；Prayer for the Long Life of Ḍākinī Muntso Rinpoche；Aspiration Prayer | 81–122 | 目录与公开三语文本入口 |
+
+目录页（PDF 第 3—4 页）能证明编排和页码；PDF 第 2—3 页的编者说明称所收礼诵由 Larung Gar Sangha 日常持诵。二者均不单独证明 2026 年学院的固定课表、全体成员一致执行、具体仪轨的传法资格或每一段文本的实际现场使用。后续逐项记录时，须把经文正文、念诵音频、讲法开示和法会实录分成不同媒体类型。
+
 ## 关联
 
 [修持与仪轨](../README.md) · [一天一周与一年](../../15_组织治理与日常运转/04_一天一周与一年/README.md) · [经典与文献](../../04_经典与文献/README.md)
