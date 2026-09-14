@@ -20,6 +20,24 @@
 
 来源：[British Library Archives Catalogue｜Gangtey Monastery Collection EAP039/1](https://searcharchives.bl.uk/?f%5Blanguage_ssim%5D%5B%5D=Tibetan&f%5Bproject_collections_ssim%5D%5B%5D=Digital+documentation+of+manuscript+collection+in+Gangtey&f%5Brelated_subjects_ssim%5D%5B%5D=Buddhist+Monasteries&f%5Burl_stub_si%5D%5B%5D=eap.bl.uk&per_page=10&sort=hierarchy)
 
+### R121 Walters Museum《八千颂般若经》手稿 W.856
+
+[Walters Art Museum W.856](https://art.thewalters.org/object/W.856/) 将该对象登记为13世纪、藏地来源的《八千颂般若经》藏文手稿：蓝染纸金墨、木质经板附鎏金痕迹，横向散页形制。对象页还说明末叶题记将其称为圣物，并称其为施主父母后世利益而委托制作；这些是馆方对特定对象及其题记的描述，不替代同名文本的定本、完整题记释读或所有般若经的使用史。
+
+馆方公开的来源流转字段为：Ian Alsop（纽约／圣菲）→1998年 John 与 Berthe Ford 购得→2016年赠与 Walters。该链条仅记录页面明确列出的环节，前史与取得背景仍待查。对象页标示图像为 CC0，但文本、题记和页面说明的再利用仍须分别核对。
+
+| 字段 | 可核信息 | 不可由此推出 |
+| --- | --- | --- |
+| 馆藏号与形制 | W.856；13世纪；蓝染纸金墨与木质经板 | 藏文大藏经定本或完整文本页码。 |
+| 文本与图像 | 《八千颂般若经》；经板含佛教图像 | 文中尊格图像等于某寺院的供奉或仪轨。 |
+| 来源流转 | 页面列出的1998购得与2016赠与 | 制作后至1998年的完整、无争议持有链。 |
+
+## 待核
+
+- 对象的叶码、题记原文、书写体、全文图像与文本许可。
+- 《八千颂般若经》与藏汉梵版本的书目关系；不得以单件馆藏代替版本校勘。
+- 馆方来源字段之外的流转记录与相关研究。
+
 ## 登记规则
 
 | 字段 | 先记录什么 | 不能省略的限制 |
