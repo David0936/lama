@@ -12,6 +12,10 @@
 
 来源：[Wang Dü: The Great Cloud of Blessings](https://khenposodargye.org/teachings/khenpos-classical-teachings/wang-du-great-cloud-blessings/)。
 
+## R161 与生活服务的分层
+
+“供养”“日常念诵”“住宿饮食”和“公共服务”是不同证据层。公开教言里的供养叙述只能说明一种修持／叙事关系；它不能替代财务报表、捐赠名册、采购记录或服务公告。外来者指南应把这些字段分别显示为：来源时期、主体、活动性质、可核字段、缺口和核查日期。
+
 ## 关联
 
 [专题目录](../README.md) · [扩编设计](../../docs/学院运转与空间扩编.md)
