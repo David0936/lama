@@ -145,3 +145,27 @@
 | 100 | སང་ཉིན། | 明天 | tomorrow | sang nyin | 待核 |
 
 “姨母／舅母（教材义）”保留教材的 maternal aunt 译法；亲属称谓在不同地区和家庭语境可能不同，不能只靠汉译确定实际称呼。
+
+## 增补词条（101–113）
+
+本批转入公开教材第6.2节的课堂物品词汇。教材附有课堂词汇音频；项目只登记公开链接，不代替母语者发音核验。Wylie为规范化转写，发音栏仍待核。
+
+| # | 藏文 | 汉文 | English | Wylie | 发音 |
+|---:|---|---|---|---|---|
+| 101 | ནག་པང་། | 黑板 | blackboard | nag pang | 待核 |
+| 102 | ས་དཀར། | 粉笔 | chalk | sa dkar | 待核 |
+| 103 | ཆུ་ཚོད། | 时钟 | clock | chu tshod | 待核 |
+| 104 | ས་ཁྲ། | 地图 | map | sa khra | 待核 |
+| 105 | སློབ་དེབ། | 课本 | textbook | slob deb | 待核 |
+| 106 | སུབ་ཆས། | 橡皮 | eraser | sub chas | 待核 |
+| 107 | སྟོད་ཕད། | 背包 | backpack | stod phad | 待核 |
+| 108 | ཤོག་གུ | 纸 | paper | shog gu | 待核 |
+| 109 | སྨྱུ་གུ། | 笔 | pen | snyu gu | 待核 |
+| 110 | འབྲི་དེབ། | 笔记本 | notebook | 'bri deb | 待核 |
+| 111 | རྐུབ་བཀྱག | 椅子 | chair | rkub bkyag | 待核 |
+| 112 | ཅོག་ཙེ། | 桌子 | table | cog tse | 待核 |
+| 113 | ཚིག་མཛོད། | 词典 | dictionary | tshig mdzod | 待核 |
+
+课堂词汇音频：[Classroom vocabulary 1（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Classroom-vocabulary-1.m4a)。该音频与词表同页公开提供，音频是否适合喇荣具体课堂场景仍待核。
+
+来源：[Basic Tibetan 6.2 Vocabulary 1](https://openbooks.lib.msu.edu/basictibetan/chapter/6-2/)
