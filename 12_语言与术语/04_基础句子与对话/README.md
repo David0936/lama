@@ -163,6 +163,39 @@
 
 配套音频：[Chapter 9 Sentence Structure 2（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-9-Sentences-Structure-2.m4a)。来源：[Basic Tibetan 9.4 Sentence Structure 2](https://openbooks.lib.msu.edu/basictibetan/chapter/9-4/)。Wylie、发音和敬语层级待母语者复核。
 
+## 句型卡 D07：询问周末工作时数
+
+本卡采用公开教材 10.3 节的时长问答。它练习“周末”“多少小时”和数字表达，不反映学院人员的工作安排。
+
+| 角色 | 藏文（教材短句） | 汉文工作译 | English | Wylie |
+|---|---|---|---|---|
+| 问 | གཟའ་མཇུག་ལ་ཁྱེད་རང་ལ་ལས་ཀ་ཆུ་ཚོད་ག་ཚོད་ཡོད། | 周末你工作几小时？ | How many hours do you work on the weekend? | gza' mjug la khyed rang la las ka chu tshod ga tshod yod |
+| 答 | གཟའ་མཇུག་ལ་ང་ལ་ལས་ཀ་ཆུ་ཚོད་བཞི་ཡོད། | 周末我工作四小时。 | I work four hours on the weekend. | gza' mjug la nga la las ka chu tshod bzhi yod |
+
+配套音频：[Class Schedule and Time（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-10-Class-Schedule-and-time.m4a)。来源：[Basic Tibetan 10.3 Sentence Structure 1](https://openbooks.lib.msu.edu/basictibetan/chapter/10-3/)。Wylie、发音和敬语层级待母语者复核。
+
+## 句型卡 D08：询问星期一上课时间
+
+本卡采用公开教材 10.3 节的日程问答，练习“哪一天／几点”的结构。藏语课和时间均为教材示例，不是学院课程公告。
+
+| 角色 | 藏文（教材短句） | 汉文工作译 | English | Wylie |
+|---|---|---|---|---|
+| 问 | གཟའ་ཟླ་བ་ལ་ཁྱེད་རང་གི་བོད་སྐད་འཛིན་གྲྭ་ཆུ་ཚོད་ག་ཚོད་ལ་རེད། | 星期一你的藏语课几点？ | What time is your Tibetan class on Monday? | gza' zla ba la khyed rang gi bod skad 'dzin grwa chu tshod ga tshod la red |
+| 答 | གཟའ་ཟླ་བ་ལ་ངའི་བོད་སྐད་འཛིན་གྲྭ་ཆུ་ཚོད་བཅུ་པ་ལ་རེད། | 星期一我的藏语课十点。 | My Tibetan class is at ten on Monday. | gza' zla ba la nga'i bod skad 'dzin grwa chu tshod bcu pa la red |
+
+配套音频：[Class Schedule and Time（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-10-Class-Schedule-and-time.m4a)。来源：[Basic Tibetan 10.3 Sentence Structure 1](https://openbooks.lib.msu.edu/basictibetan/chapter/10-3/)。Wylie、发音和敬语层级待母语者复核。
+
+## 句型卡 D09：询问当前活动
+
+本卡采用公开教材 10.4 节的现在时问答，练习询问和描述正在进行的动作。报纸阅读为教材情境，不指向学院生活。
+
+| 角色 | 藏文（教材短句） | 汉文工作译 | English | Wylie |
+|---|---|---|---|---|
+| 问 | ད་ལྟ་ཁྱེད་རང་གིས་ག་རེ་བྱེད་ཀྱི་ཡོད། | 你现在在做什么？ | What are you doing now? | da lta khyed rang gis ga re byed kyi yod |
+| 答 | ད་ལྟ་ངས་བོད་ཡིག་ཚགས་པར་ཀློག་གི་ཡོད། | 我正在读藏文报纸。 | I am reading a Tibetan newspaper. | da lta ngas bod yig tshags par kloc kyi yod |
+
+配套音频：[Present tense（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-10-Present-tense.m4a)。来源：[Basic Tibetan 10.4 Sentence Structure 2](https://openbooks.lib.msu.edu/basictibetan/chapter/10-4/)。Wylie、发音和敬语层级待母语者复核。
+
 ## 句型卡 D06：询问厨房位置
 
 本卡继续采用公开教材 9.4 节，练习地点提问、回答和邀请同行。地点、楼层和空间描述均为教材示例。
