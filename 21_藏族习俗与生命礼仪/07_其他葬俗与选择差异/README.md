@@ -12,4 +12,12 @@ Erberto Lo Bue 2009 年会议论文记录其在拉达克（2002—2003）、拉�
 
 来源：[University of Bologna CRIS 书目与摘要](https://cris.unibo.it/handle/11585/80363)（论文页码 221—237；页面注明附件未公开、版权保留且记录尚未由学校验证）。
 
+## R087 遗体处置与遗物语境的学术补充
+
+Smithsonian Research Repository 收录 Chandra L. Reedy 的 **Body Relics in Tibetan and Mongolian Traditions**。摘要列出藏区历史上并存的天葬、土葬、水葬、塔葬、火葬及少量遗体保存，并指出地方传统差异很大。摘要还区分完整遗体、骨骸／火化遗存，以及与高僧相关的衣物或接触遗物；这些材料有时会进入宗教器物的装藏或 consecration（装藏／开光）语境。
+
+该资料是学术研究摘要和公开 PDF 入口，不提供喇荣周边的现行做法，也不证明“人体材料法器”必然来自天葬或某一教派。后续逐条记录时，必须标明地区、时期、遗物类型、研究者解释和原始证据状态。
+
+来源：[Smithsonian Research Repository PDF](https://repository.si.edu/server/api/core/bitstreams/09ce017d-c2db-4f1b-a816-4524554f6ea3/content)。
+
 [专题目录](../README.md) · [扩编设计](../../docs/习俗生命礼仪与人体材料专题.md)
