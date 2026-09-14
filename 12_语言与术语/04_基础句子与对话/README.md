@@ -124,3 +124,14 @@
 | 星期一藏语课 | གཟའ་ཟླ་བ་ལ་ཁྱེད་རང་གི་བོད་སྐད་འཛིན་གྲྭ་ཆུ་ཚོད་ག་ཚོད་ལ་རེད།<br>གཟའ་ཟླ་བ་ལ་ངའི་བོད་སྐད་འཛིན་གྲྭ་ཆུ་ཚོད་བཅུ་པ་ལ་རེད། | 星期一你的藏语课几点？我的课十点。 | What time is your Tibetan class on Monday? My class is at ten. | gza' zla ba la khyed rang gi bod skad 'dzin grwa chu tshod ga tshod la red / gza' zla ba la nga'i bod skad 'dzin grwa chu tshod bcu pa la red |
 
 配套音频：[Class Schedule and Time（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-10-Class-Schedule-and-time.m4a)。来源：[Basic Tibetan 10.3 Sentence Structure 1](https://openbooks.lib.msu.edu/basictibetan/chapter/10-3/)。这两组句子是教材示例，不是喇荣学院真实课表；Wylie、发音和敬语层级待母语者复核。
+
+## 句型卡 D03：现在正在做什么
+
+本卡取自公开教材 10.4 节的现在时问答，练习“现在正在做什么”和“通常几点睡”两种日常交流。教材原页面含四组问答；这里只收录两组，完整内容与音频以来源页为准。
+
+| 场景 | 藏文（教材短句） | 汉文工作译 | English | Wylie |
+|---|---|---|---|---|
+| 询问当前动作 | ད་ལྟ་ཁྱེད་རང་གིས་ག་རེ་བྱེད་ཀྱི་ཡོད།<br>ད་ལྟ་ངས་བོད་ཡིག་ཚགས་པར་ཀློག་གི་ཡོད། | 你现在在做什么？我正在读藏文报纸。 | What are you doing now? I am reading a Tibetan newspaper. | da lta khyed rang gis ga re byed kyi yod / da lta ngas bod yig tshags par kloc kyi yod |
+| 询问习惯作息 | ནམ་རྒྱུན་ཁྱེད་རང་ཆུ་ཚོད་ག་ཚོད་ལ་ཉལ་གྱི་ཡོད།<br>ནམ་རྒྱུན་ང་ཆུ་ཚོད་བཅུ་པ་ལ་ཉལ་གྱི་ཡོད། | 你通常几点睡？我通常十点睡。 | What time do you usually go to bed? I usually go to bed at ten. | nam rgyun khyed rang chu tshod ga tshod la nyal gyi yod / nam rgyun nga chu tshod bcu pa la nyal gyi yod |
+
+配套音频：[Present tense（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-10-Present-tense.m4a)。来源：[Basic Tibetan 10.4 Sentence Structure 2](https://openbooks.lib.msu.edu/basictibetan/chapter/10-4/)。句子是教材练习情境，不是学院口语规范；Wylie、发音和敬语层级待母语者复核。
