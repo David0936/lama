@@ -1,5 +1,26 @@
 # 《八千颂般若经》
 
+## R248｜作品与版本入口
+
+84000 将 *The Perfection of Wisdom in Eight Thousand Lines*（梵 **Aṣṭasāhasrikā-prajñāpāramitā**，藏 **shes rab kyi pha rol tu phyin pa brgyad stong pa**）登记为 Toh 12。公开作品摘要称其为般若类“六母经”之一，以相对紧凑的篇幅涵盖般若波罗蜜多的重要主题；导论把它放在大乘“第二转法轮”和诸法无自性／空性的解释传统中。
+
+84000 页面还记录：Toh 12 在德格《甘珠尔》中为一卷、二十四函、三十二章；页面级公开英译由 Padmakara Translation Group 完成，Gregory Seton译文，John Canti等编辑。这里是作品与版本入口，不把现代英译当作藏文定本，也不把般若“六母经”直接写成喇荣学院的统一必修书目。
+
+## 主要观点与故事层
+
+- **般若与空性**：84000 导论将该作品放在诸法无自性、第二转法轮和菩萨道的注释传统中；这是作品导论层，不替代具体章段的藏汉对读。
+- **诵读与研究并存**：84000 导论记录了尊重地读诵而不作分析的传统，也说明现代英译加入了注释和章节对照；这不能推断某一寺院的现行课诵安排。
+- **常啼菩萨（Sadāprarudita）叙事**：Toh 12 公开页面的注释提到结尾保留常啼叙事及佛陀付嘱阿难的结构；84000 的词汇／跨作品资料把常啼与法胜（Dharmodgata）的求法故事详细定位在较长《十八千颂般若经》Toh 10 的末章。两个层级分开登记，避免把不同版本的章次和故事长度混为一谈。
+
+## 版本关系与缺口
+
+| 层级 | 已核 | 待核 |
+| --- | --- | --- |
+| Walters W.856 | 13世纪藏文手稿对象，蓝染纸金墨 | 完整图像、叶码、题记释读与文本比对 |
+| 84000 Toh 12 | 公开英译及藏文题名、德格卷次、章数元数据 | PDF 字节、校验值、文本层与页码审计 |
+| 汉文译本 | 84000 导论列举七种汉译及相关大藏经版本 | 逐部汉文 PDF、译者／卷次关系与藏汉章节映射 |
+| 喇荣关系 | 暂无学院课程、课诵或法会采用证据 | 带日期课程公告、讲记、念诵音频和法会实录 |
+
 ## R124｜馆藏手稿入口
 
 Walters Art Museum 的 [W.856](https://art.thewalters.org/object/W.856/) 对象页将其说明为《八千颂般若经》（*Ashtasahasrika Prajnaparamita*）的13世纪藏文手稿，并指出该文本原为印度语佛典、后译为多种语言。该对象可作为“经典—藏文手稿—馆藏来源”阅读入口。
@@ -13,3 +34,7 @@ Walters Art Museum 的 [W.856](https://art.thewalters.org/object/W.856/) 对象�
 | 学院关系 | 暂无 | 课程、讲解、诵读或法会的带日期机构证据。 |
 
 来源流转、图像使用与手稿元数据见[Walters手稿对象卡](../../22_全球馆藏与历史档案/03_图书馆与手稿文献/README.md)。
+
+来源：[84000｜The Perfection of Wisdom in Eight Thousand Lines](https://84000.co/translation/toh12) · [84000｜Perfection of Wisdom Kangyur section](https://84000.co/post/perfection-of-wisdom-kangyur-section) · [84000｜Sadāprarudita authority entry](https://scholar.84000.co/authority/43914)。
+
+关联：[常啼菩萨求法故事](../../07_故事与叙事/常啼菩萨求法故事/README.md)。
