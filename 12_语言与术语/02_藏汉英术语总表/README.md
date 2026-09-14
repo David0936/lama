@@ -23,6 +23,33 @@
 | 9 | dakini | དཔའ་མོ། | 勇母 | dpa' mo | 女性尊格与传承 | 待核 |
 | 10 | dharma terma | ཆོས་གཏེར། | 法伏藏 | chos gter | 伏藏与宁玛语境 | 待核 |
 
+## 公开三语词汇表第二批（20项，编号 11—30）
+
+仍取自同一 PDF 的 “Selected Dharma Terms”。Wylie 为项目转写，使用场景是检索辅助，发音与敬语待母语者及目标地区语境复核。
+
+| # | English | 藏文 | 汉文 | Wylie | 使用场景 | 发音 |
+|---:|---|---|---|---|---|---|
+| 11 | appearance and existence | སྣང་སྲིད། | 现有 | snang srid | 见地与现象 | 待核 |
+| 12 | approach and accomplishment | བསྙེན་སྒྲུབ། | 依修 | bsnyen sgrub | 修持阶段 | 待核 |
+| 13 | authentic words of truth | བདེན་ཚིག | 谛实语 | bden tshig | 祈愿与教言 | 待核 |
+| 14 | auxiliary teachings | ཆོས་ཚན། | 支分法类 | chos tshan | 课程分类 | 待核 |
+| 15 | awareness-discipline | རིག་པ་བརྟུལ་ཞུགས། | 觉性禁行 | rig pa brtul zhugs | 大圆满术语 | 待核 |
+| 16 | causal vehicle / resultant vehicle | རྒྱུ་ཡི་ཐེག་པ།<br>འབྲས་བུའི་ཐེག་པ། | 因乘／果乘 | rgyu yi theg pa / ’bras bu’i theg pa | 道次第分类 | 待核 |
+| 17 | child Nyingtig | སྙིང་ཐིག་བུ། | 子心滴 | snying thig bu | 宁玛心滴 | 待核 |
+| 18 | crossed vajra | རྡོ་རྗེ་རྒྱ་གྲམ། | 十字金刚杵 | rdo rje rgya gram | 图像与法器 | 待核 |
+| 19 | crown aperture | ཚངས་པའི་ལམ། | 梵净穴 | tshangs pa’i lam | 身心修持术语 | 待核 |
+| 20 | daka | དཔའ་བོ། | 勇士 | dpa’ bo | 男女尊格术语 | 待核 |
+| 21 | dakinis of the five families | མཁའ་འགྲོ་སྡེ་ལྔ། | 五部空行 | mkha’ ’gro sde lnga | 空行母分类 | 待核 |
+| 22 | dakinis of three spheres | གནས་གསུམ་མཁའ་འགྲོ། | 三处空行 | gnas gsum mkha’ ’gro | 空行母分类 | 待核 |
+| 23 | profound terma | ཟབ་གཏེར། | 甚深伏藏 | zab gter | 伏藏分类 | 待核 |
+| 24 | material terma | རྫས་གཏེར། | 圣物伏藏 | rdzas gter | 伏藏分类 | 待核 |
+| 25 | wisdom terma | ཐུགས་གཏེར། | 智慧伏藏 | thugs gter | 伏藏分类 | 待核 |
+| 26 | mind terma | དགོངས་གཏེར། | 密意伏藏 | dgongs gter | 伏藏分类 | 待核 |
+| 27 | dharmadhatu | ཆོས་དབྱིངས། | 法界 | chos dbyings | 见地与教理 | 待核 |
+| 28 | dharmata | ཆོས་ཉིད། | 法性 | chos nyid | 见地与教理 | 待核 |
+| 29 | dharmodaya, the source of dharma | ཆོས་འབྱུང། | 法源 | chos ’byung | 密续与坛城 | 待核 |
+| 30 | direct pointing-out instruction | སེམས་ཁྲིད། | 直指 | sems khrid | 上师教言 | 待核 |
+
 来源：[Glossary: English–Tibetan–Chinese PDF](https://khenposodargye.org/content/uploads/2023/12/Glossary-English-Tibetan-Chinese.pdf)，Selected Dharma Terms，PDF第10—11页。PDF文件级状态见[R060审校记录](../../91_待办与审校/R060-三语术语表PDF与首批词条.md)。
 
 ### 证据边界
