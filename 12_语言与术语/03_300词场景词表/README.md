@@ -154,7 +154,7 @@
 |---:|---|---|---|---|---|
 | 101 | ནག་པང་། | 黑板 | blackboard | nag pang | 待核 |
 | 102 | ས་དཀར། | 粉笔 | chalk | sa dkar | 待核 |
-| 103 | ཆུ་ཚོད། | 时钟 | clock | chu tshod | 待核 |
+| 103 | ཉལ་ཁྲི། | 床 | bed | nyal khri | 待核 |
 | 104 | ས་ཁྲ། | 地图 | map | sa khra | 待核 |
 | 105 | སློབ་དེབ། | 课本 | textbook | slob deb | 待核 |
 | 106 | སུབ་ཆས། | 橡皮 | eraser | sub chas | 待核 |
@@ -325,10 +325,10 @@
 
 | # | 藏文 | 汉文工作译 | English | Wylie | 发音 |
 |---:|---|---|---|---|---|
-| 201 | དེ་རིང་། | 今天 | today | de ring | 待核 |
-| 202 | སང་ཉིན། | 明天 | tomorrow | sang nyin | 待核 |
-| 203 | ཆུ་ཚོད་ག་ཚོད། | 几小时 | how many hours | chu tshod ga tshod | 待核 |
-| 204 | སྔོན་ལ། | 之前／首先 | before | sngon la | 待核 |
+| 201 | གྲང་མོ། | 寒冷 | cold | grang mo | 待核 |
+| 202 | དྲི་བ། | 问题 | question | dri ba | 待核 |
+| 203 | དྲུག | 六 | six | drug | 待核 |
+| 204 | ཕྲེང་ང་། | 念珠 | rosary | phreng nga | 待核 |
 | 205 | རགས། | 获得 | to obtain | rags | 待核 |
 | 206 | རངས། | 高兴 | be delighted | rangs | 待核 |
 | 207 | རབས། | 世代 | generation | rabs | 待核 |
@@ -460,6 +460,10 @@
 | 297 | མི་རིགས། | 国籍／民族 | nationality | mi rigs | 待核 |
 | 298 | བཞུགས་ཡུལ། | 居住地（敬语） | residence | bzhugs yul | 待核 |
 | 299 | གྲོགས་མོའི་མིང་། | 朋友的名字 | friend’s name | grogs mo'i ming | 待核 |
-| 300 | ནང་སྦྱོང་། | 家庭作业 | homework | nang sbyong | 待核 |
+| 300 | ཕོ་བྲང་། | 宫殿 | palace | pho brang | 待核 |
 
-来源：[Basic Tibetan 3.2 Prefix Letters](https://openbooks.lib.msu.edu/basictibetan/chapter/3-2/) · [Basic Tibetan 1.1 The Consonants](https://openbooks.lib.msu.edu/basictibetan/chapter/1-1/) · [Basic Tibetan 3.1 Frequent Expressions and Subjoined Letters](https://openbooks.lib.msu.edu/basictibetan/chapter/3-1/) · [Basic Tibetan 2.1 Frequent Expressions](https://openbooks.lib.msu.edu/basictibetan/chapter/2-1/) · [Basic Tibetan 5.5 Interactive Activity](https://openbooks.lib.msu.edu/basictibetan/chapter/5-5/)。第 300 项与第 156 项同形：此表原有重复计数，首轮达到“300 行”而非 300 个完全去重词形。后续须去重、重排编号，才可称为“300 个不重复词”。
+来源：[Basic Tibetan 3.2 Prefix Letters](https://openbooks.lib.msu.edu/basictibetan/chapter/3-2/) · [Basic Tibetan 1.1 The Consonants](https://openbooks.lib.msu.edu/basictibetan/chapter/1-1/) · [Basic Tibetan 3.1 Frequent Expressions and Subjoined Letters](https://openbooks.lib.msu.edu/basictibetan/chapter/3-1/) · [Basic Tibetan 2.1 Frequent Expressions](https://openbooks.lib.msu.edu/basictibetan/chapter/2-1/) · [Basic Tibetan 5.5 Interactive Activity](https://openbooks.lib.msu.edu/basictibetan/chapter/5-5/)。R099 已替换五个同形重复项；当前按藏文字面词形检查为 300 项。该检查不表示所有词义、用法或场景均已审校。
+
+### R099 去重替换说明
+
+为保持 300 个不同藏文字面词形，原第 103、201—204、300 项替换为床、寒冷、问题、六、念珠和宫殿。六项均来自公开教材 3.1 节含下加字「ར」的拼读例词。它们标为识字材料，不作为宗教法器、学院建筑或现场语言证据。
