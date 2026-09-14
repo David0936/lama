@@ -26,6 +26,16 @@ WCDU 线上课程页又记录 2019-04-14 的续学安排：从第四品“菩萨
 - 官方讲解页在第五品之后只列出第六至十四品的章名，当前页面未给出与前五品同格式的公开讲义文件链接；本项目将其登记为“版本入口待核”，不据此断言相关讲义不存在或课程未完成。
 - 课程页面的报名表已关闭，不能据历史表单推断现行报名、学籍或参加资格。
 
+## 84000 藏文—汉文—英文版本入口（R237）
+
+84000 与 Khyentse Foundation 的公开出版说明称，新版《The Sūtra of The Teaching of Vimalakīrti》包含宗萨钦哲仁波切导言／评论和 Robert A. F. Thurman 英译，并提供英文、简体中文和繁体中文免费下载。英文 PDF 的版权页写明 CC BY-NC-ND 3.0；“免费可下载”不等于可以改编、商用或重新分发。
+
+本批已下载并核验英文 PDF（211 页，6,931,010 bytes，SHA-256 `f311ae2648c0a6f0ed9200031031379d01e46cc0411827c20be3921985b60bf5`）与简体中文 PDF（156 页，7,202,688 bytes，SHA-256 `ede2e8cde0db9dece78dd687c2e65149d70f31832e1359a3ddd5fc86d82e2a85`）。两份文件的封面页以图像为主，抽样页没有可用文字层；这只说明当前文件不适合直接文本提取，不代表内容为空或不存在可视文字。英文 PDF 的目录将经文分为 12 章，并另置评论部分；这与学院官网列出的 14 章课程导航不是同一章节编号体系，不能自动逐章对应。
+
+84000 的 Toh 176 藏文入口记录为“译入藏文者 Chönyi Tsultrim”；本批保留官方直链，但因下载请求发生重定向，未登记文件页数、字节数或校验值。藏文版本、简体中文版本、英文翻译和学院英文讲义应作为不同版本登记，不能把英译或讲义当作藏汉原文。
+
+来源审计：[84000 版本公告](https://84000.co/post/a-new-illustrated-edition-of-the-teaching-of-vimalakirti) · [英文 PDF](https://api.84000.co/storage/v1/object/public/assets/pdf/Vimalakirti%20Book%20E_compressed.pdf) · [简体中文 PDF](https://api.84000.co/storage/v1/object/public/assets/pdf/Vimalakirti%20Book%20SC%20Screen_compressed.pdf) · [Toh 176 藏文入口](https://direct-read.84000.co/data/toh176_84000-the-teaching-of-vimalakirti.pdf)。
+
 ## 关联
 
 [经典总览](../README.md) · [经论课程](../../14_教育课程与人才培养/04_经论课程与阅读顺序/README.md) · [线上学习](../../14_教育课程与人才培养/09_线上学习与在家学习/README.md)
