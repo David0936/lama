@@ -44,6 +44,14 @@ Rubin Museum 对象 **C2005.16.20** 题名为 *Mahakala*，来源栏写作“Cen
 
 来源：[Rubin Museum：Mahakala（C2005.16.20）](https://rubinmuseum.org/collection/c2005-16-20/)（正文第 6—17、18—55 行）。
 
+## R228 Rubin Museum 对象卡：西藏 13—14 世纪卡当塔
+
+Rubin Museum 对象 **C2003.21.1** 题名为 *Stupa*，来源标为西藏，年代 13—14 世纪，材质为铜合金，馆藏号 C2003.21.1，HAR 编号 65233。页面标明对象目前在 Brooklyn Museum 的“Rubin Museum Tibetan Buddhist Shrine Room”展陈中。
+
+馆方说明将佛塔置于跨佛教传统的印度起源叙述中，解释佛塔代表觉悟之心，并把该对象归为卡当塔，以钟形为识别特征；页面还把该形制与阿底峡在 11 世纪中叶传入西藏的叙述相连。以上是馆方对象与公共教育框架，不等于对象来自阿底峡传承、曾在某寺院供奉或可代表喇荣现行建筑／法会。
+
+来源：[Rubin Museum：Stupa（C2003.21.1）](https://rubinmuseum.org/collection/c2003-21-1/)（正文第 20—22、23—64 行）。
+
 ## R136 The Met 对象卡：Hevajra and Nairātmyā
 
 [The Metropolitan Museum of Art 官方对象记录](https://www.metmuseum.org/art/collection/search/714875)登记一件藏地雕塑：
