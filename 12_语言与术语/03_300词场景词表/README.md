@@ -365,3 +365,30 @@
 | 229 | རོགས་པ་བྱེད། | 帮忙 | to help | rogs pa byed | 待核 |
 
 来源：[Basic Tibetan 9.2 Vocabulary](https://openbooks.lib.msu.edu/basictibetan/chapter/9-2/) · [Basic Tibetan 3.1 Frequent Expressions and Subjoined Letters](https://openbooks.lib.msu.edu/basictibetan/chapter/3-1/)。词义、Wylie、发音和色达／喇荣使用语境仍待母语者复核。
+
+## 增补词条（230–247）
+
+本批从公开教材 2.1、3.2 节选择后缀字和前缀字的拼读例词。它们服务于基础识字与普通词义辨认；未作为宗教术语、学院岗位或地方口语登记。
+
+| # | 藏文 | 汉文工作译 | English | Wylie | 发音 |
+|---:|---|---|---|---|---|
+| 230 | ལག་པ། | 手 | hand | lag pa | 待核 |
+| 231 | པད་མ། | 莲花 | lotus | pad ma | 待核 |
+| 232 | བན་དེ། | 僧人 | monk | ban de | 待核 |
+| 233 | ཐབ་ཚང་། | 厨房 | kitchen | thab tshang | 待核 |
+| 234 | ཟམ་པ། | 桥 | bridge | zam pa | 待核 |
+| 235 | འཇའ། | 彩虹 | rainbow | 'ja' | 待核 |
+| 236 | ཆར་པ། | 雨 | rain | char pa | 待核 |
+| 237 | ལས་ཀ། | 工作 | work | las ka | 待核 |
+| 238 | དགར། | 分开 | separate | dgar | 待核 |
+| 239 | བདག | 自己／我执（依语境） | self | bdag | 待核 |
+| 240 | འབར། | 燃烧 | ablaze | 'bar | 待核 |
+| 241 | མཛངས། | 有学识 | learned | mdzangs | 待核 |
+| 242 | མངར། | 甜 | sweet | mngar | 待核 |
+| 243 | གཉན། | 盘羊 | argali | gnyan | 待核 |
+| 244 | གནན། | 压下 | to press down | gnan | 待核 |
+| 245 | དམར། | 红色 | red | dmar | 待核 |
+| 246 | གཡག | 牦牛 | yak | g.yag | 待核 |
+| 247 | ཚྭ། | 盐 | salt | tshwa | 待核 |
+
+来源：[Basic Tibetan 2.1 Frequent Expressions, Ten Suffix Letters, Two Post Suffix Letters](https://openbooks.lib.msu.edu/basictibetan/chapter/2-1/) · [Basic Tibetan 3.2 Prefix Letters](https://openbooks.lib.msu.edu/basictibetan/chapter/3-2/)。词义、Wylie、发音和色达／喇荣使用语境仍待母语者复核。
