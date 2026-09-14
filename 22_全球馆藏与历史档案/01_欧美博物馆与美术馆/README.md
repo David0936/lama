@@ -28,6 +28,14 @@
 
 这是馆方对象记录与图像学说明。它能作为不丹地区唐卡织绣的公开样本，不能证明该物曾在喇荣使用，也不能据馆方标签推导特定仪轨。
 
+## R226 Rubin Museum 对象卡：西藏 15 世纪绿度母
+
+Rubin Museum of Himalayan Art 的对象 **C2005.16.45** 题名为 *Green Tara*，来源标为西藏、定年 15 世纪，材质为银、鎏金铜合金与半宝石镶嵌，尺寸约 13.7 × 8.9 × 8.6 cm，HAR 编号 65468。对象页描述右腿下垂、右手施予／赐愿手势、左手持花茎，并把姿态、莲座与镶嵌装饰作为图像观察字段。
+
+馆方公共解释称绿度母代表诸佛的事业，相关祈请语／咒语在多个藏传佛教地区的实践者中广为人知；页面另将“观想”作为密续实践的公共教育标签。以上只登记为馆方对象与解释层，不能推出喇荣学院现行本尊、课诵、仪轨或传法资格，也不因对象页引用 Densatil 书目就判定该像来自该寺院。
+
+来源：[Rubin Museum：Green Tara（C2005.16.45）](https://rubinmuseum.org/collection/c2005-16-45/enlarge/altviews/2315/)（正文第 24—63 行）。
+
 ## R136 The Met 对象卡：Hevajra and Nairātmyā
 
 [The Metropolitan Museum of Art 官方对象记录](https://www.metmuseum.org/art/collection/search/714875)登记一件藏地雕塑：
