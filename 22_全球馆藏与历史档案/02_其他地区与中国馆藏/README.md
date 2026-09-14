@@ -46,4 +46,12 @@
 
 来源：[故宫博物院：《维摩诘所说经》（清乾隆二十九年王际华写本）](https://www.dpm.org.cn/ancient/special/179803.html)。
 
+## R260 大都会博物馆：松赞干布与观音化身图像
+
+大都会博物馆对象 **2019.291** 的馆方题名为 *King Songten Gampo as the incarnate Avalokiteshvara*，记录为西藏、10—11 世纪、绢本绘画，尺寸 53.3 × 53.3 厘米，现未展出。馆方说明：画面上方为十一面观音与金色足印，中央下方人物“可能”为 7 世纪吐蕃王松赞干布，并将其置于观音化身的图像叙事中；两侧为两位王后。
+
+馆方还把对象作为早期西藏绢画和跨区域艺术史入口，提到中亚、唐代中国边疆与印度次大陆的联系。这里登记的是馆方题名、对象元数据和策展解释，不把“松赞干布为观音化身”写成所有藏传传统共同接受的历史事实，也不推断学院供奉、传承或仪式使用。图像为 Public Domain；复用仍以大都会对象页和开放数据条件为准。
+
+来源：[The Met：King Songten Gampo as the incarnate Avalokiteshvara](https://www.metmuseum.org/art/collection/search/832687)。
+
 [专题目录](../README.md) · [馆藏与历史规划](../../docs/全球馆藏与历代演变规划.md)
