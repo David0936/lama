@@ -44,6 +44,14 @@ KMaps 特征页仍公开列出 GML、KML 与 Shapefile 三种“feature alone”
 
 来源：[KMaps Feature 5224](https://places.kmaps.virginia.edu/features/5224) · [GML端点](https://places.kmaps.virginia.edu/features/gis_resources/5224.gml) · [Shapefile端点](https://places.kmaps.virginia.edu/features/gis_resources/5224.shp)。
 
+## R211 OpenStreetMap 要素字段复核（2026-09-14）
+
+通过 OpenStreetMap 的 Nominatim 公开检索接口取得一条可复核的地图要素：`way 410417343`，名称字段同时含中文“色达喇荣五明佛学院”和藏文名称，类别为 `amenity=college`，检索结果给出中心点约 `32.1530922, 100.4693221`，并返回约 `32.1495143–32.1566812 / 100.4618819–100.4766580` 的结果包围框。该记录可作为“地图数据库把一个区域要素标为学院”的证据。
+
+它不等于学院官方边界、建筑清单、行政批准文件、当前开放范围或室内平面；包围框是检索结果字段，不是测绘精度。由于 OSM 数据由贡献者维护，后续复核须保存访问日期、对象 ID、许可和字段快照，不把地图标签改写为现行制度事实。
+
+来源：[OpenStreetMap Nominatim 搜索接口](https://nominatim.openstreetmap.org/search?q=Larung+Gar%2C+Sichuan&format=jsonv2&limit=5) · [OpenStreetMap 版权说明](https://www.openstreetmap.org/copyright)
+
 ## 当前缺口
 
 尚未找到一份由学院发布、带日期且可核对边界的公开总平面图。精确坐标、院寺边界、道路名称、建筑数量与当前功能均待核；历史照片或报道中的布局不自动代表今天。
