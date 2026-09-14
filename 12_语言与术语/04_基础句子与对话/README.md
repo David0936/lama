@@ -140,3 +140,37 @@
 | 询问习惯作息 | ནམ་རྒྱུན་ཁྱེད་རང་ཆུ་ཚོད་ག་ཚོད་ལ་ཉལ་གྱི་ཡོད།<br>ནམ་རྒྱུན་ང་ཆུ་ཚོད་བཅུ་པ་ལ་ཉལ་གྱི་ཡོད། | 你通常几点睡？我通常十点睡。 | What time do you usually go to bed? I usually go to bed at ten. | nam rgyun khyed rang chu tshod ga tshod la nyal gyi yod / nam rgyun nga chu tshod bcu pa la nyal gyi yod |
 
 配套音频：[Present tense（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-10-Present-tense.m4a)。来源：[Basic Tibetan 10.4 Sentence Structure 2](https://openbooks.lib.msu.edu/basictibetan/chapter/10-4/)。句子是教材练习情境，不是学院口语规范；Wylie、发音和敬语层级待母语者复核。
+
+## 句型卡 D04：安排次日自习
+
+本卡复用公开教材 10.5 节的一组未来时问答，练习询问和说明次日学习安排。它是教材生活场景，不是学院图书馆、课程或作息资料。
+
+| 角色 | 藏文（教材短句） | 汉文工作译 | English | Wylie |
+|---|---|---|---|---|
+| 问 | སང་ཉིན་ཁྱེད་རང་གིས་དཔེ་མཛོད་ཁང་ལ་ནང་སྦྱོང་བྱ་ཡི་ཡིན་པས། | 明天您会在图书馆自习吗？ | Will you study at the library tomorrow? | sang nyin khyed rang gis dpe mdzod khang la nang sbyong bya yi yin pas |
+| 答 | སང་ཉིན་ངས་དཔེ་མཛོད་ཁང་ལ་ཆུ་ཚོད་གཉིས་ནང་སྦྱོང་བྱ་ཡི་ཡིན། | 明天我会在图书馆自习两小时。 | Tomorrow I will study at the library for two hours. | sang nyin ngas dpe mdzod khang la chu tshod gnyis nang sbyong bya yi yin |
+
+配套音频：[Future tense（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-10-Future-tense.m4a)。来源：[Basic Tibetan 10.5 Sentence Structure 3](https://openbooks.lib.msu.edu/basictibetan/chapter/10-5/)。Wylie、发音和敬语层级待母语者复核。
+
+## 句型卡 D05：介绍房间
+
+本卡采用公开教材 9.4 节的一问一答，练习物品所属提问。教材情境是住房参访，不对应学院宿舍或公共建筑。
+
+| 角色 | 藏文（教材短句） | 汉文工作译 | English | Wylie |
+|---|---|---|---|---|
+| 问 | འདི་སུའི་ཉལ་ཁང་རེད། | 这是谁的卧室？ | Whose bedroom is this? | 'di su'i nyal khang red |
+| 答 | འདི་ངའི་ཨ་ཅག་གི་ཉལ་ཁང་རེད། | 这是我姐姐的卧室。 | This is my sister's bedroom. | 'di nga'i a cag gi nyal khang red |
+
+配套音频：[Chapter 9 Sentence Structure 2（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-9-Sentences-Structure-2.m4a)。来源：[Basic Tibetan 9.4 Sentence Structure 2](https://openbooks.lib.msu.edu/basictibetan/chapter/9-4/)。Wylie、发音和敬语层级待母语者复核。
+
+## 句型卡 D06：询问厨房位置
+
+本卡继续采用公开教材 9.4 节，练习地点提问、回答和邀请同行。地点、楼层和空间描述均为教材示例。
+
+| 角色 | 藏文（教材短句） | 汉文工作译 | English | Wylie |
+|---|---|---|---|---|
+| 问 | ཁྱེད་རང་ཚོའི་ཐབ་ཚང་ག་པར་ཡོད་རེད། | 你们的厨房在哪里？ | Where is your kitchen? | khyed rang tsho'i thab tshang ga par yod red |
+| 答 | ང་ཚོའི་ཐབ་ཚང་བར་ཁང་ལ་ཡོད། | 我们的厨房在中间楼层。 | Our kitchen is on the middle floor. | nga tsho'i thab tshang bar khang la yod |
+| 邀请 | ད་ང་ཚོ་བར་ཁང་ལ་ཕེབས་དོ། | 现在我们去中间楼层。 | Now let's go to the middle floor. | da nga tsho bar khang la phebs do |
+
+配套音频：[Chapter 9 Sentence Structure 2（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-9-Sentences-Structure-2.m4a)。来源：[Basic Tibetan 9.4 Sentence Structure 2](https://openbooks.lib.msu.edu/basictibetan/chapter/9-4/)。Wylie、发音和敬语层级待母语者复核。
