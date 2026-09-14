@@ -57,3 +57,11 @@
 | 外明／工巧 | crafts | 官网列世间课程示例；须逐门查证。 |
 
 来源：[Epperson, University of Chicago dissertation PDF](https://knowledge.uchicago.edu/nanna/record/792/files/Epperson_uchicago_0330D_13686.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0)，第59页引用萨迦班智达关于五明的分类。该转引仍需以后续藏文原典与可靠校勘本复核。
+
+## R221｜2014 公开大学讲座中的课程必修／选修表述
+
+学院关联官网收录的一场 2014 年 UCLA 公开讲座，把喇荣“五明”课程分成五大明处：工巧、医方、声明、因明和内明；页面进一步称佛学（Buddhist Knowledge）为必修，医学与工巧等课程为选修，并列出诗歌、诵读等小明处。页面将佛学部分拆为显乘五部大论（律、阿毗达磨、因明、中观、般若）与金刚乘共同／不共教法。
+
+这是**2014 年公开介绍中的课程组织表述**，适合与官网课程概览、研究时期田野材料并列比较。它没有提供班级、学期、学生群体、教务文件或今天仍有效的选修规则，因此不改写成现行招生和学制制度。
+
+来源：[Pureland in Samsara — Larung](https://www.khenposodargye.org/talks/2014/11/pureland-samsara-larung/)
