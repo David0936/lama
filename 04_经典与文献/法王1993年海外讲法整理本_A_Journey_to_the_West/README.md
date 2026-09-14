@@ -10,9 +10,9 @@
 
 | 类别 | 官方页面所列内容 | 本批状态 |
 |---|---|---|
-| 藏文 PDF | 第 I、II 册 | 官方列出下载入口；未下载核验 |
-| 英文 PDF | 第 I、II 册 | 官方列出下载入口；未下载核验 |
-| 繁体中文 PDF | 第 I、II 册 | 官方列出下载入口；未下载核验 |
+| 藏文 PDF | 第 I、II 册 | 官方列出下载入口；第一、二册已完成文件级核验，文本逐段对读待核 |
+| 英文 PDF | 第 I、II 册 | 官方列出下载入口；第一、二册已完成文件级核验，文本逐段对读待核 |
+| 繁体中文 PDF | 第 I、II 册 | 官方列出下载入口；第一、二册已完成文件级核验，文本逐段对读待核 |
 | 三语术语表 | 英文—藏文—中文术语表 | 官方列出下载入口；未下载核验 |
 | 讲解音频／视频 | 2023 年起的公开讲解，页面标示英语或日语同步翻译 | 是讲解材料，不登记为经文念诵 |
 
@@ -35,9 +35,9 @@
 
 | 语言 | 第 I 册 | 第 II 册 | 状态 |
 | --- | --- | --- | --- |
-| 藏文 | [Tibetan I](https://khenposodargye.org/content/uploads/2023/12/A-Journey-to-the-West-1-Tibetan-20231223.pdf) | [Tibetan II](https://khenposodargye.org/content/uploads/2023/12/A-Journey-to-the-West-2-Tibetan-20231223.pdf) | 公开直链；文件大小、页数和哈希待核 |
-| 英文 | [English I](https://khenposodargye.org/content/uploads/2023/12/A-Journey-to-the-West-1-English-20231223.pdf) | [English II](https://khenposodargye.org/content/uploads/2023/12/A-Journey-to-the-West-2-English-20231223.pdf) | 公开直链；文件大小、页数和哈希待核 |
-| 繁体中文 | [Traditional Chinese I](https://khenposodargye.org/content/uploads/2023/12/A-Journey-to-the-West-1-Traditional-Chinese-20231223.pdf) | [Traditional Chinese II](https://khenposodargye.org/content/uploads/2023/12/A-Journey-to-the-West-2-Traditional-Chinese-20231223.pdf) | 公开直链；文件大小、页数和哈希待核 |
+| 藏文 | [Tibetan I](https://khenposodargye.org/content/uploads/2023/12/A-Journey-to-the-West-1-Tibetan-20231223.pdf) | [Tibetan II](https://khenposodargye.org/content/uploads/2023/12/A-Journey-to-the-West-2-Tibetan-20231223.pdf) | 第一、二册文件级页数、大小和 SHA-256 已核；正文逐段对读待核 |
+| 英文 | [English I](https://khenposodargye.org/content/uploads/2023/12/A-Journey-to-the-West-1-English-20231223.pdf) | [English II](https://khenposodargye.org/content/uploads/2023/12/A-Journey-to-the-West-2-English-20231223.pdf) | 第一、二册文件级页数、大小和 SHA-256 已核；正文逐段对读待核 |
+| 繁体中文 | [Traditional Chinese I](https://khenposodargye.org/content/uploads/2023/12/A-Journey-to-the-West-1-Traditional-Chinese-20231223.pdf) | [Traditional Chinese II](https://khenposodargye.org/content/uploads/2023/12/A-Journey-to-the-West-2-Traditional-Chinese-20231223.pdf) | 第一、二册文件级页数、大小和 SHA-256 已核；正文逐段对读待核 |
 
 官方[讲解页](https://khenposodargye.org/teachings/khenpos-classical-teachings/a-journey-to-the-west/)另列英语／日语同步翻译的 SoundCloud 音频和英语同步翻译的 YouTube 视频。它们登记为**讲解媒体**；当前没有证据证明是 1993 年现场录音、经文诵读或法会实录。页面还提示相关密续内容需具备合格传承上师的灌顶、传承和指导，因此本项目只提供公开索引，不提供修法指导。
 
