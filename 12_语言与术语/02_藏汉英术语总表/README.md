@@ -50,6 +50,33 @@
 | 29 | dharmodaya, the source of dharma | ཆོས་འབྱུང། | 法源 | chos ’byung | 密续与坛城 | 待核 |
 | 30 | direct pointing-out instruction | སེམས་ཁྲིད། | 直指 | sems khrid | 上师教言 | 待核 |
 
+## 公开三语词汇表第三批（20项，编号 31—50）
+
+第三批仍来自同一 PDF 的 Selected Dharma Terms（PDF第12—19页）。条目集中在宁玛、大圆满、密续和修持语境；Wylie 是项目转写，发音与敬语待核。
+
+| # | English | 藏文 | 汉文 | Wylie | 使用场景 | 发音 |
+|---:|---|---|---|---|---|---|
+| 31 | new Nyingtig | སྙིང་ཐིག་གསར་མ། | 新心滴 | snying thig gsar ma | 宁玛心滴 | 待核 |
+| 32 | nine yanas | ཐེག་པ་རིམ་དགུ། | 九乘 | theg pa rim dgu | 道次第分类 | 待核 |
+| 33 | old Nyingtig | སྙིང་ཐིག་རྙིང་མ། | 旧心滴 | snying thig rnying ma | 宁玛心滴 | 待核 |
+| 34 | original purity / primordial purity | ཀ་དག | 本来清净 | ka dag | 大圆满见地 | 待核 |
+| 35 | phowa, the transference of consciousness | འཕོ་བ། | 破瓦、往生法 | ’pho ba | 临终与修持术语 | 待核 |
+| 36 | pith instructions / upadesha | མན་ངག | 窍诀 | man ngag | 上师教言 | 待核 |
+| 37 | practical bodhicitta | འཇུག་པ་སེམས་བསྐྱེད། | 行菩提心 | ’jug pa sems bskyed | 菩提心分类 | 待核 |
+| 38 | practice manual | ཁྲིད་ཡིག | 引导法、引导文 | khrid yig | 修持文本 | 待核 |
+| 39 | pure perception | དག་སྣང་། | 清净观 | dag snang | 见地与修持 | 待核 |
+| 40 | rainbow body | འཇའ་ལུས། | 虹身 | ’ja’ lus | 大圆满传统叙述 | 待核 |
+| 41 | rigpa | རིག་པ། | 觉性 | rig pa | 大圆满术语 | 待核 |
+| 42 | samaya | དམ་ཚིག | 誓言 | dam tshig | 密续戒律 | 待核 |
+| 43 | secret mantra | སྔགས། | 密咒 | sngags | 密乘术语 | 待核 |
+| 44 | self-liberation | རང་གྲོལ་བ། | 自解脱 | rang grol ba | 修持方法 | 待核 |
+| 45 | self-visualization | བདག་བསྐྱེད་ཀྱི་དམིགས་པ། | 自观想 | bdag bskyed kyi dmigs pa | 本尊修持 | 待核 |
+| 46 | seven-point posture of Vairochana | རྣམ་སྣང་ཆོས་བདུན། | 毗卢七法 | rnam snang chos bdun | 禅修姿势 | 待核 |
+| 47 | tantra, transmission, and upadesha | རྒྱུད་ལུང་མན་ངག | 续、教、窍诀 | rgyud lung man ngag | 教法传承分类 | 待核 |
+| 48 | tantric vows | གསང་སྔགས་ཀྱི་དམ་ཚིག | 密宗誓言 | gsang sngags kyi dam tshig | 密续戒律 | 待核 |
+| 49 | terma | གཏེར་མ། | 伏藏 | gter ma | 宁玛传承 | 待核 |
+| 50 | terton | གཏེར་སྟོན། | 伏藏师 | gter ston | 伏藏传承称谓 | 待核 |
+
 来源：[Glossary: English–Tibetan–Chinese PDF](https://khenposodargye.org/content/uploads/2023/12/Glossary-English-Tibetan-Chinese.pdf)，Selected Dharma Terms，PDF第10—11页。PDF文件级状态见[R060审校记录](../../91_待办与审校/R060-三语术语表PDF与首批词条.md)。
 
 ### 证据边界
@@ -57,3 +84,4 @@
 - PDF 提供英文、藏文和汉文对照；Wylie、使用场景和发音状态是项目工作层。
 - “勇母”“光明大圆满”等汉译保留发布方词表，不据此判断不同传承的唯一译法。
 - 这 10 项是首批入口，不是 300 词表的完成证明，也不替代学院老师的术语规范。
+- 目前累计登记 50 项；第 31—50 项的英文、藏文和汉文沿用公开 PDF，Wylie、使用场景和发音状态仍是项目工作层。
