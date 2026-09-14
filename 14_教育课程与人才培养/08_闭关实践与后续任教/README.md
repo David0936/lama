@@ -48,8 +48,23 @@
 
 来源：[Liang & Taylor](https://blogs.dickinson.edu/buddhistethics/files/2020/08/Liang-and-Taylor__20_F-1.pdf)（印刷页 237—250） · [Larung Gar 公开介绍](https://www.khenposodargye.org/about/larung-gar/) · [Minling College](https://www.khenchenrinpoche.org/college)
 
+## R196：闭关／专修与公开修持材料的边界
+
+学院关联官网提供的是面向读者的修持说明和课程实践入口，不能直接当作喇荣现行闭关院、申请、许可或结业制度。
+
+| 材料层 | 页面支持 | 不能推出 |
+|---|---|---|
+| 公开冥想说明 | 七支坐姿、初学者入门和大圆满前行的概述 | 参加喇荣实体闭关的资格或地点 |
+| 前行课程实践 | 课程中说明每日引导、短时共同禅修和课后正式坐修的教学安排 | 全院统一日程、闭关时长或完成证书 |
+| 宁提／大圆满语境 | 皈依、发心、回向及前行修持的次第说明 | 任何灌顶、口传、窍诀或个人指导已获许可 |
+| 机构制度 | 当前未找到公开的喇荣闭关申请、导师分配、考核或结业文件 | 把网页修持建议写成学院现行管理规则 |
+
+两页材料可作为“修持内容”和“学习方式”的索引；若以后找到闭关院公告、传承授权或有日期的参加记录，需单独登记机构、时期、指导者、权限和证据定位。
+
+来源：[Meditation Techniques for Beginners](https://khenposodargye.org/meditations/meditation-techniques-for-beginners/)（第 38—60 行） · [Introduction to Longchen Nyingtik Ngöndro](https://khenposodargye.org/meditations/introduction-longchen-nyingtik-ngondro/)（第 38—51 行）
+
 ## 待核
 
-- 具体闭关项目的公开介绍、授予条件、指导关系和完成记录。
+- 具体闭关项目的公开介绍、申请／许可条件、指导关系、时长和完成记录；现有 R196 材料只支持公开修持和课程实践。
 - 教学助理转为教师的公开制度或项目级记录；现有材料只支持角色并列，不支持转任规则。
 - 个案以外的继续深造、回乡教学和社会服务证据。
