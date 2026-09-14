@@ -113,3 +113,14 @@
 | 6 | དགོང་དྲོ་མཇལ་ཡོང་། | 晚上见。 | See you in the evening. | dgong dro mjal yong |
 
 配套音频：[Chapter 10 Dialogue（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-10-Dialogue.m4a)。来源：[Basic Tibetan 10.1 Dialogue](https://openbooks.lib.msu.edu/basictibetan/chapter/10-1/)。选段的汉译、Wylie和发音均待核；完整对话的时间点待后续记录。
+
+## 句型卡 D02：星期与课堂时间
+
+本卡取自公开教材 10.3 节的课堂日程问答，用于把 R047 的星期词汇放入“哪一天／几点上课”的交流场景。仅保留两组短问答，完整练习和音频回到来源页核对。
+
+| 场景 | 藏文（教材短句） | 汉文工作译 | English | Wylie |
+|---|---|---|---|---|
+| 周末工作时数 | གཟའ་མཇུག་ལ་ཁྱེད་རང་ལ་ལས་ཀ་ཆུ་ཚོད་ག་ཚོད་ཡོད།<br>གཟའ་མཇུག་ལ་ང་ལ་ལས་ཀ་ཆུ་ཚོད་བཞི་ཡོད། | 周末你工作几小时？我工作四小时。 | How many hours do you work on the weekend? I work four hours. | gza' mjug la khyed rang la las ka chu tshod ga tshod yod / gza' mjug la nga la las ka chu tshod bzhi yod |
+| 星期一藏语课 | གཟའ་ཟླ་བ་ལ་ཁྱེད་རང་གི་བོད་སྐད་འཛིན་གྲྭ་ཆུ་ཚོད་ག་ཚོད་ལ་རེད།<br>གཟའ་ཟླ་བ་ལ་ངའི་བོད་སྐད་འཛིན་གྲྭ་ཆུ་ཚོད་བཅུ་པ་ལ་རེད། | 星期一你的藏语课几点？我的课十点。 | What time is your Tibetan class on Monday? My class is at ten. | gza' zla ba la khyed rang gi bod skad 'dzin grwa chu tshod ga tshod la red / gza' zla ba la nga'i bod skad 'dzin grwa chu tshod bcu pa la red |
+
+配套音频：[Class Schedule and Time（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-10-Class-Schedule-and-time.m4a)。来源：[Basic Tibetan 10.3 Sentence Structure 1](https://openbooks.lib.msu.edu/basictibetan/chapter/10-3/)。这两组句子是教材示例，不是喇荣学院真实课表；Wylie、发音和敬语层级待母语者复核。
