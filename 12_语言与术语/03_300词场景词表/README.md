@@ -392,3 +392,34 @@
 | 247 | ཚྭ། | 盐 | salt | tshwa | 待核 |
 
 来源：[Basic Tibetan 2.1 Frequent Expressions, Ten Suffix Letters, Two Post Suffix Letters](https://openbooks.lib.msu.edu/basictibetan/chapter/2-1/) · [Basic Tibetan 3.2 Prefix Letters](https://openbooks.lib.msu.edu/basictibetan/chapter/3-2/)。词义、Wylie、发音和色达／喇荣使用语境仍待母语者复核。
+
+## 增补词条（248–269）
+
+本批采用公开教材 1.1 节单字词和 3.1 节含下加字「ཝ」的拼读例词。前者有配套音频，后者是拼读样本；均不作为喇荣现场发音证据。
+
+| # | 藏文 | 汉文工作译 | English | Wylie | 发音 |
+|---:|---|---|---|---|---|
+| 248 | ཁ། | 嘴 | mouth | kha | 待核 |
+| 249 | ཆ། | 一对 | pair | cha | 待核 |
+| 250 | ཇ། | 茶 | tea | ja | 待核 |
+| 251 | ཉ། | 鱼 | fish | nya | 待核 |
+| 252 | ན། | 生病 | sick | na | 待核 |
+| 253 | ཕ། | 父亲 | father | pha | 待核 |
+| 254 | བ། | 牛 | cow | ba | 待核 |
+| 255 | མ། | 母亲 | mother | ma | 待核 |
+| 256 | ཝ། | 狐狸 | fox | wa | 待核 |
+| 257 | ཟ། | 吃 | to eat | za | 待核 |
+| 258 | ཡ། | 另一对 | the other pair | ya | 待核 |
+| 259 | ར། | 山羊 | goat | ra | 待核 |
+| 260 | ཤ། | 肉 | meat | sha | 待核 |
+| 261 | ས། | 地面 | earth, ground | sa | 待核 |
+| 262 | ཉྭ་རིལ། | 小牛 | calf | nya ril | 待核 |
+| 263 | དྭ་ཕྲུག | 孤儿 | orphan | dwa phrug | 待核 |
+| 264 | ལ་དྭགས། | 拉达克 | Ladakh | la dwags | 待核 |
+| 265 | ཞྭ་མོ། | 帽子 | hat | zha mo | 待核 |
+| 266 | རྭ་ཅོ། | 角 | horn | rwa co | 待核 |
+| 267 | ཤྭ་བ། | 鹿 | deer | shwa ba | 待核 |
+| 268 | སློབ་གྲྭ། | 学校 | school | slob grwa | 待核 |
+| 269 | ཧྭ་ཤང་། | 和尚 | monk | hwa shang | 待核 |
+
+来源：[Basic Tibetan 1.1 The Consonants](https://openbooks.lib.msu.edu/basictibetan/chapter/1-1/) · [Basic Tibetan 3.1 Frequent Expressions and Subjoined Letters](https://openbooks.lib.msu.edu/basictibetan/chapter/3-1/)。单字词和拼读例词不等于高频交际词；词义、Wylie、发音和色达／喇荣使用语境仍待母语者复核。
