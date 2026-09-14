@@ -32,6 +32,18 @@ University of Virginia KMaps 的 Feature 5224 将原名字段写作 **བླ་�
 
 来源：[KMaps Feature 5224](https://places.kmaps.virginia.edu/features/5224) · [KML 资源端点](https://places.kmaps.virginia.edu/features/gis_resources/5224.kml)
 
+## R130 三种 GIS 端点的复核状态（2026-09-14）
+
+KMaps 特征页仍公开列出 GML、KML 与 Shapefile 三种“feature alone”下载入口。继既有 KML 复核后，本批直接读取 GML 与 Shapefile 端点，二者也未返回可解析内容。当前可以确认的是“**特征页列出三种资源端点**”；不能确认任何文件的几何类型、坐标系、边界、版本或许可。
+
+| 端点 | 本库读取结果 | 可否建图 |
+|---|---|---|
+| KML | 既有 R109 记录为空响应 | 否 |
+| GML | R130 读取未返回可解析内容 | 否 |
+| Shapefile | R130 读取未返回可解析内容 | 否 |
+
+来源：[KMaps Feature 5224](https://places.kmaps.virginia.edu/features/5224) · [GML端点](https://places.kmaps.virginia.edu/features/gis_resources/5224.gml) · [Shapefile端点](https://places.kmaps.virginia.edu/features/gis_resources/5224.shp)。
+
 ## 当前缺口
 
 尚未找到一份由学院发布、带日期且可核对边界的公开总平面图。精确坐标、院寺边界、道路名称、建筑数量与当前功能均待核；历史照片或报道中的布局不自动代表今天。
