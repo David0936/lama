@@ -290,3 +290,31 @@
 | 181 | སློབ་སྦྱོང་བྱེད། | 学习 | study | slob sbyong byed | 待核 |
 
 现在时音频：[Chapter 10 Present tense（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-10-Present-tense.m4a)。来源：[Basic Tibetan 10.4 Sentence Structure 2](https://openbooks.lib.msu.edu/basictibetan/chapter/10-4/)。教材页面把这些项目放在问答和练习句中；英文与汉文均为工作译文，不能据此推断喇荣学院的口语规范。
+
+## 增补词条（182–200）
+
+本批取公开教材 2.3 节的拼写识读示例。它们用于阅读地名、自然环境、健康和行动词，不等于学院课堂词表。教材本节重点是辨识词根字母，未提供喇荣口音说明。
+
+| # | 藏文 | 汉文工作译 | English | Wylie | 发音 |
+|---:|---|---|---|---|---|
+| 182 | ངག | 声音／言语 | voice | ngag | 待核 |
+| 183 | ཆང་། | 酒 | beer | chang | 待核 |
+| 184 | ནད། | 病 | illness | nad | 待核 |
+| 185 | ཉན། | 听 | to listen | nyan | 待核 |
+| 186 | ཁབ། | 针 | needle | khab | 待核 |
+| 187 | ལམ། | 路／道路 | road | lam | 待核 |
+| 188 | ཆར། | 雨 | rain | char | 待核 |
+| 189 | བལ། | 棉花 | cotton | bal | 待核 |
+| 190 | རས། | 布 | cloth | ras | 待核 |
+| 191 | ཟད། | 耗尽 | exhaust | zad | 待核 |
+| 192 | གངས། | 雪 | snow | gangs | 待核 |
+| 193 | ནགས། | 森林 | forest | nags | 待核 |
+| 194 | ནངས། | 次日 | the day after | nangs | 待核 |
+| 195 | ཁམས། | 康区 | the Kham region | khams | 待核 |
+| 196 | བགས། | 渐渐地 | gradual | bags | 待核 |
+| 197 | བངས། | 浸湿 | get soaked | bangs | 待核 |
+| 198 | བབས། | 降下 | descend | babs | 待核 |
+| 199 | ལགས། | 礼貌助词 | a particle | lags | 待核 |
+| 200 | ལངས། | 起身 | to get up | langs | 待核 |
+
+来源：[Basic Tibetan 2.3 How to Identify Root Letters in Words](https://openbooks.lib.msu.edu/basictibetan/chapter/2-3/)。本批让候选场景词表达到 200 项；词义、Wylie、发音和色达／喇荣使用语境仍待母语者复核。
