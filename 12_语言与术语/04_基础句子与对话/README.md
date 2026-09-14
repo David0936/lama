@@ -79,9 +79,9 @@
 
 来源：[Basic Tibetan 8.3 Sentence Structure 1](https://openbooks.lib.msu.edu/basictibetan/chapter/8-3/)。页面提供两段家庭照片练习音频；本批登记句子与音频入口，不将教材人物关系当作真实人物资料。
 
-## 教材句型增补（47–55）
+## 教材句型增补（47–60）
 
-本批采用公开教材9.4节住房参访句和8.4节年龄问答句，补齐“60句”目标的最后一组候选。Wylie为项目规范化转写，发音状态待母语者核听。
+本批采用公开教材9.4节住房参访句、8.4节年龄问答句及10.5节未来时问答句，补齐“60句”目标。Wylie为项目规范化转写，发音状态待母语者核听。
 
 | # | 藏文 | 汉文 | English | Wylie | 发音状态 |
 |---:|---|---|---|---|---|
@@ -94,8 +94,13 @@
 | 53 | ད་ང་ཚོ་བར་ཁང་ལ་ཕེབས་དོ། | 现在我们去中间楼层。 | Now let's go to the middle floor. | da nga tsho bar khang la phebs do | 待核 |
 | 54 | ང་ཚོའི་ཐབ་ཚང་གི་རྒྱབ་ལ་ཀ་ཕིབས་ཆུང་ཆུང་གཅིག་ཡོད། | 我们厨房后面有一个小门廊。 | There is a small porch behind our kitchen. | nga tsho'i thab tshang gi rgyab la ka phibs chung chung gcig yod | 待核 |
 | 55 | བསྟན་འཛིན། ངའི་གཅེན་པོ་ལོ་ཉི་ཤུ་རེད། ཨ་ནི་ ངའི་གཅེན་མོ་ལོ་བཅོ་བརྒྱད་རེད། | 丹增：我哥哥20岁，我姐姐18岁。 | Tenzin: My elder brother is 20 and my elder sister is 18. | bstan 'dzin nga'i gcen po lo nyi shu red a ni nga'i gcen mo lo bco brgyad red | 待核 |
+| 56 | ཁྱེད་རང་དགོང་དྲོ་ཆུ་ཚོད་ག་ཚོད་ལ་བོད་པའི་ཟ་ཁང་ལ་འགྲོ་ཡི་ཡིན། | 您今晚几点去藏餐馆？ | What time will you go to a Tibetan restaurant this evening? | khyed rang dgong dro chu tshod ga tshod la bod pa'i za khang la 'gro yi yin | 待核 |
+| 57 | ང་དགོང་དྲོ་ཆུ་ཚོད་དྲུག་པ་ཙམ་ལ་བོད་པའི་ཟ་ཁང་ལ་འགྲོ་ཡི་ཡིན། | 我今晚大约六点去藏餐馆。 | I will go to a Tibetan restaurant at about six this evening. | nga dgong dro chu tshod drug pa tsam la bod pa'i za khang la 'gro yi yin | 待核 |
+| 58 | སང་ཉིན་ཁྱེད་རང་གིས་དཔེ་མཛོད་ཁང་ལ་ནང་སྦྱོང་བྱ་ཡི་ཡིན་པས། | 明天您会在图书馆自习吗？ | Will you study at the library tomorrow? | sang nyin khyed rang gis dpe mdzod khang la nang sbyong bya yi yin pas | 待核 |
+| 59 | སང་ཉིན་ངས་དཔེ་མཛོད་ཁང་ལ་ཆུ་ཚོད་གཉིས་ནང་སྦྱོང་བྱ་ཡི་ཡིན། | 明天我会在图书馆自习两小时。 | Tomorrow I will study at the library for two hours. | sang nyin ngas dpe mdzod khang la chu tshod gnyis nang sbyong bya yi yin | 待核 |
+| 60 | དེ་རིང་ཁྱེད་རང་གིས་ཆུ་ཚོད་ག་ཚོད་ལས་ཀ་བྱ་ཡི་ཡིན། | 您今天会工作几小时？ | How many hours will you work today? | de ring khyed rang gis chu tshod ga tshod las ka bya yi yin | 待核 |
 
-来源：[Basic Tibetan 9.4 Sentence Structure 2](https://openbooks.lib.msu.edu/basictibetan/chapter/9-4/) · [8.4 Guess Their Age](https://openbooks.lib.msu.edu/basictibetan/chapter/8-4/)。页面提供配套音频；本批只登记页面和句子，不下载音频。
+来源：[Basic Tibetan 9.4 Sentence Structure 2](https://openbooks.lib.msu.edu/basictibetan/chapter/9-4/) · [8.4 Guess Their Age](https://openbooks.lib.msu.edu/basictibetan/chapter/8-4/) · [10.5 Making Plans and Talking About the Future](https://openbooks.lib.msu.edu/basictibetan/chapter/10-5/)。页面提供配套音频；本批只登记页面和句子，不下载音频。第56—60句为教材的普通生活／学习语境，不是喇荣学院的真实作息或用语规范。
 
 ## 对话卡 D01：课堂日程与晚间约见
 
