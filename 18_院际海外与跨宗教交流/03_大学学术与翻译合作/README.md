@@ -26,4 +26,17 @@
 
 因此，本目录将海外交流按“个人活动”“公开数字教学”“独立译介项目”“机构级合作”分层。只有出现双方机构的公告、协议、项目页面或共同出版物，才升级为机构级合作；共同师承、同一译者或讲座场地不能单独证明合作关系。
 
+## R212：大学讲座与翻译项目的两种关系
+
+Stanford Ho Center for Buddhist Studies 活动页记录 2017-02-21 的喇荣主题讲座，题目与摘要讨论喇荣及汉语教学。页面能证明 Stanford 曾主办一场以喇荣为主题的学术活动；摘要内容是讲者的研究对象，不等于 Stanford 与学院签订合作协议、联合培养或共同开课。
+
+Lotsawa House 的 Ḍākinī Treasury Project 页面说明，项目目标包括把部分文本公开多语发布，并与喇荣尼众编纂、编辑的藏文资料合作制作英译；Tsadra 页面另记录 2022 年翻译工作坊。两类页面支持“公开学术／译介传播入口”，不支持把参加者、出版方或支持机构写成喇荣学院行政合作伙伴。
+
+| 关系类型 | 可确认 | 不可推出 |
+| --- | --- | --- |
+| 大学讲座 | Stanford 公开活动页、日期、地点、题目与摘要 | 正式合作、联合培养、课程互认 |
+| 翻译项目 | 项目页所述公开翻译目标、英藏对照计划和喇荣尼众编纂／编辑角色 | 全部卷册已翻译、学院授权所有译本或学院统一立场 |
+
+来源：[Stanford 讲座页](https://buddhiststudies.stanford.edu/events/ester-bianchi-teaching-tibetan-buddhism-chinese-behalf-manjusri-case-larung-gar-five) · [Ḍākinī Treasury Project](https://www.lotsawahouse.org/about/dakini-treasury-project) · [2022 Lotsawa Translation Workshop](https://conference.tsadra.org/past-event/the-2022-lotsawa-translation-workshop/)
+
 [返回专题](../README.md)
