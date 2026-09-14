@@ -7,6 +7,7 @@
 | 机构 | 已登记对象 | 目录特点 | 限制 |
 | --- | --- | --- | --- |
 | British Museum | 康铃 2016,3040.2；嘎巴拉碗 1926,1209.1 | 材料、年代、取得和展览字段 | 馆方材料判断不代替完整来源研究 |
+| British Museum／Victoria and Albert Museum | 释迦牟尼立像 2004,0401.1 | 早期年代、制作地、可能西藏旧藏、共有与来源链 | 馆方明确保留取得情形未知；不由此直接判定被盗或返还结论 |
 | Rubin Museum of Himalayan Art | 守护王图 F1997.19.3；腿骨号角 SC2019.3.2 | 图像、材料、图像学和目录字段 | 馆方解释需和其他研究区分 |
 | Smithsonian National Museum of Asian Art | 胜乐金刚唐卡 S2017.53 | 材料、装裱、来源和图像授权字段 | 图片权利按单件页面确认 |
 | Smithsonian National Museum of Asian Art | 莲花生像 S2014.18a-b | 编目、展签、来源流转和研究更新时间 | 展签传统叙事与来源链分开记录；图像有使用条件 |
