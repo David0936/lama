@@ -104,3 +104,4 @@
 {"id":"W-R065-001","type":"ritual_text_collection","title_zh":"喇荣日常课诵本（2021版）","title_bo":"བླ་རུང་ཞལ་འདོན་ཕྱོགས་བསྒྲིགས།","aliases":["Larung Daily Chant Book","Larung Daily Prayers"],"path":"09_修持与仪轨/喇荣日常课诵本/README.md","status":"review_required"}
 {"id":"R-R068-001","type":"ritual_topic","title_zh":"Wang Dü（大云）公开修持与供养语境","title_bo":"dbang dus","aliases":["Wang Dü","The Great Cloud of Blessings"],"path":"09_修持与仪轨/Wang Dü（大云）公开语境/README.md","status":"review_required"}
 {"id":"F-R070-001","type":"festival_topic","title_zh":"喇荣护法日（讲记节历线索）","title_bo":"chos skyong gi dus ston","aliases":["Larung Dharma Protector’s Day"],"path":"10_法会与节历/护法日公开讲记/README.md","status":"review_required"}
+{"id":"O-R071-001","type":"museum_object","title_zh":"哈佛艺术博物馆唐代观音 1943.53.61","title_bo":null,"aliases":["Standing Bodhisattva Avalokiteshvara (Guanyin Pusa)","Harvard Art Museums 1943.53.61"],"path":"22_全球馆藏与历史档案/02_其他地区与中国馆藏/README.md","status":"metadata_checked"}

@@ -10,6 +10,7 @@
 | Rubin Museum of Himalayan Art | 守护王图 F1997.19.3；腿骨号角 SC2019.3.2 | 图像、材料、图像学和目录字段 | 馆方解释需和其他研究区分 |
 | Smithsonian National Museum of Asian Art | 胜乐金刚唐卡 S2017.53 | 材料、装裱、来源和图像授权字段 | 图片权利按单件页面确认 |
 | The Metropolitan Museum of Art | 过去佛尸弃唐卡 828440 | 多语题记、历史语境和开放资源入口 | 不将皇室语境概括为全部唐卡史 |
+| Harvard Art Museums | 唐代观音 1943.53.61 | 馆藏号、定年、材质、展厅与 Gallery Text | 汉地对象的跨区域背景，不作为藏传法物记录 |
 
 本表是公开目录索引；对象详情、材料争议与来源流转仍保留在对应专题，避免复制出多个互相矛盾的描述。
 
