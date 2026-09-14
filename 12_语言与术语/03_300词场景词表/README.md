@@ -218,3 +218,36 @@
 随身物品词汇音频：[Chapter 7 Vocabulary 1（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-7-Vocabulary-1.m4a)。音频与教材词表同页提供；“钥匙”按教材英文复数保留，汉译不据此判断数量。
 
 来源：[Basic Tibetan 7.2 Vocabulary 1](https://openbooks.lib.msu.edu/basictibetan/chapter/7-2/)
+
+## 增补词条（141–162）
+
+本批采用公开教材第10.2节的时间、日常安排和饮食词汇。部分项目是短语或完整表达，按教材边界保留；Wylie为规范化转写，发音栏待母语者核听。
+
+| # | 藏文 | 汉文 | English | Wylie | 发音 |
+|---:|---|---|---|---|---|
+| 141 | ཆུ་ཚོད་བཅུ་གཉིས། | 十二点 | twelve o'clock | chu tshod bcu gnyis | 待核 |
+| 142 | རྗེས་མ་དེ། | 下一个 | the next one | rjes ma de | 待核 |
+| 143 | ཁ་སང་། | 昨天 | yesterday | kha sang | 待核 |
+| 144 | ད་ལྟ། | 现在 | now | da lta | 待核 |
+| 145 | ནམ་རྒྱུན། | 通常 | usually | nam rgyun | 待核 |
+| 146 | དེང་སང་ | 这些日子 | these days | deng sang | 待核 |
+| 147 | ཆུ་ཚོད་གཅིག | 一小时 | one hour | chu tshod gcig | 待核 |
+| 148 | ཆུ་ཚོད་གཉིས་པ་ལ། | 两点钟 | at two o'clock | chu tshod gnyis pa la | 待核 |
+| 149 | དང་པོ་དང་སྐར་མ་བཅུ་ལ། | 一点十分 | at ten past one | dang po dang skar ma bcu la | 待核 |
+| 150 | བཅུ་པ་ཟིན་པ་ལ་སྐར་མ་བཅུ་ལ། | 十点差十分 | at ten to ten | bcu pa zin pa la skar ma bcu la | 待核 |
+| 151 | དང་པོ་ནས་གཉིས་པ་བར། | 从一点到两点 | from one till two | dang po nas gnyis pa bar | 待核 |
+| 152 | ཆུ་ཚོད་གཉིས་དང་ཕྱེད་ཀ | 两个半小时 | two and a half hours | chu tshod gnyis dang phyed ka | 待核 |
+| 153 | ཆུ་ཚོད་བཅུ་དང་ཕྱེད་ཀ | 十个半小时 | ten and a half hours | chu tshod bcu dang phyed ka | 待核 |
+| 154 | ཟིན། | 已经 | already | zin | 待核 |
+| 155 | རྗེས་ལ། | 之后 | after | rjes la | 待核 |
+| 156 | ནང་སྦྱོང་། | 家庭作业 | homework | nang sbyong | 待核 |
+| 157 | བྲེལ་བ། | 忙 | busy | bral ba | 待核 |
+| 158 | ཆུ་ཚོད་ག་ཚོད་ལ། | 几点钟 | at what time | chu tshod ga tshod la | 待核 |
+| 159 | ཙམ་ལ། | 大约 | about | tsam la | 待核 |
+| 160 | འཆམ་འཆམ་ལ་འགྲོ། | 去散步 | go on a stroll | 'cham 'cham la 'gro | 待核 |
+| 161 | བོད་ཇ། | 藏茶 | Tibetan tea | bod ja | 待核 |
+| 162 | བོད་ཀྱི་བག་ལེབ། | 藏式面包 | Tibetan bread | bod kyi bag leb | 待核 |
+
+日常词汇音频：[Chapter 10 Vocabulary（M4A）](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/03/Chapter-10-Vocabulary.m4a)。教材英文义中的“two and half”等保留原意，数量和量词表达需结合完整句复核。
+
+来源：[Basic Tibetan 10.2 Vocabulary](https://openbooks.lib.msu.edu/basictibetan/chapter/10-2/)
