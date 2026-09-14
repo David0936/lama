@@ -21,6 +21,7 @@ WCDU 线上课程页又记录 2019-04-14 的续学安排：从第四品“菩萨
 - 该 PDF 的目录覆盖第一品讲授 1—8，抽样页含讲课提示、版本选择、维摩诘人物说明和清净心／清净土等讲授内容；本批不把讲义内容当作经文原句，也不据文件存在推断整套课程媒体已取得。
 - 第二品讲义也已核验：[Chapter Two Lecture 9–13 PDF](https://www.khenposodargye.org/content/uploads/2018/12/The_Vimalakirti_Sutra-Chapter-2-Lecture913.pdf)，64 页、630,246 bytes，SHA-256 为 `cfd21394f421f07e93cced7269f51fdde7789cd70551e0e8d46a59373b6df0ed`；目录覆盖 Lecture 9—13，抽样页可提取英文文字。文件仍是翻译团队讲义，不是经文原文或念诵音频。
 - 第三品讲义也已核验：[Chapter Three Lecture 14–21 PDF](https://www.khenposodargye.org/content/uploads/2019/07/The_Vimalakirti_Sutra-Chapter-3-Lecture1421.pdf)，127 页、1,463,186 bytes，SHA-256 为 `d016b3657365eba21ff933a1a59fcf6b7f9caa32c2eebc1756f8b7dd5247bf44`；目录覆盖 Lecture 14—21，抽样页可提取英文文字。文件元数据显示 PDF 1.7、作者 `YuanYin`、Creator `Microsoft Word`，未加密。它仍是翻译团队讲义，不是经文原文或念诵音频。
+- 第四品讲义也已核验：[Chapter Four Lecture 22–25 PDF](https://www.khenposodargye.org/content/uploads/2019/07/The_Vimalakirti_Sutra-Chapter-4-Lecture2225.pdf)，74 页、750,623 bytes，SHA-256 为 `781163683c4624565c2c87e6ed70a1ecc383e163ef76de6a99cba774f6249036`；目录覆盖 Lecture 22—25，抽样页可提取英文文字。文件元数据显示 PDF 1.7、作者 `Vimalakirti Sutra`、Creator `Microsoft Word`，未加密。它仍是翻译团队讲义，不是经文原文或念诵音频。
 - 课程页面的报名表已关闭，不能据历史表单推断现行报名、学籍或参加资格。
 
 ## 关联
