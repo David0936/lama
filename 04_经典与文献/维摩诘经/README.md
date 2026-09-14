@@ -23,6 +23,7 @@ WCDU 线上课程页又记录 2019-04-14 的续学安排：从第四品“菩萨
 - 第三品讲义也已核验：[Chapter Three Lecture 14–21 PDF](https://www.khenposodargye.org/content/uploads/2019/07/The_Vimalakirti_Sutra-Chapter-3-Lecture1421.pdf)，127 页、1,463,186 bytes，SHA-256 为 `d016b3657365eba21ff933a1a59fcf6b7f9caa32c2eebc1756f8b7dd5247bf44`；目录覆盖 Lecture 14—21，抽样页可提取英文文字。文件元数据显示 PDF 1.7、作者 `YuanYin`、Creator `Microsoft Word`，未加密。它仍是翻译团队讲义，不是经文原文或念诵音频。
 - 第四品讲义也已核验：[Chapter Four Lecture 22–25 PDF](https://www.khenposodargye.org/content/uploads/2019/07/The_Vimalakirti_Sutra-Chapter-4-Lecture2225.pdf)，74 页、750,623 bytes，SHA-256 为 `781163683c4624565c2c87e6ed70a1ecc383e163ef76de6a99cba774f6249036`；目录覆盖 Lecture 22—25，抽样页可提取英文文字。文件元数据显示 PDF 1.7、作者 `Vimalakirti Sutra`、Creator `Microsoft Word`，未加密。它仍是翻译团队讲义，不是经文原文或念诵音频。
 - 第五品讲义也已核验：[Chapter Five Lecture 26–30 PDF](https://www.khenposodargye.org/content/uploads/2019/11/The_Vimalakirti_Sutra-Chapter-5-Lecture2630_v1.pdf)，84 页、1,318,644 bytes，SHA-256 为 `a877d86b4f770f0d2946fa526fc8d3698440e0af28ca5085bf6f3baa550561bd`；目录覆盖 Lecture 26—30，抽样页可提取英文文字。文件元数据显示 PDF 1.5、标题为 `Chapter 5 - Manjushri’s Condolence Visit`、作者 `Vimalakirti Sutra`、Creator／Producer `Microsoft® Word 2013`，未加密。它仍是翻译团队讲义，不是经文原文或念诵音频。
+- 官方讲解页在第五品之后只列出第六至十四品的章名，当前页面未给出与前五品同格式的公开讲义文件链接；本项目将其登记为“版本入口待核”，不据此断言相关讲义不存在或课程未完成。
 - 课程页面的报名表已关闭，不能据历史表单推断现行报名、学籍或参加资格。
 
 ## 关联
