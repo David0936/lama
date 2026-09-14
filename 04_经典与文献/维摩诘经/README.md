@@ -52,6 +52,14 @@ deerpark 的 CBETA 目录将 T0476 标为《说无垢称经》，作者栏注明
 
 来源审计：[deerpark T0476 目录](https://deerpark.app/cbeta/T0476) · [CBETA T0476 PDF 镜像](https://dlbs.liberal.ntu.edu.tw/FULLTEXT/sutra/T/T14n0476.pdf)。
 
+## 汉文早期译本入口：T0474《佛说维摩诘经》（R240）
+
+DILA 经录规范数据库将 T0474 登记为《佛说维摩诘经》，二卷，作译者为支谦，并给出吴黄武至建兴年间（约公元 223—253）的译经时间范围；其“相关经典”字段直接关联 T0475 与 T0476。deerpark 目录列出 T0474 的十四品，品名与后秦、唐译本有明显差异，例如“善权品”“诸法言品”“观人物品”“如来种品”和“嘱累弥勒品”。
+
+本批核验的 CBETA PDF 镜像为 41 页、848,183 bytes，SHA-256 `004b256b75628fd0daf2e29e3db4d956f198adb5d5843c126ac40e5b6ed54dca`；PDF 1.4，标题 `T0474 佛說維摩詰經`，作者 `吳 支謙譯`，未加密。抽样页可提取目录和正文文字。T0474、T0475、T0476 现在形成三个公开汉译入口，但不能只按品名或字面差异推断译本之间的思想差异。
+
+来源审计：[DILA T0474 规范目录](https://authority.dila.edu.tw/catalog/search.php?code=CA0003298) · [deerpark T0474 目录](https://deerpark.app/cbeta/T0474) · [CBETA T0474 PDF 镜像](https://dlbs.liberal.ntu.edu.tw/FULLTEXT/sutra/T/T14n0474.pdf)。
+
 ## 关联
 
 [经典总览](../README.md) · [经论课程](../../14_教育课程与人才培养/04_经论课程与阅读顺序/README.md) · [线上学习](../../14_教育课程与人才培养/09_线上学习与在家学习/README.md)
