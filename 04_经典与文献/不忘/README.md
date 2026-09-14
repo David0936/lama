@@ -25,6 +25,17 @@
 
 文件级结果只证明公开 PDF 在核验日期可取得、页数和校验值可记录；不证明版本完整对应、文字层可靠或内容已逐页校勘。当前不写“全文已提取”，也不据乱码文本归纳观点。
 
+## R140 PDF 元数据补充
+
+本批再次取得两个公开文件，只读取文件级元数据，不把 PDF 本体提交仓库：
+
+| 语言 | PDF 元数据 | 可用解释 | 限制 |
+|---|---|---|---|
+| 藏文 | Acrobat 10.0.0；创建 2017-01-12；修改 2021-06-07；166页；340.27 × 524.49 pt；未加密 | 可记录文件生成／修改字段，与官网文件名和 SHA-256 对照 | 元数据没有作者、编者、译者；无可靠文字层 |
+| 中文 | Title 字段为乱码 `<CEB4C3FCC3FB2D31>`；Author 为 `user`；Acrobat Distiller 9.5.5；创建／修改 2017-04-27；86页；708.661 × 538.583 pt；未加密 | 可记录原始 PDF 的字体／元数据异常线索 | 乱码不能还原书名；不能据元数据判断译者、版本对应或正文内容 |
+
+这一步把“文件存在”“文件元数据”“文本可提取”“版本对应”分成四个状态。后续若做 OCR，OCR 结果必须另标为派生文本，不能替代原始 PDF 或授权版本。
+
 来源：[Always Remember (Tibetan) PDF](https://khenposodargye.org/content/uploads/2021/06/Always-Remember-Tibetan-20210607.pdf) · [Always Remember (Chinese) PDF](https://khenposodargye.org/content/uploads/2021/06/Always-Remember-Chinese-20210608.pdf)
 
 ## 主要表达的记录方式
