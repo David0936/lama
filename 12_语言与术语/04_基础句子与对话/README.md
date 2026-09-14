@@ -54,3 +54,27 @@
 | 31 | ཨུ་མ། ཨ་ལས། ཨ་ནི་འདི་གཉིས་སུ་རེད། | 乌玛：哦，那这两位是谁？ | Uma: Oh, I see, who are these two? | u ma a las a ni 'di gnyis su red | 待核 |
 
 来源：[Basic Tibetan 4.4 Sentence Structure 2](https://openbooks.lib.msu.edu/basictibetan/chapter/4-4/) · [6.4 Classroom Objects Sentences](https://openbooks.lib.msu.edu/basictibetan/chapter/6-4/) · [8.4 Guess Their Age](https://openbooks.lib.msu.edu/basictibetan/chapter/8-4/)。三页均提供配套音频；本批只登记页面和句子，不下载音频。
+
+## 教材句型增补（32–46）
+
+本批采用公开教材8.3节的家庭照片描述句。保留对话中的人名和礼貌表达；Wylie为项目规范化转写，发音状态待母语者核听。
+
+| # | 藏文 | 汉文 | English | Wylie | 发音状态 |
+|---:|---|---|---|---|---|
+| 32 | བསྟན་འཛིན། གཟིགས་དང་། འདི་ང་རེད། | 丹增，请看，这是我。 | Tenzin: Look! This is me. | bstan 'dzin gzigs dang 'di nga red | 待核 |
+| 33 | ཨུ་མ། ཨ་ལས། ཨ་ནི། འདི་གཉིས་སུ་རེད། | 乌玛：哦，那这两位是谁？ | Uma: Oh, I see, who are these two? | u ma a las a ni 'di gnyis su red | 待核 |
+| 34 | བསྟན་འཛིན། འདི་ངའི་ཅོ་ཅོ་བསྟན་འཛིན་རེད། ཨ་ནི་འདི་ངའི་ཨ་ཅག་སྒྲོལ་མ་རེད། | 丹增：这是我哥哥丹增，那是我姐姐卓玛。 | Tenzin: This is my elder brother Tenzin, and this is my elder sister Dolma. | bstan 'dzin 'di nga'i co co bstan 'dzin red a ni 'di nga'i a cag sgrol ma red | 待核 |
+| 35 | ཨུ་མ། འདི་གཉིས་སུ་རེད། | 乌玛：这两位是谁？ | Uma: Who are these two? | u ma 'di gnyis su red | 待核 |
+| 36 | བསྟན་འཛིན། ཨ་ལས། འདི་གཉིས་ངའི་པ་ལགས་དང་ཨ་མ་ལགས་རེད། | 丹增：哦，这两位是我父亲和母亲。 | Tenzin: Oh! These two are my father and mother. | bstan 'dzin a las 'di gnyis nga'i pa lags dang a ma lags red | 待核 |
+| 37 | ཨུ་མ། གཟིགས་དང་། འདི་ངའི་ནང་མི་རེད། | 乌玛：请看，这是我的家人。 | Uma: Look, this is my family. | u ma gzigs dang 'di nga'i nang mi red | 待核 |
+| 38 | བསྟན་འཛིན། སྙིང་རྗེ་པ་ལ། | 丹增：真可爱！ | Tenzin: It is so cute! | bstan 'dzin snying rje pa la | 待核 |
+| 39 | བསྟན་འཛིན། འདི་ཁྱེད་རང་གི་ཨ་མ་ལགས་རེད་པས། | 丹增：这是您母亲吗？ | Tenzin: Is this your mom? | bstan 'dzin 'di khyed rang gi a ma lags red pas | 待核 |
+| 40 | ཨུ་མ། ལགས་རེད། འདི་ངའི་ཨ་མ་ལགས་རེད། ཁོང་གི་མཚན་ཁེ་རི་ལགས་རེད། | 乌玛：是的，这是我母亲，她叫凯莉。 | Uma: Yes, this is my mom. Her name is Kerry. | u ma lags red 'di nga'i a ma lags red khong gi mtshan khe ri lags red | 待核 |
+| 41 | བསྟན་འཛིན། འདི་ཚོ་གཉིས་སུ་སུ་རེད། | 丹增：那这两位是谁？ | Tenzin: Who are these two then? | bstan 'dzin 'di tsho gnyis su su red | 待核 |
+| 42 | ཨུ་མ། འདི་ཚོ་གཉིས་ངའི་རྨོ་མོ་ལགས་ལི་ས་དང་སྤོ་ལགས་འཇོན་རེད། | 乌玛：这是我的外婆丽莎和外公约翰。 | Uma: These are my grandma Lisa and grandpa John. | u ma 'di tsho gnyis nga'i rmo mo lags li sa dang spo lags 'jon red | 待核 |
+| 43 | བསྟན་འཛིན། ཨ་ནི་ འདི་གཉིས་སུ་སུ་རེད། | 丹增：那这两位又是谁？ | Tenzin: Who are these two then? | bstan 'dzin a ni 'di gnyis su su red | 待核 |
+| 44 | ཨུ་མ། གཡས་འདི་ངའི་ཨ་ཞང་ལགས་རེད། གཡོན་འདི་ངའི་སྲུ་མོ་ལགས་རེད། | 乌玛：右边是我舅舅，左边是我姨母。 | Uma: The one on the right is my uncle; the one on the left is my aunt. | u ma g.yas 'di nga'i a zhang lags red g.yon 'di nga'i sru mo lags red | 待核 |
+| 45 | བསྟན་འཛིན། ཨ་ལས། དཀྱིལ་དེ་སུ་རེད། | 丹增：哦，中间那位是谁？ | Tenzin: Oh, I see, who is the one in the middle? | bstan 'dzin a las dkyil de su red | 待核 |
+| 46 | ཨུ་མ། དཀྱིལ་དེ་ངའི་གཅུང་མོ་ཤི་ལ་རེད། ཁོང་ནིའུ་ཡོག་ལ་བཞུགས་ཀྱི་ཡོད་རེད། | 乌玛：中间是我妹妹希拉，她住在纽约。 | Uma: The one in the middle is my sister Shila. She lives in New York. | u ma dkyil de nga'i gcung mo shi la red khong ni'u yorg la bzhugs kyi yod red | 待核 |
+
+来源：[Basic Tibetan 8.3 Sentence Structure 1](https://openbooks.lib.msu.edu/basictibetan/chapter/8-3/)。页面提供两段家庭照片练习音频；本批登记句子与音频入口，不将教材人物关系当作真实人物资料。
