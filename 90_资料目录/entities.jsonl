@@ -98,3 +98,4 @@
 {"id":"O-R055-001","type":"museum_object","title_zh":"大都会清代文殊绢贴 15.95.154","title_bo":"The Met Manjushri 15.95.154","aliases":["Manjushri, the Bodhisattva of Transcendent Wisdom","文殊绢贴"],"path":"07_故事与叙事/文殊、善财与阿閦佛的图像叙事/README.md","status":"metadata_checked"}
 {"id":"O-R056-001","type":"museum_object","title_zh":"大都会藏传金刚铃与金刚杵 89.4.1443a,b","title_bo":"The Met Dril-Bu and Dorje 89.4.1443a,b","aliases":["Dril-Bu and Dorje","dril-bu dorje"],"path":"08_法物与艺术/03_法器供物与仪式用品/README.md","status":"metadata_checked"}
 {"id":"O-R056-002","type":"museum_object","title_zh":"大都会藏传金刚铃 89.4.69","title_bo":"The Met Dril-Bu 89.4.69","aliases":["Dril-Bu","Tibetan ritual bell"],"path":"08_法物与艺术/03_法器供物与仪式用品/README.md","status":"metadata_checked"}
+{"id":"R-R057-001","type":"ritual_topic","title_zh":"Chöd（断除我执）公开仪轨语境","title_bo":"Chöd public ritual context","aliases":["Chöd","Cutting Through the Ego"],"path":"09_修持与仪轨/Chöd（断除我执）公开语境/README.md","status":"review_required"}
