@@ -51,3 +51,16 @@
 对象页：[British Museum 1992,1214.87.a-f](https://www.britishmuseum.org/collection/object/A_1992-1214-87-a-f)
 
 这两件对象继续遵循“材料字段优先、功能分级记录”的规则：馆方明确写出的材料和对象构成可作元数据；未写出的仪式、传承和使用者身份保持未知。
+
+## 第三批馆藏卡（Rubin Museum）
+
+### 5. 腿骨号角（Kang Ling，SC2019.3.2）
+
+- **馆方对象名**：Leg Bone Trumpet (Kang Ling)
+- **材料／年代／地点**：人骨、铜、珊瑚、皮革；18—19世纪；西藏
+- **馆方功能说明**：Rubin Museum 将其放入 Chöd（“切断我执”）的冥想与仪式语境，说明传统上可在尸陀林等场所进行；这属于馆方解释，不是喇荣学院现行仪轨证明。
+- **馆藏号与收藏**：SC2019.3.2；Rubin Museum of Himalayan Art，Robert and Lois Bayils 赠藏。
+
+对象页：[Rubin Museum SC2019.3.2](https://rubinmuseum.org/collection/sc2019-3-2/)
+
+该对象的“人骨”与“皮革”是两个并列材料字段，不能合并成“人体皮肤”。它可作为人体材料专题的对象级对照，也不能证明材料来源、具体制作者、授权使用者或喇荣学院配置。
