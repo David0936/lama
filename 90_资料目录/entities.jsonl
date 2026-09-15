@@ -388,3 +388,4 @@
 {"id":"T-R325-001","type":"topic","title_zh":"来源分级与冲突处理","title_bo":"Source grading and conflict handling","aliases":["R325"],"path":"90_资料目录/来源分级与冲突处理.md","status":"review_required"}
 {"id":"T-R326-001","type":"topic","title_zh":"贡献与审校流程","title_bo":"Contribution and review workflow","aliases":["R326"],"path":"00_导览/贡献与审校流程.md","status":"review_required"}
 {"id":"T-R327-001","type":"topic","title_zh":"JSONL 登记字段示例","title_bo":"JSONL registry field examples","aliases":["R327"],"path":"90_资料目录/登记字段示例.md","status":"review_required"}
+{"id":"T-R328-001","type":"topic","title_zh":"每批发布检查清单","title_bo":"Batch release checklist","aliases":["R328"],"path":"90_资料目录/每批发布检查清单.md","status":"review_required"}
