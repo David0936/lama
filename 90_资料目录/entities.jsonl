@@ -352,3 +352,5 @@
 {"id":"W-R294-001","type":"work","title_zh":"《佛性论》","title_bo":"Buddha-nature Treatise","aliases":["T1610","佛性論"],"path":"04_经典与文献/佛性论/README.md","status":"review_required"}
 {"id":"V-R295-001","type":"pdf_version_audit","title_zh":"CBETA T0292《度世品经》PDF 文件核验","title_bo":"File audit for CBETA T0292 Dushi Pin Jing","aliases":["R295 T0292"],"path":"91_待办与审校/R295-CBETA-T0292度世品经PDF核验.md","status":"metadata_checked"}
 {"id":"W-R295-001","type":"work","title_zh":"《度世品经》","title_bo":"Dushi Pin Jing","aliases":["T0292","度世品經"],"path":"04_经典与文献/度世品经/README.md","status":"review_required"}
+{"id":"V-R296-001","type":"pdf_version_audit","title_zh":"CBETA T0360《佛说无量寿经》PDF 文件核验","title_bo":"File audit for CBETA T0360 Larger Sukhavativyuha","aliases":["R296 T0360"],"path":"91_待办与审校/R296-CBETA-T0360无量寿经PDF核验.md","status":"metadata_checked"}
+{"id":"W-R296-001","type":"work","title_zh":"《无量寿经》","title_bo":"Larger Sukhavativyuha Sutra","aliases":["T0360","佛说无量寿经"],"path":"04_经典与文献/无量寿经/README.md","status":"review_required"}
