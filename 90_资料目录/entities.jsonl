@@ -363,3 +363,5 @@
 {"id":"V-R300-001","type":"pdf_version_audit","title_zh":"CBETA T0367《称赞净土佛摄受经》PDF 文件核验","title_bo":"File audit for CBETA T0367 Pure Land Sutra","aliases":["R300 T0367"],"path":"91_待办与审校/R300-CBETA-T0367称赞净土佛摄受经PDF核验.md","status":"metadata_checked"}
 {"id":"W-R300-001","type":"work","title_zh":"《称赞净土佛摄受经》","title_bo":"Sutra Praising the Pure Land and Buddha's Reception","aliases":["T0367","稱讚淨土佛攝受經"],"path":"04_经典与文献/称赞净土佛摄受经/README.md","status":"review_required"}
 {"id":"T-R301-001","type":"topic","title_zh":"净土经典版本群","title_bo":"Pure Land canonical version cluster","aliases":["R301"],"path":"05_教理与主题/净土经典版本群/README.md","status":"review_required"}
+{"id":"V-R302-001","type":"pdf_version_audit","title_zh":"CBETA T0450《药师经》PDF 文件核验","title_bo":"File audit for CBETA T0450 Medicine Buddha Sutra","aliases":["R302 T0450"],"path":"91_待办与审校/R302-CBETA-T0450药师经PDF核验.md","status":"metadata_checked"}
+{"id":"W-R302-001","type":"work","title_zh":"《药师琉璃光如来本愿功德经》","title_bo":"Medicine Buddha Sutra","aliases":["T0450","藥師琉璃光如來本願功德經"],"path":"04_经典与文献/药师经/README.md","status":"review_required"}
