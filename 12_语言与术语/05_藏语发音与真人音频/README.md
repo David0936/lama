@@ -68,4 +68,18 @@ Basic Tibetan 1.2 将六个“倒写字母”用于外来词、人名和地名�
 
 这里的“重音”是教材章节标签，不等于汉语声调，也不等于某一仪轨的秘密读法。音频属于教材示范；录音者、地区口音、喇荣课堂实际读法和逐音节核听仍待核。
 
+## R264｜下加字母与课堂短语音频扩展
+
+Basic Tibetan 3.1 继续提供教材音频：6 句日常短语，以及下加字母 `ཡ།`、`ར།`、`ལ།`、`ཝ།` 的拼写和发音练习。下表只记录公开入口，不把教材转写当作喇荣口音：
+
+| 媒体 | 内容 | 音频入口 |
+| --- | --- | --- |
+| `M-R264-001` | 6 句问候、致歉、提醒、致谢和道别 | [Frequent Expressions 3-1](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/02/Frequent-Expressions-3-1.m4a) |
+| `M-R264-002` | ཡ། 下加字母 7 组 | [Seven YaTaks](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/02/The-Seven-YaTaks.m4a) |
+| `M-R264-003` | ར། 下加字母 13 组 | [Thirteen RaTaks](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/02/The-Thirteen-RaTaks.m4a) |
+| `M-R264-004` | ལ། 下加字母 6 组 | [Six LaTaks](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/02/The-Six-LaTaks-2.m4a) |
+| `M-R264-005` | ཝ། 下加字母 16 组 | [Sixteen WaZurs](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/02/The-Sixteen-WaZurs.m4a) |
+
+页面还列出词例（如“上师”“学生”“学校”等），但本批不把教材英译或转写直接写入 300 词表的最终发音字段；Wylie、汉译、地区变体和真人核听仍待核。
+
 [返回专题](../README.md)
