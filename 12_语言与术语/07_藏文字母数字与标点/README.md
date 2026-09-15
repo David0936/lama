@@ -27,6 +27,23 @@ Digital Tibetan 的技术说明面向数字文本排版。它建议换行不应�
 
 来源定位：[Digital Tibetan formatting rules](https://digitaltibetan.github.io/DigitalTibetan/docs/tibetan_formatting.html)（Line-breaking rules、Inter-syllable marker、Usage of punctuation character *shad*、*rin chen spungs shad* 小节）。
 
+## R265｜符号功能与转写边界
+
+W3C《Tibetan Text Layout and Typography》把藏文版式拆成音节分隔、句段边界和空格规则；THL Extended Wylie 则把藏文标点分为音节间标记、短语／句段分界、字头标记和成对标记。可先用以下最小表建立术语入口：
+
+| 符号 | 常用名称 | 功能入口 | 项目边界 |
+| --- | --- | --- | --- |
+| `་` | *tsheg*（藏文音节分隔符） | 分隔音节；不是汉语空格的简单替代 | 不从字符位置推断口语停顿 |
+| `།` | *shad* | 藏文内部句段／短语边界标记 | 不机械替换为汉语句号或逗号 |
+| `། །` | 双 *shad* | 诗偈、标题或较长段落结尾的常见版式序列 | 各文本版本仍需逐件核对 |
+| `༄`、`༅` 等 | *yig mgo* 系列 | 书写或段落起首标记 | 不等同经名、咒语或宗派符号 |
+| `༈` | *sbrul shad* | 特定藏文标点／版式标记 | 功能需结合文本类型和字体核对 |
+| `ཿ` | *rnam bcad*／visarga 字符 | 梵字转写和特定拼写环境中的字符 | 不把它当作普通冒号或汉语标点 |
+
+来源：[W3C Tibetan Layout Requirements](https://www.w3.org/TR/2024/DNOTE-tlreq-20240515/) · [THL Extended Wylie Transliteration Scheme](https://texts.mandala.library.virginia.edu/text/thl-extended-wylie-transliteration-scheme)。
+
+这张表是数字阅读和转写索引，不是喇荣学院书写规范、经书校勘定本或诵读节奏说明。Unicode 字符名、Wylie 写法、传统术语和实际排版例句需分栏记录。
+
 ## 待核
 
 - 不同版本、字体、版式与经书类别的实际规范。
