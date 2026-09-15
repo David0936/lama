@@ -25,4 +25,10 @@
 
 来源：[84000 Scholar's Room｜般若经甘珠尔分组](https://scholar.84000.co/article/perfection-of-wisdom-kangyur-section) · [84000｜Toh 16（尚未发布英译）](https://84000.co/translation/toh16) · [Tsadra/Bodhicitta｜Vajra Cutter 书目](https://bodhicitta.tsadra.org/index.php/Books/The_Exalted_Mah%C4%81y%C4%81na_Sūtra_on_the_Wisdom_Gone_Beyond_Called_The_Vajra_Cutter)。
 
+## R285｜CBETA T0235 汉文 PDF 文件核验
+
+公开镜像 [T08n0235.pdf](https://dlbs.liberal.ntu.edu.tw/FULLTEXT/sutra/T/T08n0235.pdf) 可读取，PDF 标题为 `T0235 金剛般若波羅蜜經`，作者元数据为“後秦 鳩摩羅什譯”。文件共 14 页、374,483 bytes，SHA-256 为 `ac621e27cc08a196f7e5e39fed8c80648bf42e0d46e26812dd359aa9356b522b`；首页文字可提取。文件未入库，仅登记公开链接和指纹。
+
+该版本支持鸠摩罗什汉译本的文件级入口，不等同藏文 Toh 16、84000 未发布英译或 FPMT 英译；尚未完成汉藏逐段对读、章节定位与学院课程关系核验。详见[R285审校单](../../91_待办与审校/R285-CBETA-T0235金刚般若波罗蜜经PDF核验.md)。
+
 关联：[须菩提与佛陀的般若问答](../../07_故事与叙事/须菩提与佛陀的般若问答/README.md)。
