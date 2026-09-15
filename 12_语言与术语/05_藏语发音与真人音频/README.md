@@ -82,6 +82,18 @@ Basic Tibetan 3.1 继续提供教材音频：6 句日常短语，以及下加字
 
 页面还列出词例（如“上师”“学生”“学校”等），但本批不把教材英译或转写直接写入 300 词表的最终发音字段；Wylie、汉译、地区变体和真人核听仍待核。
 
+## R273｜三类上加字母教材音频
+
+Basic Tibetan 2.2 把上加字母（*superscript letters*）分为 ར།、ལ།、ས། 三组，分别列出 12、10、11 组字母组合，并提示组合会影响教材示范中的音调与送气。页面为公开教材入口；本批采用搜索摘要与音频直链登记，未把“音调／送气”标签扩写成喇荣方言或通用语音规则。
+
+| 媒体 | 教材内容 | 音频入口 |
+| --- | --- | --- |
+| `M-R273-001` | ར། 上加字母组合（རྐ།、རྒ།、རྔ། 等） | [Superscript Letter Ra](https://openbooks.lib.msu.edu/app/uploads/sites/128/2024/11/Superscript-Letter-Ra.m4a) |
+| `M-R273-002` | ལ། 上加字母组合（ལྐ།、ལྒ།、ལྔ། 等） | [Superscript Letter La](https://openbooks.lib.msu.edu/app/uploads/sites/128/2024/11/Superscript-Letter-La.m4a) |
+| `M-R273-003` | ས། 上加字母组合（སྐ།、སྒ།、སྔ། 等） | [Superscript Letter Sa](https://openbooks.lib.msu.edu/app/uploads/sites/128/2024/11/Superscript-Letter-Sa.m4a) |
+
+录音者、地区口音、时长、慢速版本、Wylie 对应及喇荣课堂适用性均待核。音频只作学习入口，不替代老师口授、传承或任何仪轨读法。
+
 ## R266｜入门问候与单字词音频
 
 Basic Tibetan 1.1 提供 8 句问候／道别表达和 15 个单字词练习，并各自配有音频。页面公开的教材转写可作为检索线索；本项目不把教材转写直接当作喇荣口音或最终 Wylie 规范。
