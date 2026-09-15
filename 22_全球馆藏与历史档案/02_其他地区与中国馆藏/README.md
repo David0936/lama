@@ -54,4 +54,12 @@
 
 来源：[The Met：King Songten Gampo as the incarnate Avalokiteshvara](https://www.metmuseum.org/art/collection/search/832687)。
 
+## R261 大英博物馆：可开合莲花曼荼罗
+
+大英博物馆对象 **1982,0804.1** 的馆方记录题名为 *figure; mandala*，定年 12 世纪，制作地标为印度东部（Bihar?），材质含青铜、金、银、铜，高 14 厘米。对象中心为阿閦佛，莲瓣可合拢以遮蔽内部造像；馆方记录还列出八位随侍菩萨、题记和铸造、鎏金、镶嵌等工艺字段。
+
+馆方策展说明把它称作莲花曼荼罗，解释开放花瓣与显现／收摄的象征关系，并谨慎写为残留鎏金和蓝色颜料“提示”对象可能曾接受藏地礼敬。该提示不是使用记录，不能证明对象来自喇荣、属于某一教派或对应现行仪轨。馆方还记录对象曾以“Sandeman Mandala”知名，1982 年购自 B. G. Sandeman；“曾来自北京圆明园”的说法保留为馆方 acquisition note，未当作独立来源链结论。
+
+来源：[British Museum：figure; mandala 1982,0804.1](https://www.britishmuseum.org/collection/object/A_1982-0804-1)。
+
 [专题目录](../README.md) · [馆藏与历史规划](../../docs/全球馆藏与历代演变规划.md)
