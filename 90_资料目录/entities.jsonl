@@ -366,3 +366,4 @@
 {"id":"V-R302-001","type":"pdf_version_audit","title_zh":"CBETA T0450《药师经》PDF 文件核验","title_bo":"File audit for CBETA T0450 Medicine Buddha Sutra","aliases":["R302 T0450"],"path":"91_待办与审校/R302-CBETA-T0450药师经PDF核验.md","status":"metadata_checked"}
 {"id":"W-R302-001","type":"work","title_zh":"《药师琉璃光如来本愿功德经》","title_bo":"Medicine Buddha Sutra","aliases":["T0450","藥師琉璃光如來本願功德經"],"path":"04_经典与文献/药师经/README.md","status":"review_required"}
 {"id":"P-R303-001","type":"deity_topic","title_zh":"阿弥陀佛与药师佛：公开经典入口","title_bo":"Amitabha and Medicine Buddha public text index","aliases":["R303"],"path":"06_佛菩萨与尊格/阿弥陀佛与药师佛/README.md","status":"review_required"}
+{"id":"T-R304-001","type":"topic","title_zh":"经典、仪轨与音视频证据标准","title_bo":"Evidence standard for texts, rituals and media","aliases":["R304"],"path":"09_修持与仪轨/经典仪轨音视频证据标准/README.md","status":"review_required"}
