@@ -392,3 +392,5 @@
 {"id":"T-R329-001","type":"topic","title_zh":"公开媒体索引模板","title_bo":"Public media index template","aliases":["R329"],"path":"09_修持与仪轨/公开媒体索引模板.md","status":"review_required"}
 {"id":"V-R335-001","type":"pdf_version_audit","title_zh":"CBETA T0362 PDF 文件核验","title_bo":"File audit for CBETA T0362","aliases":["R335 T0362"],"path":"91_待办与审校/R335-CBETA-T0362阿弥陀三耶三佛萨楼佛檀过度人道经PDF核验.md","status":"metadata_checked"}
 {"id":"W-R335-001","type":"work","title_zh":"《佛说阿弥陀三耶三佛萨楼佛檀过度人道经》","title_bo":"Amitabha Samyak Buddha Crossing Beings Sutra","aliases":["T0362"],"path":"04_经典与文献/阿弥陀三耶三佛萨楼佛檀过度人道经/README.md","status":"review_required"}
+{"id":"V-R336-001","type":"pdf_version_audit","title_zh":"CBETA T0363 PDF 文件核验","title_bo":"File audit for CBETA T0363","aliases":["R336 T0363"],"path":"91_待办与审校/R336-CBETA-T0363大乘无量寿庄严经PDF核验.md","status":"metadata_checked"}
+{"id":"W-R336-001","type":"work","title_zh":"《佛说大乘无量寿庄严经》","title_bo":"Mahayana Larger Sukhavativyuha Sutra","aliases":["T0363"],"path":"04_经典与文献/大乘无量寿庄严经/README.md","status":"review_required"}
