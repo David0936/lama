@@ -21,3 +21,9 @@
 来源：[84000 Toh 44-31 PDF](https://84000.co/pdf-redirect/toh44-31_84000-the-ten-bhumis.pdf) · [84000《华严经》甘珠尔分组](https://84000.co/post/a-multitude-of-buddhas-kangyur-section) · [84000 The Stem Array](https://reader.84000.co/e9e0d769-0708-4b0b-990b-5b2da82d5155?main=open%3Atranslation%3A08f973ee-bdf1-4b2e-aef5-eb9763161274)。
 
 关联：[金刚藏宣说十地](../../07_故事与叙事/金刚藏宣说十地/README.md)。
+
+## R292｜CBETA T0287 汉文 PDF 文件核验
+
+CBETA 公开镜像将 T0287 题为《佛说十地经》，PDF 元数据作者为唐尸罗达摩译；文件 81 页、910,009 bytes，SHA-256 `e08d3decc3553bb004c5b58c43d4a7f1005ed7eaadd6929db5bd21dcb26cc63f`，首页可提取文字。PDF 本体未入库。
+
+该文件支持汉文《十地经》版本入口，不直接等同藏文 Toh 44-31、华严大本或 84000 英译；品次和金刚藏说法段落待逐段对读。详见[R292审校单](../../91_待办与审校/R292-CBETA-T0287十地经PDF核验.md)。
