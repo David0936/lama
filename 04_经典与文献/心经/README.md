@@ -21,7 +21,11 @@
 
 ## 版本与学院关系
 
-84000 的公开英译入口可用于作品级阅读、术语和版本关系索引；本批未取得 Toh 21 PDF 的文件级页数、校验值或文本层，也未找到喇荣学院课程、课诵或法会采用该英译的机构证据。学院关联内容必须另找带日期的一手记录。
+84000 的公开英译入口可用于作品级阅读、术语和版本关系索引。R276 另登记官方 Toh 21 PDF 入口，但尚未完成文件级页数、校验值或文本层审计；也未找到喇荣学院课程、课诵或法会采用该英译的机构证据。学院关联内容必须另找带日期的一手记录。
+
+版本入口：[84000 Toh 21 阅读页](https://read.84000.co/translation/toh21.html) · [84000 Toh 21 PDF](https://84000.co/translation/toh21.pdf)。PDF 页面属于公开链接，不等于本地已取得文件或可自由再分发。
+
+来源审计：[R276-《心经》84000 PDF 入口](../../91_待办与审校/R276-心经84000PDF入口.md)。
 
 来源：[84000｜The Heart of the Perfection of Wisdom](https://read.84000.co/translation/toh21.html) · [84000 Heart Sūtra Festival](https://84000.co/post/heart-sutra-festival) · [84000 Mothers, Compassion, and Wisdom](https://84000.co/post/reflections-on-mothers-day)。
 
