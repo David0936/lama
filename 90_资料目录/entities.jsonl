@@ -386,3 +386,4 @@
 {"id":"W-R322-001","type":"work","title_zh":"《佛说无量清净平等觉经》","title_bo":"Sutra of Infinite Pure Equal Enlightenment","aliases":["T0361","佛說無量清淨平等覺經"],"path":"04_经典与文献/无量清净平等觉经/README.md","status":"review_required"}
 {"id":"T-R324-001","type":"topic","title_zh":"当前建设状态","title_bo":"Current build status","aliases":["R324"],"path":"00_导览/当前建设状态.md","status":"review_required"}
 {"id":"T-R325-001","type":"topic","title_zh":"来源分级与冲突处理","title_bo":"Source grading and conflict handling","aliases":["R325"],"path":"90_资料目录/来源分级与冲突处理.md","status":"review_required"}
+{"id":"T-R326-001","type":"topic","title_zh":"贡献与审校流程","title_bo":"Contribution and review workflow","aliases":["R326"],"path":"00_导览/贡献与审校流程.md","status":"review_required"}
