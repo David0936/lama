@@ -72,3 +72,19 @@ Padma Karpo Translation Committee 页面把版本层拆得很清楚：
 ## R183 本地附件候选线索（未纳入公开来源）
 
 用户提供的《一颗感恩的心》PDF目录含“入行论师徒问答录”，结尾编者语称其为丹增嘉措仁波切的教言集。开篇同时说明文本来自回忆录音整理并经过文字润饰，且不应当作正式传记。该附件可帮助寻找《入行论》讲解、口述与出版出处，但当前没有公开 URL、出版目录或可核版权信息，因此只保留在[来源核查记录](../../91_待办与审校/R183-一颗感恩的心来源核查.md)，不作为藏文根本、汉译版本或学院课程证据。
+
+## R281｜PKTC 第一至第五品 PDF 文件级核验
+
+Padma Karpo Translation Committee 页面公开列出第一至第五品的英文讲解 PDF。每个文件同时含《入菩萨行论》根本文本与 Khenpo Kunpal 讲解；页面说明其沿用 Paltrül Rinpoche 口传解释线，并提示文件仍受版权与分发条件约束。本批临时下载后核对页数、字节数、SHA-256，并抽取首页至第 3 页文字；PDF 本体未入库。
+
+| 品次 | 文件 | 页数 | 字节数 | SHA-256 | 文本层状态 |
+|---:|---|---:|---:|---|---|
+| 1 | [bca1comm.pdf](https://pktc.org/wp-content/themes/bb-theme-child/downloads/bca1comm.pdf) | 585 | 2,423,969 | `0e1a882bb03883ad650c2c58683276ab5c44d7cd919a74142cd1e8f083327f34` | 前 3 页可提取 |
+| 2 | [bca2comm.pdf](https://pktc.org/wp-content/themes/bb-theme-child/downloads/bca2comm.pdf) | 331 | 1,292,135 | `21f8476fc55bcc95bf10bd809f080cfccf36e876f32e8904b381dc0d81a5f83a` | 前 3 页可提取 |
+| 3 | [bca3comm.pdf](https://pktc.org/wp-content/themes/bb-theme-child/downloads/bca3comm.pdf) | 158 | 623,535 | `edcb89ee52c6cd636868f9abe3d1e21d8ba50eca9973caf75b32aef89d4bfc20` | 前 3 页可提取 |
+| 4 | [bca4comm.pdf](https://pktc.org/wp-content/themes/bb-theme-child/downloads/bca4comm.pdf) | 192 | 729,808 | `0cf817c7d2ed617813d1e2ad54c4f822b35890a64121e4adf38b4186891e0a10` | 前 3 页可提取 |
+| 5 | [bca5comm.pdf](https://pktc.org/wp-content/themes/bb-theme-child/downloads/bca5comm.pdf) | 290 | 1,115,774 | `1e9663f844b7edba7d4c630ca3bfc673de77f32c07b1ef90bff898636743f6c` | 前 3 页可提取 |
+
+文件级核验只证明公开链接在 2026-09-15 可读取及上述文件指纹，不证明文件永久不变、藏汉逐句对应或喇荣学院指定使用。版权页允许私人下载、打印和学习，但禁止未经许可上传到其他网站；本库只保留链接和元数据，不再分发 PDF。
+
+来源审计：[R281-PKTC 第一至第五品 PDF 文件核验](../../91_待办与审校/R281-PKTC入菩萨行论第一至第五品PDF核验.md)。
