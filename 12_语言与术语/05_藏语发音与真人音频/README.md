@@ -82,4 +82,15 @@ Basic Tibetan 3.1 继续提供教材音频：6 句日常短语，以及下加字
 
 页面还列出词例（如“上师”“学生”“学校”等），但本批不把教材英译或转写直接写入 300 词表的最终发音字段；Wylie、汉译、地区变体和真人核听仍待核。
 
+## R266｜入门问候与单字词音频
+
+Basic Tibetan 1.1 提供 8 句问候／道别表达和 15 个单字词练习，并各自配有音频。页面公开的教材转写可作为检索线索；本项目不把教材转写直接当作喇荣口音或最终 Wylie 规范。
+
+| 媒体 | 内容 | 音频入口 |
+| --- | --- | --- |
+| `M-R266-001` | `བཀྲ་ཤིས་བདེ་ལེགས།` 等 8 句问候、道别和睡眠祝愿 | [Frequent-expression-1](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/02/Frequent-expression-1.m4a) |
+| `M-R266-002` | `ཁ།`、`ང་།`、`ཇ།`、`བ།`、`ཟ།` 等 15 个单字词 | [The-Single-Letter-words](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/02/The-Single-Letter-words.m4a) |
+
+教材页还列出字母辨认和口语录音练习。录音者、方言、音频时长、慢速版本及喇荣课堂适用性均待核。
+
 [返回专题](../README.md)
