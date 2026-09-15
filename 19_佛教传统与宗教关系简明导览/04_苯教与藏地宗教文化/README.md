@@ -19,6 +19,14 @@
 
 来源：[Asian Art Museum｜Kunzang Akor B87B1](https://searchcollection.asianart.org/objects/11086/the-bon-deity-kunzang-akor) · [Kunzang Galwa Dupa B84B1](https://searchcollection.asianart.org/objects/11081/the-bonpo-deity-kunzang-galwa-dupa)
 
+## R267｜学术摘要中的互动关系
+
+Oxford Handbook 的章节摘要把佛教传入后的西藏宗教史描述为“佛教与苯教之间存在张力，同时彼此影响”；它强调这是历史互动命题，不等于两者在任何时期都被视为同一传统。[Tibetan Buddhist Society](https://academic.oup.com/edited-volume/34354/chapter-abstract/291429001)
+
+Oxford Research Encyclopedia 的摘要则把苯教大圆满传统的可考文本起点放在约 10—11 世纪，并指出后期苯教吸收了大量其他藏传佛教传承的文献。该摘要属于学术研究概述，不替代苯教自身传承叙述，也不证明某部经典在喇荣课程中使用。[The Bön Tradition of Dzogchen](https://academic.oup.com/edited-volume/62249/chapter-abstract/551424002)
+
+登记原则：`互动影响`、`传统自称`、`学者分期`、`对象图像分类` 分开建字段。没有一手文本或机构声明时，只写“学术摘要指出”“馆方标签说明”，不写成宗派共识。
+
 ## 待核
 
 - 苯教自述文本、不同历史阶段与学术研究之间的术语差异。
