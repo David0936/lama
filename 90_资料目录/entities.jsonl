@@ -350,3 +350,5 @@
 {"id":"V-R293-001","type":"pdf_version_audit","title_zh":"CBETA T1611《究竟一乘宝性论》PDF 文件核验","title_bo":"File audit for CBETA T1611 Uttaratantra Shastra","aliases":["R293 T1611"],"path":"91_待办与审校/R293-CBETA-T1611宝性论PDF核验.md","status":"metadata_checked"}
 {"id":"V-R294-001","type":"pdf_version_audit","title_zh":"CBETA T1610《佛性论》PDF 文件核验","title_bo":"File audit for CBETA T1610 Buddha-nature Treatise","aliases":["R294 T1610"],"path":"91_待办与审校/R294-CBETA-T1610佛性论PDF核验.md","status":"metadata_checked"}
 {"id":"W-R294-001","type":"work","title_zh":"《佛性论》","title_bo":"Buddha-nature Treatise","aliases":["T1610","佛性論"],"path":"04_经典与文献/佛性论/README.md","status":"review_required"}
+{"id":"V-R295-001","type":"pdf_version_audit","title_zh":"CBETA T0292《度世品经》PDF 文件核验","title_bo":"File audit for CBETA T0292 Dushi Pin Jing","aliases":["R295 T0292"],"path":"91_待办与审校/R295-CBETA-T0292度世品经PDF核验.md","status":"metadata_checked"}
+{"id":"W-R295-001","type":"work","title_zh":"《度世品经》","title_bo":"Dushi Pin Jing","aliases":["T0292","度世品經"],"path":"04_经典与文献/度世品经/README.md","status":"review_required"}
