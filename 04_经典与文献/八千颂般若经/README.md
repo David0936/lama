@@ -37,6 +37,10 @@ Walters Art Museum 的 [W.856](https://art.thewalters.org/object/W.856/) 对象�
 
 来源：[84000｜The Perfection of Wisdom in Eight Thousand Lines](https://84000.co/translation/toh12) · [84000｜Perfection of Wisdom Kangyur section](https://84000.co/post/perfection-of-wisdom-kangyur-section) · [84000｜Sadāprarudita authority entry](https://scholar.84000.co/authority/43914)。
 
+### R284｜84000 PDF 入口复核（2026-09-15）
+
+本批对 `https://84000.co/translation/toh12.pdf` 与 `https://84000.co/pdf-redirect/toh12` 做文件级访问测试；两者均返回 84000 网页 HTML（`text/html`），未取得可供页数、字节或 SHA-256 核验的 PDF 文件。因此本库继续把 Toh 12 标为公开阅读页版本，不写“PDF 已取得”，也不把网页渲染层当作原文文件。测试记录见[R284审校单](../../91_待办与审校/R284-84000八千颂般若经PDF入口复核.md)。
+
 关联：[常啼菩萨求法故事](../../07_故事与叙事/常啼菩萨求法故事/README.md)。
 
 ## R249｜公开英文诵读媒体
