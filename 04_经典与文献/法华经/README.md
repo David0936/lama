@@ -22,3 +22,9 @@
 来源：[84000｜The White Lotus of the Good Dharma](https://84000.co/translation/toh113) · [84000 Toh 113 PDF](https://84000.co/translation/toh113.pdf)。
 
 关联：[多宝佛塔与一乘授记叙事](../../07_故事与叙事/多宝佛塔与一乘授记/README.md)。
+
+## R288｜CBETA 两种汉译 PDF 文件核验
+
+CBETA 公开镜像补入两种汉译：T0262《妙法莲华经》（姚秦鸠摩罗什译）135 页、1,618,219 bytes、SHA-256 `8eda6d5d7c9b7b6f41925c6696c8163c9551a02daeba72df310c65e0f2e0207d`；T0263《正法华经》（西晋竺法护译）159 页、1,411,994 bytes、SHA-256 `20ef6217e2f6b18c7c8e0c9582528eee0af0decfdbc22ddaecd059350028ebf0`。两份首页均可提取文字，文件本体未入库。
+
+两种汉译只支持东亚汉文版本入口与内部异译比较；与藏文 Toh 113、84000 英译及喇荣学院课程的对应关系仍待逐段核验。审校记录见[R288审校单](../../91_待办与审校/R288-CBETA法华经两种汉译PDF核验.md)。
