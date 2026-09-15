@@ -33,4 +33,10 @@ Yale eHRAF 页面另收录 Walter Asboe 1932 年 *Man* 文章的目录与摘要�
 
 来源：[Jagiellonian University Repository](https://ruj.uj.edu.pl/handle/item/210419) · [Yale eHRAF：Disposal of the dead in Tibet](https://ehrafworldcultures.yale.edu/cultures/aj01/documents/013)
 
+## R403｜葬俗比较的最小对照表
+
+比较不同葬俗时固定使用“地区、时期、家庭／社区主体、处置类型、宗教解释、参与者、遗物语境、资料形态、访问限制”字段。缺少地区或时期的概述只能作为背景入口；缺少全文或现场材料时，不补写步骤、比例、资格或因果。
+
+同一地区也可能存在多种选择，不能用“藏族葬俗”作为单一类别覆盖家庭差异。比较结果先说明材料范围，再列相同点与差异点；没有直接证据的学院关联保持“无关联证据”或“待核”。
+
 [专题目录](../README.md) · [扩编设计](../../docs/习俗生命礼仪与人体材料专题.md)
