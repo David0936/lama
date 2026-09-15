@@ -384,3 +384,4 @@
 {"id":"T-R321-001","type":"topic","title_zh":"外来读者阅读路线","title_bo":"Reading route for outside readers","aliases":["R321"],"path":"00_导览/外来读者阅读路线.md","status":"review_required"}
 {"id":"V-R322-001","type":"pdf_version_audit","title_zh":"CBETA T0361《佛说无量清净平等觉经》PDF 文件核验","title_bo":"File audit for CBETA T0361","aliases":["R322 T0361"],"path":"91_待办与审校/R322-CBETA-T0361无量清净平等觉经PDF核验.md","status":"metadata_checked"}
 {"id":"W-R322-001","type":"work","title_zh":"《佛说无量清净平等觉经》","title_bo":"Sutra of Infinite Pure Equal Enlightenment","aliases":["T0361","佛說無量清淨平等覺經"],"path":"04_经典与文献/无量清净平等觉经/README.md","status":"review_required"}
+{"id":"T-R324-001","type":"topic","title_zh":"当前建设状态","title_bo":"Current build status","aliases":["R324"],"path":"00_导览/当前建设状态.md","status":"review_required"}
