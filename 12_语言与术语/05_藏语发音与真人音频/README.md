@@ -57,4 +57,15 @@ Michigan State University Basic Tibetan 2.1 页面列出 9 句频用表达，并
 
 边界：这是公开教材示范音频。页面未提供喇荣教师、录音者身份、地区口音或慢速版本证据；不把它写成喇荣标准音。逐音节核听、Wylie 与真人口音对照仍待核。
 
+## R263｜藏文倒写字母与重音字母音频入口
+
+Basic Tibetan 1.2 将六个“倒写字母”用于外来词、人名和地名转写，并将五个“重音字母”列为主要用于藏文咒语书写的字母。页面分别提供跟读音频：
+
+| 类别 | 字母 | 教材说明 | 音频 |
+| --- | --- | --- | --- |
+| 倒写字母 | ཊ། ཋ། ཌ། ཎ། ཥ། ཀྵ། | 外来词、声音、人名和地名转写入口 | [Six Reverse Letters](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/02/The-Six-Reverse-Letters.m4a) |
+| 重音字母 | གྷ། ཛྷ། ཌྷ། བྷ། དྷ། | 咒语书写的字母入口 | [Five Heavy-Sounding Letters](https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/02/The-Five-Heavy-Sounding-Letters.m4a) |
+
+这里的“重音”是教材章节标签，不等于汉语声调，也不等于某一仪轨的秘密读法。音频属于教材示范；录音者、地区口音、喇荣课堂实际读法和逐音节核听仍待核。
+
 [返回专题](../README.md)
