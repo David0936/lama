@@ -381,3 +381,4 @@
 {"id":"V-R317-001","type":"pdf_version_audit","title_zh":"CBETA T0373《后出阿弥陀佛偈》PDF 文件核验","title_bo":"File audit for CBETA T0373 Later Amitabha Gatha","aliases":["R317 T0373"],"path":"91_待办与审校/R317-CBETA-T0373后出阿弥陀佛偈PDF核验.md","status":"metadata_checked"}
 {"id":"W-R317-001","type":"work","title_zh":"《后出阿弥陀佛偈》","title_bo":"Later Amitabha Gatha","aliases":["T0373","後出阿彌陀佛偈"],"path":"04_经典与文献/后出阿弥陀佛偈/README.md","status":"review_required"}
 {"id":"T-R319-001","type":"topic","title_zh":"发音核验记录卡模板","title_bo":"Pronunciation verification record template","aliases":["R319"],"path":"12_语言与术语/05_藏语发音与真人音频/发音核验记录卡模板.md","status":"review_required"}
+{"id":"T-R321-001","type":"topic","title_zh":"外来读者阅读路线","title_bo":"Reading route for outside readers","aliases":["R321"],"path":"00_导览/外来读者阅读路线.md","status":"review_required"}
