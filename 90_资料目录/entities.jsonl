@@ -397,3 +397,5 @@
 {"id":"V-R337-001","type":"pdf_version_audit","title_zh":"CBETA T0364《佛说大阿弥陀经》PDF 文件核验","title_bo":"File audit for CBETA T0364","aliases":["R337 T0364"],"path":"91_待办与审校/R337-CBETA-T0364大阿弥陀经PDF核验.md","status":"metadata_checked"}
 {"id":"W-R337-001","type":"work","title_zh":"《佛说大阿弥陀经》","title_bo":"Great Amitabha Sutra","aliases":["T0364"],"path":"04_经典与文献/大阿弥陀经/README.md","status":"review_required"}
 {"id":"T-R341-001","type":"topic","title_zh":"大藏经语系关系公开说明","title_bo":"Public note on Buddhist canon language traditions","aliases":["R341"],"path":"19_佛教传统与宗教关系简明导览/02_藏传汉传与南传的关联/README.md","status":"review_required"}
+{"id":"V-R342-001","type":"pdf_version_audit","title_zh":"CBETA T0368 PDF 文件核验","title_bo":"File audit for CBETA T0368","aliases":["R342 T0368"],"path":"91_待办与审校/R342-CBETA-T0368拔一切业障根本得生净土神咒PDF核验.md","status":"metadata_checked"}
+{"id":"W-R342-001","type":"work","title_zh":"《拔一切业障根本得生净土神咒》","title_bo":"Dharani for Removing the Root of All Karmic Obstacles and Rebirth in Pure Land","aliases":["T0368","拔一切業障根本得生淨土神呪"],"path":"04_经典与文献/拔一切业障根本得生净土神咒/README.md","status":"review_required"}
