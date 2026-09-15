@@ -26,6 +26,14 @@ Rubin Museum 的 [Tibetan Buddhist Shrine Room](https://rubinmuseum.org/collecti
 
 该页面还把唐卡、造像、法器、家具分成不同清单，并提供互动导览和 Smarthistory 视频。它能帮助建立“空间—物件—象征—使用语境”四层索引，不能证明某件馆藏仍在宗教场所使用，也不能推导喇荣学院的佛堂布局或仪式流程。
 
+## R286｜Rubin 佛堂展示的空间与传承边界
+
+Rubin 后续展示页记录该佛堂由 100 余件艺术品和法物组成，按传统藏族家庭佛堂的陈设方式安排；馆方说明展陈会轮换主题，2019—2024 年版本聚焦噶举传承，并列出佛、菩萨、密续尊格、护法和上师肖像。页面还描述供灯、供碗、壶、金刚杵、铃、法号、手鼓、海螺号、低桌、坐垫与茶杯等空间元素，以及灯光、诵经录音和香气造成的博物馆沉浸效果。
+
+这些是博物馆的策展与公共教育语境：可用于建立“空间元素—物件类别—象征／感官媒介—传承主题”索引，不等于喇荣学院建筑总平面、日常仪轨或噶举寺院的通用布局。对象清单仍应回到各自馆藏记录，不能把模拟佛堂写成现存宗教场所。
+
+来源：[Rubin Museum｜Tibetan Buddhist Shrine Room](https://rubinmuseum.org/exhibitions/past-exhibitions-tibetan-buddhist-shrine-room-2013-2024/) · [Collection Highlight](https://rubinmuseum.org/collection-highlight-tibetan-buddhist-shrine-room/)。
+
 ## R103 朵玛（torma）供物的公开解释入口
 
 Rubin Museum 的公开文章将 *torma* 说明为藏传佛教仪式中的塑形供物，并提示其形制、色彩、用途和所面对的对象会因仪轨而变。文章给出一个限定性例子：在其所描述的重大礼敬仪式开端，主持者可向当地神祇和护法供白色 *kartor*，以请求支持和许可。这里记录的是馆方文章的解释与例示；它不构成任何寺院的通用流程，更不说明喇荣学院的现行仪式、供物配方或参与条件。
