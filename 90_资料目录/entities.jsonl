@@ -356,3 +356,5 @@
 {"id":"W-R296-001","type":"work","title_zh":"《无量寿经》","title_bo":"Larger Sukhavativyuha Sutra","aliases":["T0360","佛说无量寿经"],"path":"04_经典与文献/无量寿经/README.md","status":"review_required"}
 {"id":"V-R297-001","type":"pdf_version_audit","title_zh":"CBETA T0366《佛说阿弥陀经》PDF 文件核验","title_bo":"File audit for CBETA T0366 Amitabha Sutra","aliases":["R297 T0366"],"path":"91_待办与审校/R297-CBETA-T0366阿弥陀经PDF核验.md","status":"metadata_checked"}
 {"id":"W-R297-001","type":"work","title_zh":"《佛说阿弥陀经》","title_bo":"Amitabha Sutra","aliases":["T0366","佛說阿彌陀經"],"path":"04_经典与文献/阿弥陀经/README.md","status":"review_required"}
+{"id":"V-R298-001","type":"pdf_version_audit","title_zh":"CBETA T0365《佛说观无量寿佛经》PDF 文件核验","title_bo":"File audit for CBETA T0365 Amitayurdhyana Sutra","aliases":["R298 T0365"],"path":"91_待办与审校/R298-CBETA-T0365观无量寿佛经PDF核验.md","status":"metadata_checked"}
+{"id":"W-R298-001","type":"work","title_zh":"《佛说观无量寿佛经》","title_bo":"Amitayurdhyana Sutra","aliases":["T0365","佛說觀無量壽佛經"],"path":"04_经典与文献/观无量寿佛经/README.md","status":"review_required"}
