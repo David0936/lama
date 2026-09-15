@@ -60,6 +60,14 @@ KMaps 特征页仍公开列出 GML、KML 与 Shapefile 三种“feature alone”
 
 来源：[OSM way 410417343 JSON](https://www.openstreetmap.org/api/0.6/way/410417343.json) · [Overpass 标签查询](https://overpass-api.de/api/interpreter?data=%5Bout:json%5D%3Bway(410417343)%3Bout%20tags%3B)
 
+## R277 KMaps Feature 5224 当前页面快照
+
+2026-09-15 复核 KMaps Feature 5224：页面把 Larung Gar 标为 `religious encampment`，列出 Place ID `F5224`、藏文原名 `བླ་རུང་སྒར།`、THL 转写 `Larung Gar`／`bla rung sgar`，坐标为 `32.153269, 100.466955`，并保留 GML、KML、Shapefile 三类 GIS 入口。页面还链接全图、Google Maps 和 Google Earth。
+
+这是一条地理数据库页面快照，适合做名称、点位和资源入口索引。它不提供学院官方边界、建筑编号、道路通行、当前功能或室内平面；三类 GIS 文件在本库既有复核中仍未取得可解析几何。
+
+来源审计：[R277-KMaps Feature 5224 当前页面快照](../../91_待办与审校/R277-KMapsFeature5224当前页面快照.md)。
+
 ## 当前缺口
 
 尚未找到一份由学院发布、带日期且可核对边界的公开总平面图。精确坐标、院寺边界、道路名称、建筑数量与当前功能均待核；历史照片或报道中的布局不自动代表今天。
