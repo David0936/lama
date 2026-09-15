@@ -30,3 +30,9 @@
 来源：[84000｜The Heart of the Perfection of Wisdom](https://read.84000.co/translation/toh21.html) · [84000 Heart Sūtra Festival](https://84000.co/post/heart-sutra-festival) · [84000 Mothers, Compassion, and Wisdom](https://84000.co/post/reflections-on-mothers-day)。
 
 关联：[观音与舍利子的般若问答](../../07_故事与叙事/观音与舍利子的般若问答/README.md) · [八千颂般若经](../八千颂般若经/README.md)。
+
+## R287｜CBETA 两种汉译 PDF 文件核验
+
+CBETA 公开镜像补入两种汉译：T0251《般若波罗蜜多心经》（唐玄奘译）8 页、398,452 bytes、SHA-256 `3b1257f7c8954f11cdaf566fb182c4465418bf5c3a71bd580c895b4e4cfc1b8c`；T0250《摩诃般若波罗蜜大明咒经》（姚秦鸠摩罗什译）7 页、283,562 bytes、SHA-256 `9243f34b739911fcee82a385be8276eaed1f6c3b838748ec38058a173f27c64d`。两件 PDF 首页均可提取文字，文件本体未入库。
+
+这两件文件只支持汉译版本入口与文件指纹；译本差异、与藏文 Toh 21 的段落对应、学院课程或课诵关系仍待逐段核查。审校记录见[R287审校单](../../91_待办与审校/R287-CBETA心经两种汉译PDF核验.md)。
