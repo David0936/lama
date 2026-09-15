@@ -21,3 +21,9 @@
 课程公告列出两种英文参考译本的书目信息，但没有提供本论藏文 PDF 或汉文 PDF。本库暂不把参考译本登记为学院指定版本。官方讲解页有音频入口及英文同传标注，但本批只登记页面级媒体，不填直接文件、时长或完整时间码。
 
 来源：[2019 课程公告](https://www.khenposodargye.org/news/2019/04/live-course-registration-mahayana-uttaratantra-shastra/) · [官方讲解页](https://www.khenposodargye.org/teachings/khenpos-classical-teachings/mahayana-uttaratantra-shastra/)
+
+## R293｜CBETA T1611 汉文 PDF 文件核验
+
+CBETA 公开镜像将 T1611 题为《究竟一乘宝性论》，PDF 元数据作者为后魏勒那摩提译；文件 78 页、963,361 bytes，SHA-256 `042e8a9347953c1e49ee42f407892ce90fa331c948725288ffbfcc8581309e2d`，首页可提取文字。PDF 本体未入库。
+
+该版本支持《宝性论》汉译文件入口；不把 T1611 与藏文论本、课程参考译本或《佛性论》T1610 直接等同。审校记录见[R293审校单](../../91_待办与审校/R293-CBETA-T1611宝性论PDF核验.md)。

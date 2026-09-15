@@ -347,3 +347,4 @@
 {"id":"V-R291-001","type":"pdf_version_audit","title_zh":"CBETA T0293《大方广佛华严经》PDF 文件核验","title_bo":"File audit for CBETA T0293 Buddhavatamsaka Sutra","aliases":["R291 T0293"],"path":"91_待办与审校/R291-CBETA-T0293华严经PDF核验.md","status":"metadata_checked"}
 {"id":"W-R291-001","type":"work","title_zh":"《大方广佛华严经》","title_bo":"Mahāvaipulya Buddhāvataṃsaka Sūtra","aliases":["T0293","华严经大本"],"path":"04_经典与文献/大方广佛华严经/README.md","status":"review_required"}
 {"id":"V-R292-001","type":"pdf_version_audit","title_zh":"CBETA T0287《佛说十地经》PDF 文件核验","title_bo":"File audit for CBETA T0287 Ten Bhumi Sutra","aliases":["R292 T0287"],"path":"91_待办与审校/R292-CBETA-T0287十地经PDF核验.md","status":"metadata_checked"}
+{"id":"V-R293-001","type":"pdf_version_audit","title_zh":"CBETA T1611《究竟一乘宝性论》PDF 文件核验","title_bo":"File audit for CBETA T1611 Uttaratantra Shastra","aliases":["R293 T1611"],"path":"91_待办与审校/R293-CBETA-T1611宝性论PDF核验.md","status":"metadata_checked"}
