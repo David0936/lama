@@ -378,3 +378,5 @@
 {"id":"T-R313-001","type":"topic","title_zh":"藏传、汉传与印度佛教比较矩阵模板","title_bo":"Comparative matrix for Tibetan, Chinese and Indian Buddhism","aliases":["R313"],"path":"19_佛教传统与宗教关系简明导览/02_藏传汉传与南传的关联/比较矩阵模板.md","status":"review_required"}
 {"id":"T-R314-001","type":"topic","title_zh":"历史事件记录卡模板","title_bo":"Historical event record template","aliases":["R314"],"path":"11_历史与地域/01_多线年表与分期方法/历史事件记录卡模板.md","status":"review_required"}
 {"id":"T-R315-001","type":"topic","title_zh":"学院日常运转记录卡模板","title_bo":"Daily operations record template","aliases":["R315"],"path":"15_组织治理与日常运转/日常运转记录卡模板.md","status":"review_required"}
+{"id":"V-R317-001","type":"pdf_version_audit","title_zh":"CBETA T0373《后出阿弥陀佛偈》PDF 文件核验","title_bo":"File audit for CBETA T0373 Later Amitabha Gatha","aliases":["R317 T0373"],"path":"91_待办与审校/R317-CBETA-T0373后出阿弥陀佛偈PDF核验.md","status":"metadata_checked"}
+{"id":"W-R317-001","type":"work","title_zh":"《后出阿弥陀佛偈》","title_bo":"Later Amitabha Gatha","aliases":["T0373","後出阿彌陀佛偈"],"path":"04_经典与文献/后出阿弥陀佛偈/README.md","status":"review_required"}
