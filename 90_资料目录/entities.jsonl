@@ -358,3 +358,5 @@
 {"id":"W-R297-001","type":"work","title_zh":"《佛说阿弥陀经》","title_bo":"Amitabha Sutra","aliases":["T0366","佛說阿彌陀經"],"path":"04_经典与文献/阿弥陀经/README.md","status":"review_required"}
 {"id":"V-R298-001","type":"pdf_version_audit","title_zh":"CBETA T0365《佛说观无量寿佛经》PDF 文件核验","title_bo":"File audit for CBETA T0365 Amitayurdhyana Sutra","aliases":["R298 T0365"],"path":"91_待办与审校/R298-CBETA-T0365观无量寿佛经PDF核验.md","status":"metadata_checked"}
 {"id":"W-R298-001","type":"work","title_zh":"《佛说观无量寿佛经》","title_bo":"Amitayurdhyana Sutra","aliases":["T0365","佛說觀無量壽佛經"],"path":"04_经典与文献/观无量寿佛经/README.md","status":"review_required"}
+{"id":"V-R299-001","type":"pdf_version_audit","title_zh":"CBETA T0370《阿弥陀鼓音声王陀罗尼经》PDF 文件核验","title_bo":"File audit for CBETA T0370 Amitabha Drum Sound King Dharani Sutra","aliases":["R299 T0370"],"path":"91_待办与审校/R299-CBETA-T0370阿弥陀鼓音声王陀罗尼经PDF核验.md","status":"metadata_checked"}
+{"id":"W-R299-001","type":"work","title_zh":"《阿弥陀鼓音声王陀罗尼经》","title_bo":"Amitabha Drum Sound King Dharani Sutra","aliases":["T0370","阿彌陀鼓音聲王陀羅尼經"],"path":"04_经典与文献/阿弥陀鼓音声王陀罗尼经/README.md","status":"review_required"}
