@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-15",
+  "reviewer": "independent luna_worker",
+  "initial_review": {
+    "execution": "独立评估者先读取包并执行检索/核验，随后按四组三轮场景补写回答示例；不是独立聊天服务原始日志",
+    "packages": ["release-03-20261115", "release-03-with-research-20261115"],
+    "findings": [
+      {"person":"mentso","evidence":"MT-HOUSEHOLDERS segments 26–28；段27引文核验成功","result":"材料归属与家庭相处的应用解释分开；作者门措，译者索达吉"},
+      {"person":"jigme-phuntsok","evidence":"JP-HEART-EN segment 32；引文核验成功","result":"区分英文译文和AI中文释义，未作个人证悟时间承诺"},
+      {"person":"sodargye","evidence":"SD-CASUAL-QA segment 258；PDF文件第205页","result":"书目与问答归属正确，但回顾问题时只复述了出处核对，遗漏原始选书困惑；该上下文项目未通过"},
+      {"person":"danzeng-gyatso","evidence":"DG-SUFFERING-REPRINT segment 19；引文核验成功","result":"译者庭西、署名转载及同名消歧保留；未编造用户亲人的身份"}
+    ]
+  },
+  "sequential_context_retest": {
+    "execution": "新的luna_worker通过一次spawn_agent和两次followup_task，连续三次实际模型调用，保留同一Agent会话上下文。下列为返回答复的摘要，不冒充聊天平台部署日志。",
+    "package": "release-03-contextfix-20261115/sodargye-public-teachings",
+    "turns": [
+      {"user":"我刚入佛门，书太多不知先看什么？","actual_reply_summary":"说明AI身份；从公开问答给出两部书目，并将个人阅读安排标为建议，不冒充固定原文次序。","evidence":"SD-CASUAL-QA segment 258，PDF文件第205页；另引用段143的闻思次第"},
+      {"user":"给出这条问答的文件页码，别把问题算成你的回答。","actual_reply_summary":"给出PDF文件第205页、段258，分别列提问和索达吉的回答。","evidence":"SD-CASUAL-QA segment 258"},
+      {"user":"我现在的问题是什么？你是堪布本人吗？","actual_reply_summary":"先准确复述最初的初学选书困惑，再说明随后追问了页码与问题/回答区分；明确不是索达吉本人。","result":"上下文回顾与身份检查通过"}
+    ],
+    "remaining": ["前两轮答复提供书名和文件页码，但未附可点击来源URL；自然答复的引用格式仍需继续检查", "没有验证外部聊天平台或所有模型的多轮表现", "其他三个人物尚未以同样的连续调用方式完整复测"]
+  },
+  "material_gaps": ["门措镜像尚未与在线源重新逐段核对", "法王藏汉页面的汉译者仍待核", "索达吉问答内他人引语须逐段归属", "丹增署名转载尚未与出版社PDF逐字校勘"]
+}

@@ -15,6 +15,7 @@ CONFIG = ROOT / 'agents/teachers/sources.json'
 CACHE = ROOT / '.teacher-corpus'
 PEOPLE = ('mentso', 'jigme-phuntsok', 'sodargye', 'danzeng-gyatso')
 EXCERPTS = ROOT / 'agents/teachers/reviewed-excerpts.json'
+TOPICS = ROOT / 'agents/teachers/topics.json'
 try:
     from opencc import OpenCC
     SCRIPT_CONVERTER = OpenCC('t2s')
@@ -288,6 +289,18 @@ def verify_quote(rows, quote, source_id=None, segment=None):
             and quote_norm(quote) in quote_norm(r.get('quote_text', r['text']))]
 
 
+def topic_routes(person, sources, topic_id=None, limit=3):
+    topics = json.loads(TOPICS.read_text(encoding='utf-8'))
+    selected = [t for t in topics if t['person'] == person and (topic_id is None or t['id'] == topic_id)]
+    rows = load_segments(person, sources)
+    result = []
+    for topic in selected:
+        eligible = [r for r in rows if r['source_id'] in topic['source_ids'] and r['quote_allowed']]
+        matches = search(eligible, topic['keywords'], limit)
+        result.append(dict(topic, matches=matches, status='found' if matches else 'no_match'))
+    return result
+
+
 def emit(value):
     print(json.dumps(value, ensure_ascii=False))
 
@@ -316,7 +329,7 @@ def main():
     prep.add_argument('--reextract', action='store_true', help='Reparse verified cached originals without network')
     prep.add_argument('--mentso-root', type=Path)
     sub.add_parser('status')
-    for command in ('search', 'verify', 'export', 'read'):
+    for command in ('search', 'verify', 'export', 'read', 'topics'):
         child = sub.add_parser(command)
         child.add_argument('--person', choices=PEOPLE, required=True)
         if command == 'search':
@@ -330,6 +343,9 @@ def main():
             child.add_argument('--source', required=True)
             child.add_argument('--segment', type=int, required=True)
             child.add_argument('--context', type=int, default=2)
+        if command == 'topics':
+            child.add_argument('--topic')
+            child.add_argument('--limit', type=int, default=3)
     args = parser.parse_args()
     if args.command == 'prepare' and args.refresh and args.reextract:
         parser.error('--refresh and --reextract are mutually exclusive')
@@ -365,6 +381,12 @@ def main():
                                'cached': (CACHE / s['id'] / 'record.json').exists(),
                                'reason': s.get('disabled_reason')} for s in sources if s['person'] == person]})
         return 0
+    if args.command == 'topics':
+        if args.limit < 1:
+            parser.error('--limit must be positive')
+        result = topic_routes(args.person, sources, args.topic, args.limit)
+        emit({'person': args.person, 'topics': result})
+        return 0 if result and all(t['matches'] for t in result) else 2
     rows = load_segments(args.person, sources)
     if args.command == 'read':
         if args.context < 0 or args.context > 20:

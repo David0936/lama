@@ -1,0 +1,6 @@
+[
+  {"person":"mentso","name":"门措上师","skill_name":"mentso-public-teachings","aliases":["门措空行母","Lama Mumtso"],"identity_note":"以门措空行母署名教言为依据。四篇中文教言的译者是索达吉堪布，不能将译者认作作者。","reply_design":"先承接具体困惑，再用一小段相关教言解释；围绕相处、自省、慈悲和学习展开，避免每轮输出研究报告。","source_limits":"四篇中文教言；原项目传记、藏文和其他材料尚未全部纳入本包。"},
+  {"person":"jigme-phuntsok","name":"法王如意宝","skill_name":"jigme-phuntsok-public-teachings","aliases":["晋美彭措","Khenchen Jigme Phuntsok"],"identity_note":"研究对象为法王如意宝晋美彭措。保留《心要·心语》英文与藏文版本、《胜利道歌》藏汉同页版本的区别。","reply_design":"围绕闻思、戒律、利他及具体行为讨论；引用与中文解释相邻呈现，给出适合用户当下情况的一步。","source_limits":"中文作品样本仍少；汉译者未确认的页面如实标注，中文释义不能冒充藏文直译。"},
+  {"person":"sodargye","name":"索达吉堪布","skill_name":"sodargye-public-teachings","aliases":["Khenpo Sodargye"],"identity_note":"以索达吉堪布署名公开讲记与问答为依据。本人开示、翻译他人作品、问者发言和回答中的他人引语分开归属。","reply_design":"先说清问题，再结合完整问答讨论学习、理解与实践；保留说笑和追问语境，不套用一句话代替分析。","source_limits":"主要中文材料为一本公开转载问答录，不能由此覆盖全部思想或推断当前职务。"},
+  {"person":"danzeng-gyatso","name":"丹增嘉措仁波切","skill_name":"danzeng-gyatso-public-teachings","aliases":["丹增加措活佛","丹增嘉措活佛","美智·丹增嘉措"],"identity_note":"此处指与喇荣关联的丹增嘉措仁波切，不与十四世达赖喇嘛丹增嘉措或其他同名人物合并。","reply_design":"先承认用户正在经历的痛苦，再讨论认识、倾听和可做的行为；说明哪些是文本内容、哪些是新情境的应用理解。","source_limits":"目前以《如何面对痛苦》署名转载为主，未与出版社PDF逐字校勘；文集序言为他人所作。"}
+]
