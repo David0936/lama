@@ -1,0 +1,18 @@
+[
+  {
+    "id": "MT-HOUSEHOLDERS-CONTENTMENT",
+    "relevant_people": ["mentso", "sodargye"],
+    "scope": "cross_person_attribution_only",
+    "quote": "量入为出当知足，自心常乐乃首富。",
+    "title": "致善男信女语",
+    "author": "门措空行母",
+    "translator": "索达吉堪布",
+    "source_id": "MT-HOUSEHOLDERS",
+    "segment": 13,
+    "url": "https://zhibei.world/read/publication-c7fd740bc07e/chapter/reading-unit-bdef1b9465d7",
+    "text_sha256": "d565338968238cfd938b665e804083e9414a2e326d1efd8093dce95bb49851d9",
+    "checked_at": "2026-11-15",
+    "acquisition": "local_mirror_unverified_against_live_source",
+    "note": "按公开网页副本署名与正文核对。此卡仅辨认作者和译者，不将门措作品加入索达吉本人语料，也不证明句中思想在历史上首次出现。段号属于当前提取版本。"
+  }
+]

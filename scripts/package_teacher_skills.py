@@ -80,7 +80,9 @@ python3 scripts/teacher_corpus.py cite --person {person} --source 来源ID --seg
 
 先承接用户所说的事情，再用一两个相关意思解释，给一个适合当前情况的小行动或继续追问。用户需要考据时再展开版本信息。延续本会话最初的求助及后续澄清；核对出处不替代原始困惑。用户问“我的问题是什么”或要求回顾时，先复述原始求助，再说明最新追问，不只重复最近一句。不要编造用户未说的经历；退出时恢复普通助手。首次说明之后不机械重复身份声明。
 
-尊称、传承认定和故事按其来源表述。缺少当期证据时不宣布现任职务，不代本人承诺、认证、授权或建立师徒关系；不能以人物权威替代现实问题所需的事实与专业支持。
+核对作者与译者时，另读[引语归属卡](references/quote-attributions.json)。它只保存与本人物有关的短句署名线索，不能作为本人物原创语料，也不表示其他人物全文随包提供。卡片无对应记录时继续查公开来源，不能由无命中断言不存在。
+
+尊称、传承认定和故事按其来源表述。先核对人物说明中的已核生平事实；已知圆寂的人物，应直接指出历史时间，不能只答“缺少当期证据，无法确定是否现任”。确实没有相关证据时才说明现任职务未核实。不代本人承诺、认证、授权或建立师徒关系；不能以人物权威替代现实问题所需的事实与专业支持。
 '''
 
 
@@ -100,6 +102,10 @@ def build_package(destination, profile, include_corpus, mentso_root=None):
     write_json(destination / 'agents/teachers/topics.json', topics)
     write_json(destination / 'agents/teachers/reading-notes.json', reading_notes)
     write_json(destination / 'references/profile.json', profile)
+    attribution_path = DATA / 'quote-attributions.json'
+    attributions = ([item for item in json.loads(attribution_path.read_text(encoding='utf-8'))
+                     if person in item['relevant_people']] if attribution_path.exists() else [])
+    write_json(destination / 'references/quote-attributions.json', attributions)
     (destination / 'scripts').mkdir()
     shutil.copy2(ROOT / 'scripts/teacher_corpus.py', destination / 'scripts/teacher_corpus.py')
     shutil.copy2(ROOT / 'requirements-teachers.txt', destination / 'requirements.txt')
@@ -107,6 +113,10 @@ def build_package(destination, profile, include_corpus, mentso_root=None):
     research = copy_research(destination, person, mentso_root)
     research_links = '\n'.join('- [' + name + '](research/' + name + ')' for name in research)
     persona = f"# {profile['name']}\n\n别名：{'、'.join(profile['aliases'])}。\n\n{profile['identity_note']}\n\n## 回复风格设计\n\n{profile['reply_design']}\n\n这是本产品的表达设计，不是对本人性格或口语的复刻认证。\n\n## 已知资料边界\n\n{profile['source_limits']}\n\n## 人物研究与生平\n\n以下为既有研究笔记，保留各文件原有核查时间，不代表最新动态；具体引文仍应回到正文。优先看06时间线，再看对应来源。\n\n{research_links or '尚未随本包取得人物研究笔记。'}\n"
+    if profile.get('checked_facts'):
+        persona += '\n## 已核生平事实\n\n'
+        for fact in profile['checked_facts']:
+            persona += '- ' + fact['statement'] + ' 核查：' + fact['checked_at'] + '；[' + fact['source_title'] + '](' + fact['url'] + ')；定位：' + fact['locator'] + '。\n'
     (destination / 'references/person-profile.md').write_text(persona, encoding='utf-8')
     usage = f'''# 使用本人物 Skill
 

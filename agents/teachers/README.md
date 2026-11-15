@@ -87,4 +87,6 @@ python3 scripts/package_teacher_skills.py --person mentso --include-corpus --men
 
 ## 验收边界
 
+第六批增加两项人物证据入口：`profiles.json` 的 `checked_facts` 保存带来源与定位的已核生平事实；`quote-attributions.json` 保存跨人物作者／译者辨认卡。后者按相关人物筛入独立包的 `references/quote-attributions.json`，不合并其他人物正文，也不参与本人物 `verify`。当前仅覆盖《致善男信女语》知足短句，不能泛化为所有网传语录已核。已知圆寂事实应先用于纠正现任问题的时间前提，不能机械回答“未核实现任”。
+
 自动检查覆盖：人物隔离、作者角色、逐字引文、页码定位、缺失缓存、失败来源、Unicode 及导出内容。人工对话验收用 `evaluation.json`；必须实测并记录回答后，才能称为行为评测通过。框架生成或脚本测试通过不等于完整人物复刻，也不能由资料数量推出完成百分比。
