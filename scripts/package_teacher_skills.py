@@ -136,6 +136,11 @@ def build_package(destination, profile, include_corpus, mentso_root=None):
     write_json(destination / 'agents/teachers/topics.json', topics)
     write_json(destination / 'agents/teachers/reading-notes.json', reading_notes)
     write_json(destination / 'references/profile.json', profile)
+    facts_path = DATA / 'person-facts.json'
+    facts = list(profile.get('checked_facts', []))
+    if facts_path.exists():
+        facts.extend(f for f in json.loads(facts_path.read_text(encoding='utf-8')) if f['person'] == person)
+    write_json(destination / 'references/person-facts.json', facts)
     attribution_path = DATA / 'quote-attributions.json'
     attributions = ([item for item in json.loads(attribution_path.read_text(encoding='utf-8'))
                      if person in item['relevant_people']] if attribution_path.exists() else [])
@@ -148,10 +153,10 @@ def build_package(destination, profile, include_corpus, mentso_root=None):
     research = copy_research(destination, person, mentso_root)
     research_links = '\n'.join('- [' + name + '](research/' + name + ')' for name in research)
     persona = f"# {profile['name']}\n\n别名：{'、'.join(profile['aliases'])}。\n\n{profile['identity_note']}\n\n## 回复风格设计\n\n{profile['reply_design']}\n\n这是本产品的表达设计，不是对本人性格或口语的复刻认证。\n\n## 已知资料边界\n\n{profile['source_limits']}\n\n## 人物研究与生平\n\n以下为既有研究笔记，保留各文件原有核查时间，不代表最新动态；具体引文仍应回到正文。优先看06时间线，再看对应来源。\n\n{research_links or '尚未随本包取得人物研究笔记。'}\n"
-    if profile.get('checked_facts'):
+    if facts:
         persona += '\n## 已核生平事实\n\n'
-        for fact in profile['checked_facts']:
-            persona += '- ' + fact['statement'] + ' 核查：' + fact['checked_at'] + '；[' + fact['source_title'] + '](' + fact['url'] + ')；定位：' + fact['locator'] + '。\n'
+        for fact in facts:
+            persona += '- ' + fact['statement'] + ' 核查：' + fact['checked_at'] + '；[' + fact['source_title'] + '](' + fact['url'] + ')；定位：' + fact['locator'] + '；证据性质：' + fact['nature'] + '。' + fact.get('limits', '') + '\n'
     (destination / 'references/person-profile.md').write_text(persona, encoding='utf-8')
     usage = f'''# 使用本人物 Skill
 

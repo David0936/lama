@@ -1,0 +1,92 @@
+[
+  {
+    "id":"MT-NAMES", "person":"mentso",
+    "statement":"Lotsawa House将Jetsünma Mumé Yeshe Tsomo与Lama Mumtso、Khandroma Ani Mumtso列为同一人物的姓名异写；本项目中文入口为门措上师／门措空行母。",
+    "nature":"publisher_identity_metadata",
+    "source_title":"Lotsawa House：Jetsünma Mumé Yeshe Tsomo Series",
+    "url":"https://www.lotsawahouse.org/tibetan-masters/mume-yeshe-tsomo/",
+    "locator":"人物标题、导语及Name variants栏",
+    "checked_at":"2026-11-15",
+    "limits":"英文异写据出版机构目录；本卡不将其他名为Tsomo的上师并入。"
+  },
+  {
+    "id":"MT-BIRTH-RELATION", "person":"mentso",
+    "statement":"该目录记门措出生年为1966，并以英文niece描述其与晋美彭措的亲属关系。",
+    "nature":"publisher_biographical_metadata",
+    "source_title":"Lotsawa House：Jetsünma Mumé Yeshe Tsomo Series",
+    "url":"https://www.lotsawahouse.org/tibetan-masters/mume-yeshe-tsomo/",
+    "locator":"导语Mumé Yeshe Tsomo括注b.1966及niece of Khenchen Jigme Puntsok",
+    "checked_at":"2026-11-15",
+    "limits":"不是出生登记；未核具体出生日期。niece不足以判定中文亲属称谓究竟为侄女还是外甥女，不补写父母身份。"
+  },
+  {
+    "id":"MT-WORK-DATE", "person":"mentso",
+    "statement":"该目录将《善显解脱道》对应作品列为2000年所作，英文页面发布标记为2024年3月28日。创作年与译介发布年不同。",
+    "nature":"publisher_work_metadata",
+    "source_title":"Lotsawa House：Jetsünma Mumé Yeshe Tsomo Series",
+    "url":"https://www.lotsawahouse.org/tibetan-masters/mume-yeshe-tsomo/",
+    "locator":"Guidance That Thoroughly Lights the Way to Liberation条目介绍及发布日期",
+    "checked_at":"2026-11-15",
+    "limits":"不从页面发布日期推断本人当年的活动或现任职务。具体藏历日期仍保留既有版本差异。"
+  },
+  {
+    "id":"SD-BIRTH", "person":"sodargye",
+    "statement":"索达吉官方网站传记称，他于1962年出生于康区一个信奉宁玛传统的牧民家庭。",
+    "nature":"official_person_biography",
+    "source_title":"Khenpo Sodargye：Biography",
+    "url":"https://khenposodargye.org/about/biography/",
+    "locator":"Youthhood and the Desire to be a Buddhist Monk节首段",
+    "checked_at":"2026-11-15",
+    "limits":"人物方传记，不是独立出生登记；本卡不补具体月日或村名。"
+  },
+  {
+    "id":"SD-LARUNG-TEACHER", "person":"sodargye",
+    "statement":"同传记称1985年堪布德巴送他到喇荣五明佛学院深造，接受晋美彭措指导；在此之前曾从堪布德巴出家并在道明寺学习一年。",
+    "nature":"official_person_biography",
+    "source_title":"Khenpo Sodargye：Biography",
+    "url":"https://khenposodargye.org/about/biography/",
+    "locator":"Youthhood and the Desire to be a Buddhist Monk节末两段，含In 1985",
+    "checked_at":"2026-11-15",
+    "limits":"按传记叙述保留先后，不由此推算精确受戒日期、当前学位制度或现任行政职位。"
+  },
+  {
+    "id":"SD-TRANSLATING-1987", "person":"sodargye",
+    "statement":"同传记称1987年五台山之行期间，他应晋美彭措请求参与翻译，并为汉族听众口译《佛子行三十七颂》的讲授。",
+    "nature":"official_person_biography",
+    "source_title":"Khenpo Sodargye：Biography",
+    "url":"https://khenposodargye.org/about/biography/",
+    "locator":"As a Teacher, a Translator and the Dzogchen Lineage Holder节首两段",
+    "checked_at":"2026-11-15",
+    "limits":"此事说明翻译与教学经历；不能把论典根本文字归为索达吉原创，也不表示本包取得当年录音。"
+  },
+  {
+    "id":"DG-AUTHOR-TRANSLATOR", "person":"danzeng-gyatso",
+    "statement":"佛教导航2013年4月14日的《如何面对痛苦》转载署名丹增嘉措活佛著、庭西译。",
+    "nature":"attributed_reprint_metadata",
+    "source_title":"佛教导航：丹增嘉措活佛：如何面对痛苦",
+    "url":"https://www.fjdh.cn/wumin/2013/04/110855225875.html",
+    "locator":"页面发布时间及正文目录前作者、译者署名",
+    "checked_at":"2026-11-15",
+    "limits":"转载发布日期不是作品创作日；未与文集原PDF逐字校勘。"
+  },
+  {
+    "id":"DG-ORIGIN-NARRATIVE", "person":"danzeng-gyatso",
+    "statement":"该署名作品的第一人称叙述称出生于瓦希麦瓦（文中括注现阿坝州红原县）的色地，家庭属于当地牧民部落，幼年由祖母养育。",
+    "nature":"author_self_narrative_in_reprint",
+    "source_title":"佛教导航：丹增嘉措活佛：如何面对痛苦",
+    "url":"https://www.fjdh.cn/wumin/2013/04/110855225875.html",
+    "locator":"正文祖母回忆部分，以我出生的地方开头的一段；本地当前提取第20段",
+    "checked_at":"2026-11-15",
+    "limits":"作品中自述，不是独立地方档案；地名保留该版本字形，不擅自统一异写。此段没有出生年份，不能用它证实1968年。"
+  },
+  {
+    "id":"DG-GRANDMOTHER-NARRATIVE", "person":"danzeng-gyatso",
+    "statement":"该作品把祖母去世列为作者感受最深的苦难经历之一，并以此引入愿意倾听他人苦难的叙述。",
+    "nature":"author_self_narrative_in_reprint",
+    "source_title":"佛教导航：丹增嘉措活佛：如何面对痛苦",
+    "url":"https://www.fjdh.cn/wumin/2013/04/110855225875.html",
+    "locator":"正文我非常愿意倾听别人述说他们的苦难经历一段；本地当前提取第19段",
+    "checked_at":"2026-11-15",
+    "limits":"这是被研究人物的文本经历，不是AI经历；不能虚构祖母去世时间，也不能据此猜测用户经历。"
+  }
+]

@@ -28,6 +28,11 @@ class PackageTests(unittest.TestCase):
         packages.DATA = data
         profiles = json.loads((ROOT / 'agents/teachers/profiles.json').read_text())
         packages.write_json(data / 'profiles.json', profiles)
+        packages.write_json(data / 'person-facts.json', [
+            {'id': 'fixture-bio', 'person': 'sodargye', 'statement': '测试传记记录',
+             'checked_at': '2026-11-15', 'source_title': 'Fixture biography',
+             'url': 'https://example.org/bio', 'locator': 'Biography',
+             'nature': 'fixture_metadata', 'limits': '仅为测试，不是原话。'}])
         packages.write_json(data / 'quote-attributions.json', [
             {'id': 'fixture-attribution', 'relevant_people': ['mentso', 'sodargye'],
              'scope': 'cross_person_attribution_only', 'author': 'mentso',
@@ -125,6 +130,20 @@ class PackageTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'text or context mismatch'):
             packages.build_release(self.base / 'bad-card', ['sodargye'], include_corpus=True)
         self.assertFalse((self.base / 'bad-card').exists())
+
+    def test_biographical_facts_are_person_scoped_and_keep_evidence_limits(self):
+        result = packages.build_release(self.base / 'bios', ['sodargye', 'mentso', 'jigme-phuntsok'])
+        folders = {r['person']: self.base / 'bios' / r['folder'] for r in result}
+        facts = json.loads((folders['sodargye'] / 'references/person-facts.json').read_text())
+        self.assertEqual([f['id'] for f in facts], ['fixture-bio'])
+        rendered = (folders['sodargye'] / 'references/person-profile.md').read_text()
+        self.assertIn('https://example.org/bio', rendered)
+        self.assertIn('fixture_metadata', rendered)
+        self.assertIn('仅为测试，不是原话。', rendered)
+        self.assertEqual(json.loads((folders['mentso'] / 'references/person-facts.json').read_text()), [])
+        legacy = json.loads((folders['jigme-phuntsok'] / 'references/person-facts.json').read_text())
+        self.assertEqual(len(legacy), 1)
+        self.assertIn('2004', legacy[0]['statement'])
 
     def test_topics_stay_with_their_person_and_source(self):
         routes = corpus.topic_routes('mentso', json.loads(corpus.CONFIG.read_text()))

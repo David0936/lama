@@ -87,6 +87,8 @@ python3 scripts/package_teacher_skills.py --person mentso --include-corpus --men
 
 ## 验收边界
 
+第八批新增 `person-facts.json`，为门措、索达吉和丹增保存9条人物身份、作品时间与生平资料；连同法王既有生卒事实，分别进入四包的 `references/person-facts.json` 和人物说明。每条保留来源、定位、核查日期、证据性质与边界。它们是人物资料入口，不进入本人原话检索，人物方传记与转载自述也不冒充独立档案。新的核查不会改写旧研究笔记的日期。
+
 第六批增加两项人物证据入口：`profiles.json` 的 `checked_facts` 保存带来源与定位的已核生平事实；`quote-attributions.json` 保存跨人物作者／译者辨认卡。后者按相关人物筛入独立包的 `references/quote-attributions.json`，不合并其他人物正文，也不参与本人物 `verify`。当前仅覆盖《致善男信女语》知足短句，不能泛化为所有网传语录已核。已知圆寂事实应先用于纠正现任问题的时间前提，不能机械回答“未核实现任”。
 
 第七批新增 `quote-cards.json`，四位各3条主题短引文。独立包的 `references/quote-cards.json` 补充原作者、译者、出处及构建时的正文版本哈希；`context_note`、`application_boundary` 是编者说明，不能当作上师语录。含正文包构建时逐条核验原句及上下文段号，文字不匹配就终止，不生成似乎已验收的成品。元数据包明确标记本次未重新核验。使用时仍需回读上下文，不以卡片替代整部作品。
