@@ -48,6 +48,11 @@ class PackageTests(unittest.TestCase):
         packages.write_json(corpus.CONFIG, sources)
         packages.write_json(corpus.EXCERPTS, [])
         packages.write_json(corpus.TOPICS, topics)
+        packages.write_json(data / 'quote-cards.json', [
+            {'id': 'fixture-card', 'person': 'sodargye', 'topic': '学习',
+             'source_id': 'sodargye-source', 'segment': 1, 'quote': '测试正文',
+             'context_segments': [1], 'context_note': '测试上下文',
+             'application_boundary': '测试编者说明'}])
 
     def tearDown(self):
         corpus.CACHE, corpus.CONFIG, corpus.EXCERPTS, corpus.TOPICS, packages.DATA = self.saved
@@ -106,6 +111,20 @@ class PackageTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             packages.build_release(out, ['danzeng-gyatso'], include_corpus=True)
         self.assertFalse(out.exists())
+
+    def test_quote_cards_verify_text_and_keep_editor_notes_separate(self):
+        sources = json.loads(corpus.CONFIG.read_text())
+        cards = packages.quote_cards('sodargye', sources, verify_text=True)
+        self.assertEqual(cards[0]['author'], 'sodargye')
+        self.assertIn('citation_markdown', cards[0])
+        self.assertEqual(packages.quote_cards('mentso', sources, True), [])
+        self.assertEqual(packages.quote_cards('sodargye', sources)[0]['verification'],
+                         'not_rechecked_in_metadata_build')
+        cards[0]['quote'] = '伪造测试句'
+        packages.write_json(packages.DATA / 'quote-cards.json', cards)
+        with self.assertRaisesRegex(ValueError, 'text or context mismatch'):
+            packages.build_release(self.base / 'bad-card', ['sodargye'], include_corpus=True)
+        self.assertFalse((self.base / 'bad-card').exists())
 
     def test_topics_stay_with_their_person_and_source(self):
         routes = corpus.topic_routes('mentso', json.loads(corpus.CONFIG.read_text()))

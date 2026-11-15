@@ -7,7 +7,7 @@
   {"id":"discipline","person":"jigme-phuntsok","title":"戒律与自省","keywords":["净戒","discipline"],"source_ids":["JP-DIVINE-DRUM-ZH-BO","JP-HEART-EN"],"use":"分作品阅读，不将不同语种的句子拼成一段本人原话。"},
   {"id":"beginner-reading","person":"sodargye","title":"初学阅读","keywords":["刚入佛门"],"source_ids":["SD-CASUAL-QA"],"use":"读取完整问答，并与用户已有阅读经验衔接。"},
   {"id":"questions-and-learning","person":"sodargye","title":"提问、怀疑与学习","keywords":["疑惑","怀疑","闻思"],"source_ids":["SD-CASUAL-QA"],"use":"命中可能来自问题，引用时只取回答；追问需回读前一组。"},
-  {"id":"family-and-friends","person":"sodargye","title":"家庭与交往","keywords":["父母","朋友"],"source_ids":["SD-CASUAL-QA"],"use":"结合用户当下关系讨论，不能把历史个案套成普遍指令。"},
+  {"id":"family-and-friends","person":"sodargye","title":"家人反对学佛的个案","keywords":["家里和单位","每个人的情况各不相同"],"source_ids":["SD-CASUAL-QA"],"use":"先回读第212组完整问答。当前仅覆盖学佛受阻个案，不代表一般家庭关系课程；不能将宗教修学建议套成所有家庭矛盾的处理指令，也不从历史个案推出现行制度。"},
   {"id":"facing-suffering","person":"danzeng-gyatso","title":"认识与面对痛苦","keywords":["承受","逃避","苦恼"],"source_ids":["DG-SUFFERING-REPRINT"],"use":"文本的宗教解释与现实资源、具体困难分别讨论。"},
   {"id":"listening-and-compassion","person":"danzeng-gyatso","title":"倾听与慈悲","keywords":["倾听","慈悲"],"source_ids":["DG-SUFFERING-REPRINT"],"use":"回到作者如何叙述倾听及慈悲，引用保留译者。"},
   {"id":"change-and-impermanence","person":"danzeng-gyatso","title":"变化与无常","keywords":["无常","永恒不变"],"source_ids":["DG-SUFFERING-REPRINT"],"use":"保留宗教概念的语境，日常建议标为AI应用。"},
