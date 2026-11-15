@@ -10,6 +10,31 @@ SPEC.loader.exec_module(corpus)
 
 
 class CorpusTests(unittest.TestCase):
+    def test_excluded_text_is_distinguished_from_absence(self):
+        rows=[dict(source_id='book',segment=1,text='他人颂偈',quote_allowed=False,
+                   text_role='nested_attribution_not_author_quote'),
+              dict(source_id='qa',segment=2,text='问：提问文字\n答：本人回答',quote_text='本人回答',quote_allowed=True)]
+        self.assertEqual(corpus.excluded_quote_matches(rows,'他人颂偈',[])[0]['reason'],'not_author_quote')
+        self.assertEqual(corpus.excluded_quote_matches(rows,'提问文字',[])[0]['reason'],'outside_author_span')
+        self.assertEqual(corpus.excluded_quote_matches(rows,'不存在的引文',[]),[])
+
+    def test_explicit_speakers_exclude_headlines_and_other_guests(self):
+        units=[(None,'>>>>索达吉堪布：编辑标题'),(None,'易立竞：请问？'),
+               (None,'赵薇：嘉宾自己的发言。'),(None,'索达吉堪布：明确标注的发言。'),
+               (None,'编辑补充介绍，无讲者标记。')]
+        rows=corpus.speaker_segments(units,'索达吉堪布',['易立竞','赵薇','索达吉堪布'])
+        self.assertEqual([r['quote_allowed'] for r in rows],[False,False,False,True,False])
+        self.assertFalse(corpus.verify_quote(rows,'嘉宾自己的发言。'))
+        self.assertTrue(corpus.verify_quote(rows,'明确标注的发言。'))
+        self.assertEqual(rows[3]['previous_segment'],3)
+
+    def test_disjoint_quote_ranges_skip_table_of_contents(self):
+        rows=[{'text':x} for x in ['题名','导言开始','导言正文','目录开始','章节甲','总结开始','总结正文','页脚']]
+        source={'id':'sample','quote_ranges':[{'start':'^导言开始','end':'^目录开始'}, {'start':'^总结开始','end':'^页脚'}]}
+        self.assertEqual(corpus.quote_flags(source,rows),[False,True,True,False,False,True,True,False])
+        with self.assertRaises(ValueError):
+            corpus.quote_flags({'id':'bad','quote_ranges':[{'start':'^不存在'}]},rows)
+
     def test_reading_notes_are_not_author_quotes_or_other_people(self):
         notes=corpus.related_notes('mentso',[],['人规法'])
         self.assertEqual(len(notes),1)
@@ -88,7 +113,7 @@ class CorpusTests(unittest.TestCase):
             mirror.mkdir()
             (mirror / 'text.txt').write_text('量入为出当知足，自心常乐乃首富。\n' * 15)
             base = dict(title='Test', author='门措', translator='索达吉', role='authored_teaching', language='zh', url='https://example.org', format='flight', local_mirror='text.txt')
-            mt = dict(base, id='MT', person='mentso')
+            mt = dict(base, id='MT', person='mentso', nested_attributions={'1':['被引人物']})
             other = dict(base, id='DG', person='danzeng-gyatso')
             try:
                 corpus.prepare(mt, mentso_root=mirror)
@@ -97,6 +122,11 @@ class CorpusTests(unittest.TestCase):
                 self.assertTrue(rows)
                 self.assertTrue(all(row['source_id'] == 'MT' for row in rows))
                 self.assertEqual(rows[0]['translator'], '索达吉')
+                self.assertEqual(rows[0]['nested_attributions'], ['被引人物'])
+                self.assertEqual(rows[0]['author'], '门措')
+                self.assertIn('他人经历或引语', rows[0]['quotation_warning'])
+                self.assertFalse(rows[0]['quote_allowed'])
+                self.assertEqual(rows[0]['text_role'],'nested_attribution_not_author_quote')
                 self.assertTrue(corpus.search(rows, ['量入为出']))
                 self.assertFalse(corpus.search(rows, ['每天和AI聊天就能开悟']))
                 self.assertEqual(corpus.load_segments('sodargye', [mt, other]), [])

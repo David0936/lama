@@ -16,5 +16,56 @@
       "reviewed_at":"2026-11-15",
       "limitation":"核读公开转载文字，未与现场音频或藏文底本校勘；网页中的讲解不作为门措本人原话。"
     }]
+  },
+  {
+    "id":"DG-DREAM-CONTEXT",
+    "person":"danzeng-gyatso",
+    "triggers":["梦","前世","科学","疗效"],
+    "source_id":"DG-DREAM-OVERVIEW",
+    "segments":[4,5,6,7,8,24,25,26,27],
+    "kind":"editorial_reading_note_not_teacher_quote",
+    "note":"该页为署名转载概述，不是全书；梦的产生子页另有登记，其余目录链接仍未取得。梦境、前世、修行效果和科学医学相关论断应表述为作者在该文本中的说法，不能由此宣布现代实证已经证实、给用户诊断或承诺效果。文首在即将迈入二十一世纪之际属于原文叙述时期，不是2026年最新研究。该页译者署名沃萨汪波，与《如何面对痛苦》的庭西分开；目录链接和故事标题不能当作已经取得的故事内容。",
+    "evidence":[{
+      "url":"https://www.xuefozhijia.net/%E5%BC%95%E8%B7%AF%E6%98%8E%E7%81%AF/%E6%8E%A2%E7%B4%A2%E6%A2%A6%E7%9A%84%E5%A5%A5%E7%A7%98",
+      "title":"探索梦的奥秘",
+      "locator":"作者/译者署名、概述开头及页内目录/前言段",
+      "type":"attributed_teaching_reprint",
+      "reviewed_at":"2026-11-15",
+      "limitation":"未与藏文、出版社版本和音视频校勘；除另行登记的梦的产生外，其余目录所链子页未取得。"
+    }]
+  },
+  {
+    "id":"SD-INTERVIEW-HISTORY",
+    "person":"sodargye",
+    "triggers":["十六","十四","几岁","受教育","牧童","今年","现在"],
+    "source_id":"SD-PHOENIX-DIALOGUE",
+    "segments":[15,18,20],
+    "kind":"editorial_reading_note_not_teacher_quote",
+    "note":"节目编者介绍以14岁的牧童起笔，显式署名索达吉的发言则自述16岁之前没有受过教育。两种表述按各自叙述主体并列，不把编辑介绍写成本人原话，也不据口语自述推算确定入学年份。节目中的今年、现在、若干年前均指该历史访谈语境，不是2026年的现状；本批未确定精确录制日期。",
+    "evidence":[{
+      "url":"https://ent.ifeng.com/yijian/special/zhaowei/shilu.shtml",
+      "title":"易见节目实录",
+      "locator":"索达吉堪布走过的路编者介绍；随后易立竞请其自我介绍的第一轮发言",
+      "type":"publisher_multi_speaker_transcript",
+      "reviewed_at":"2026-11-15",
+      "limitation":"未与原声对听，未独立认证生平年龄；相对时间不外推为当前。"
+    }]
+  },
+  {
+    "id":"DG-DREAM-ORIGIN-ATTRIBUTION",
+    "person":"danzeng-gyatso",
+    "triggers":["梦","意识","睡眠","那若巴","乔美"],
+    "source_id":"DG-DREAM-ORIGIN",
+    "segments":[3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22],
+    "kind":"editorial_reading_note_not_teacher_quote",
+    "note":"这是《梦的产生》一个章节，不是全书。关于意识、脉络、光明等内容按宗教文本中的说明理解，不据此宣布现代医学已证实或推断用户健康。段8、9叙述乔美、鄂琼仁波且的经历，段13、14明确转引其他大师的颂偈；文内第一人称不能改写成丹增本人的经历，他人颂偈不能署为丹增原创。作者和译者按上级作品页署名继承，不伪称子页单独署名。",
+    "evidence":[{
+      "url":"https://www.xuefozhijia.net/%E5%BC%95%E8%B7%AF%E6%98%8E%E7%81%AF/%E6%8E%A2%E7%B4%A2%E6%A2%A6%E7%9A%84%E5%A5%A5%E7%A7%98/%E6%A2%A6%E7%9A%84%E4%BA%A7%E7%94%9F",
+      "title":"梦的产生",
+      "locator":"章节正文，特别是引述他人经历和颂偈的段落",
+      "type":"attributed_teaching_reprint",
+      "reviewed_at":"2026-11-15",
+      "limitation":"未与出版社或藏文校勘；文本宗教主张未作独立实证核查。"
+    }]
   }
 ]

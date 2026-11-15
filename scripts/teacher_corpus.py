@@ -161,6 +161,46 @@ def qa_segments(pages):
     return rows
 
 
+def speaker_segments(units, target_speaker, speakers):
+    """Classify explicit speaker paragraphs; leave headings/narration unquoted."""
+    if target_speaker not in speakers:
+        raise ValueError('Target speaker missing from speaker list')
+    pattern = re.compile(r'^(' + '|'.join(re.escape(s) for s in sorted(speakers, key=len, reverse=True)) + r')\s*[：:]\s*(.*)', re.S)
+    rows = []
+    for index, (page, text) in enumerate(units, 1):
+        match = pattern.match(text)
+        speaker = match[1] if match else None
+        body = match[2] if match else ''
+        allowed = speaker == target_speaker and bool(body.strip())
+        rows.append({'segment':index, 'pdf_page':page, 'text':text, 'speaker':speaker,
+                     'quote_text':body, 'quote_allowed':allowed,
+                     'text_role':'target_speaker_statement' if allowed else ('other_speaker_statement' if match else 'editorial_not_speech'),
+                     'previous_segment':index-1 if index>1 else None,
+                     'next_segment':index+1 if index<len(units) else None,
+                     'attribution_note':'按公开实录的显式讲者标签归属，未与音视频对听；段内引语不自动认作原创。'})
+    if not any(r['quote_allowed'] for r in rows):
+        raise ValueError('No explicit target-speaker paragraphs found')
+    return rows
+
+
+def quote_flags(source, segments):
+    ranges = source.get('quote_ranges') or [{'start':source.get('quote_start'),'end':source.get('quote_end')}]
+    flags = [False] * len(segments)
+    for interval in ranges:
+        start, end = 0, len(segments)
+        for field in ('start','end'):
+            if interval.get(field):
+                found = next((i for i,s in enumerate(segments) if i>=start and re.search(interval[field],s['text'])),None)
+                if found is None:
+                    raise ValueError('Missing expected quote boundary: ' + source['id'] + ':' + field)
+                if field=='start':start=found
+                else:end=found
+        if end<=start:
+            raise ValueError('Invalid quote boundaries: ' + source['id'])
+        for i in range(start,end):flags[i]=True
+    return flags
+
+
 def prepare(source, refresh=False, mentso_root=None, reextract=False):
     folder = CACHE / source['id']
     if (folder / 'record.json').exists() and not refresh and not reextract:
@@ -210,6 +250,8 @@ def prepare(source, refresh=False, mentso_root=None, reextract=False):
     segments = []
     if source.get('segmentation') == 'qa':
         segments = qa_segments(units)
+    elif source.get('segmentation') == 'speaker_turns':
+        segments = speaker_segments(units,source['target_speaker'],source['speakers'])
     else:
         for number, (page, text) in enumerate(units, 1):
             if not text:
@@ -248,29 +290,24 @@ def load_segments(person, sources):
         if digest(data) != record['text_sha256']:
             raise ValueError('Cached text checksum mismatch: ' + source['id'])
         segments = json.loads(data)
-        start, end = 0, len(segments)
-        for field in ('quote_start', 'quote_end'):
-            if source.get(field):
-                found = next((i for i, s in enumerate(segments)
-                              if i >= start and re.search(source[field], s['text'])), None)
-                if found is None:
-                    raise ValueError('Missing expected quote boundary: ' + source['id'] + ':' + field)
-                if field == 'quote_start':
-                    start = found
-                else:
-                    end = found
-        if end <= start:
-            raise ValueError('Invalid quote boundaries: ' + source['id'])
+        flags = quote_flags(source,segments)
         for index, segment in enumerate(segments):
             row = dict(source_id=source['id'], person=person, title=source['title'],
                                author=source['author'], translator=source.get('translator'),
                                role=source['role'], language=source['language'], url=source['url'],
+                               version_note=source.get('version_note'),
                                fetched_at=record['fetched_at'], acquisition=record['acquisition'],
                                final_url=record['final_url'], source_sha256=record['sha256'],
-                               quote_allowed=start <= index < end,
-                               text_role='author_text' if start <= index < end else 'paratext_not_author_quote',
+                               quote_allowed=flags[index],
+                               text_role='author_text' if flags[index] else 'paratext_not_author_quote',
                                text_sha256=record['text_sha256'], corpus_kind='local_text')
             row.update(segment)
+            figures = source.get('nested_attributions',{}).get(str(row['segment']))
+            if figures:
+                row['nested_attributions'] = figures
+                row['quotation_warning'] = '本段含他人经历或引语，须按段内姓名归属，不能将每句认作本文作者亲历或原创。'
+                row['quote_allowed'] = False
+                row['text_role'] = 'nested_attribution_not_author_quote'
             result.append(row)
     for row in result:
         row['citation_markdown'] = citation(row)
@@ -317,6 +354,23 @@ def verify_quote(rows, quote, source_id=None, segment=None):
             and (source_id is None or r['source_id'] == source_id)
             and (segment is None or r['segment'] == segment)
             and quote_norm(quote) in quote_norm(r.get('quote_text', r['text']))]
+
+
+def excluded_quote_matches(rows, quote, accepted, source_id=None, segment=None):
+    accepted_ids = {(r['source_id'],r['segment']) for r in accepted}
+    excluded = []
+    for row in rows:
+        if (source_id is not None and row['source_id']!=source_id) or (segment is not None and row['segment']!=segment):
+            continue
+        if (row['source_id'],row['segment']) in accepted_ids or not quote_norm(quote):
+            continue
+        if quote_norm(quote) in quote_norm(row['text']):
+            excluded.append({'source_id':row['source_id'],'segment':row['segment'],
+                             'reason':'not_author_quote' if not row['quote_allowed'] else 'outside_author_span',
+                             'text_role':row.get('text_role'),'speaker':row.get('speaker'),
+                             'nested_attributions':row.get('nested_attributions'),
+                             'citation_markdown':row.get('citation_markdown')})
+    return excluded
 
 
 def topic_routes(person, sources, topic_id=None, limit=3):
@@ -445,7 +499,10 @@ def main():
         if args.segment is not None and not args.source:
             parser.error('--segment requires --source for verification')
         matches = verify_quote(rows, args.quote, args.source, args.segment)
+        excluded = excluded_quote_matches(rows,args.quote,matches,args.source,args.segment)
         emit({'verified': bool(matches), 'scope': 'registered_text_match_only_not_author_authentication',
+              'status':'verified' if matches else ('excluded_context_match' if excluded else 'no_registered_match'),
+              'excluded_matches':excluded,
               'requested_source': args.source, 'requested_segment': args.segment,
               'normalization': 'NFC and whitespace removal only', 'matches': matches,
               'reading_notes': related_notes(args.person,matches,[args.quote])})

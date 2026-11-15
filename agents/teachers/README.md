@@ -2,7 +2,7 @@
 
 本目录为门措上师、法王如意宝、索达吉堪布、丹增嘉措建立共用的原文检索与引文核验入口。人物研究页负责背景，回答具体教言时使用取得的正文。当前提供检索工具和独立 Skill 打包，供具备本地工具能力的助手使用；不含模型服务或聊天网页。
 
-最新接入情况见[第二批正文扩充记录](expansion-02-2026-11-15.md)：门措四篇中文教言；法王《心要·心语》英藏与《胜利道歌》藏汉版本；索达吉258组中文问答；丹增《如何面对痛苦》署名转载正文。跨版本校勘与完整多轮评测继续推进。
+当前已接入门措四篇中文教言；法王《心要·心语》英藏与《胜利道歌》藏汉版本；索达吉258组中文问答及凤凰网节目实录；丹增《如何面对痛苦》署名转载、《探索梦的奥秘》概述及《梦的产生》单章。梦书仍未取得全书。跨版本校勘与完整多轮评测继续推进，批次记录保留各自时点。
 
 ## 使用
 
@@ -27,6 +27,8 @@ python3 scripts/teacher_corpus.py export --person mentso
 全文、原件、索引及导出位于忽略目录 `.teacher-corpus/`，不随 Git 推送。登记表 `sources.json` 可审阅，逐次取得的时间、原件 SHA-256、提取文本 SHA-256、最终 URL 和错误在本地 `manifest.json`。公开可读不自动等于可再分发。
 
 `manifest.json` 保留各来源最后一次准备状态；`fetch-history.jsonl` 追加记录取得尝试，保留错误和重试轨迹。指定单个来源准备时，其他来源的记录会保留。
+
+来源标题和范围可能在审校后修订。`sources.json` 及工具命中中的 `version_note` 为当前登记口径，原件缓存的 `record.json` 保留取得时的元数据，不能用旧记录覆盖新审校说明。
 
 `reviewed-excerpts.json` 保留经网页工具核读的少量短摘，供命令行无法取得整篇时仍可定位。结果以 `reviewed_excerpt_not_fulltext` 标识，不能据此宣称已取得全文。丹增嘉措 PDF 摘句尚待视觉复核；索达吉英文摘句尚未与原声对听。逐字命中证明的是本地登记文本一致，并不替代这些版本校核。
 
@@ -53,11 +55,14 @@ python3 scripts/teacher_corpus.py export --person mentso
 
 ## 主题导航与独立包
 
-`topics.json` 为每位人物设置3条主题路线，合计12条。它们是检索导航，不是AI补写的本人观点。运行：
+`topics.json` 目前有15条主题路线：门措与法王各3条，索达吉4条，丹增5条。它们是检索导航，不是AI补写的本人观点。运行：
 
 ```sh
 python3 scripts/teacher_corpus.py topics --person mentso --limit 2
 python3 scripts/teacher_corpus.py topics --person sodargye --topic beginner-reading
+python3 scripts/teacher_corpus.py topics --person sodargye --topic public-dialogue
+python3 scripts/teacher_corpus.py topics --person danzeng-gyatso --topic dream-overview
+python3 scripts/teacher_corpus.py topics --person danzeng-gyatso --topic dream-origin
 ```
 
 在本地构建四个人物包：
@@ -71,6 +76,12 @@ python3 scripts/package_teacher_skills.py --person mentso --include-corpus --men
 默认生成元数据与工具包；`--include-corpus` 明确加入已取得且校验通过的本地原件与文本。输出在 `.teacher-corpus/packages/` 的独立时间目录，每位一个文件夹及ZIP，构建不会覆盖已有目录或安装到技能目录。复制或解压整个文件夹交给支持本地Skill的助手；不能只复制SKILL.md。
 
 每包含自身的来源、主题、人物说明、研究笔记、检索脚本与依赖说明。研究笔记保留原核查日期，不冒充最新动态；笔记里的“此前已取得”也不表示该原件随包提供。`package-manifest.json` 记录实际包含的原件和文件校验值。门措研究默认从相邻 `lama-mumtso` 读取，也可用参数指定；缺失时包中说明研究笔记未取得。
+
+多讲者节目实录按显式讲者标记保留每段归属；其他嘉宾、主持人和编辑介绍参与上下文阅读，但不通过本人物引文匹配。目录与概述分离的页面可登记多个正文区间，未取到的章节链接不当作全文。
+
+已经人工定位、含他人经历或偈颂的整段以 `nested_attributions` 标记，并暂不通过作者个人引文核验；段落仍能检索和回读。若需引用作者在同段中的解释，须继续细分其与引文的边界，不能用整段匹配掩盖归属。
+
+核验未通过时，`excluded_context_match` 表示文字在提问、他人发言、编辑信息或已排除的引述段里存在；`excluded_matches` 给出定位和原因。`no_registered_match` 才表示当前登记文本没有匹配，二者都不能扩大为“全网不存在”。
 
 含正文的ZIP保留在本地，不由构建脚本上传或发布。每次构建保留来源许可边界，公开可读不等于任意再分发。验证单包：`python3 scripts/package_teacher_skills.py --verify 包目录`。
 

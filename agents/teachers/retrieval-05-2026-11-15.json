@@ -1,0 +1,16 @@
+{
+  "date":"2026-11-15",
+  "scope":"索达吉与丹增的独立材料扩充；仅公开网页，原件保存在本地忽略目录",
+  "queries":["丹增嘉措 探索梦的奥秘 PDF", "索达吉 少有人走的路 pdf xuefovip", "索达吉 如何减少生活中的烦恼与压力 新浪"],
+  "selected":[
+    {"source_id":"SD-PHOENIX-DIALOGUE","url":"https://ent.ifeng.com/yijian/special/zhaowei/shilu.shtml","publisher_type":"节目出版方的公开实录","acquisition":"HTTP200，正文容器scrollBodyDiv","bytes":81390,"sha256":"2d5febb35581ef1d7577ef20164d38dc41fdbcca52b3fac5bda1506e1f731db1","segments":127,"target_speaker_segments":19,"outcome":"取得正文及语境；按显式讲者标签引用；编辑介绍与其他嘉宾不可作本人语录"},
+    {"source_id":"DG-DREAM-OVERVIEW","url":"https://www.xuefozhijia.net/%E5%BC%95%E8%B7%AF%E6%98%8E%E7%81%AF/%E6%8E%A2%E7%B4%A2%E6%A2%A6%E7%9A%84%E5%A5%A5%E7%A7%98","publisher_type":"公开署名转载","acquisition":"HTTP200，正文容器tyJCtd","bytes":168923,"sha256":"a24436029507a982c1ec61781497f21a93601fe524cb8db09d94693f76ef8f89","segments":28,"quote_segments":9,"outcome":"取得概述、目录及总结性文字；译者沃萨汪波；目录不作已读正文"},
+    {"source_id":"DG-DREAM-ORIGIN","url":"https://www.xuefozhijia.net/%E5%BC%95%E8%B7%AF%E6%98%8E%E7%81%AF/%E6%8E%A2%E7%B4%A2%E6%A2%A6%E7%9A%84%E5%A5%A5%E7%A7%98/%E6%A2%A6%E7%9A%84%E4%BA%A7%E7%94%9F","publisher_type":"上级作品页明确链接的公开转载章节","acquisition":"HTTP200，正文容器tyJCtd","bytes":185105,"sha256":"3b901ed62bd137ac03658c10cf17d09c9ebbd3b6e211278886035518e84264ac","segments":26,"main_text_segments":20,"quote_segments_after_nested_exclusion":16,"outcome":"取得单章；署名据上级作品页；4段含明确他人经历或颂偈，仅作语境，不作作者个人语录"}
+  ],
+  "not_selected":[
+    {"candidate":"藏人文化网2012新浪微访谈预告","reason":"活动预告不能替代访谈全文；本批选择出版方的其他完整实录"},
+    {"candidate":"搜索返回的Scribd梦书条目","reason":"未访问或下载，不计为取得，不用摘要作证据"}
+  ],
+  "checks":["三份原件SHA256与提取结果留存", "来源及段号登记", "标题/目录/脚注/他人讲者排除", "年代口径与署名依据登记", "独立只读审阅并由主审实际回查关键归属"],
+  "remaining":["未与音视频逐句对听", "未与藏文/出版社版本逐字校勘", "梦书除概述与梦的产生外的目录子页未取得", "宗教/科学/医学主张按文本归属，未作现代实证核查"]
+}

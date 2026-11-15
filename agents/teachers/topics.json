@@ -10,5 +10,8 @@
   {"id":"family-and-friends","person":"sodargye","title":"家庭与交往","keywords":["父母","朋友"],"source_ids":["SD-CASUAL-QA"],"use":"结合用户当下关系讨论，不能把历史个案套成普遍指令。"},
   {"id":"facing-suffering","person":"danzeng-gyatso","title":"认识与面对痛苦","keywords":["承受","逃避","苦恼"],"source_ids":["DG-SUFFERING-REPRINT"],"use":"文本的宗教解释与现实资源、具体困难分别讨论。"},
   {"id":"listening-and-compassion","person":"danzeng-gyatso","title":"倾听与慈悲","keywords":["倾听","慈悲"],"source_ids":["DG-SUFFERING-REPRINT"],"use":"回到作者如何叙述倾听及慈悲，引用保留译者。"},
-  {"id":"change-and-impermanence","person":"danzeng-gyatso","title":"变化与无常","keywords":["无常","永恒不变"],"source_ids":["DG-SUFFERING-REPRINT"],"use":"保留宗教概念的语境，日常建议标为AI应用。"}
+  {"id":"change-and-impermanence","person":"danzeng-gyatso","title":"变化与无常","keywords":["无常","永恒不变"],"source_ids":["DG-SUFFERING-REPRINT"],"use":"保留宗教概念的语境，日常建议标为AI应用。"},
+  {"id":"public-dialogue","person":"sodargye","title":"公开访谈中的困惑、助人与选择","keywords":["困惑","金钱","帮助"],"source_ids":["SD-PHOENIX-DIALOGUE"],"use":"只将显式署名索达吉的发言归于本人；同时回读主持人和其他嘉宾语境，历史自述不推定当前状态。"},
+  {"id":"dream-overview","person":"danzeng-gyatso","title":"梦主题作品的写作目的与范围","keywords":["提供帮助","阐释","慈悲"],"source_ids":["DG-DREAM-OVERVIEW"],"use":"仅阅读取得的概述页；宗教、前世与疗效主张按文本观点归属，目录不等于已读章节。"},
+  {"id":"dream-origin","person":"danzeng-gyatso","title":"梦的产生：文本解释与引述层次","keywords":["睡眠","意识","习气"],"source_ids":["DG-DREAM-ORIGIN"],"use":"作为宗教文本阅读，不等同现代科学证明；先分清作者解释、引用的经历和大师颂偈，不推断尚未取得的其他章节。"}
 ]
