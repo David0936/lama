@@ -1,0 +1,45 @@
+{
+  "date":"2026-11-15",
+  "execution":"每位评估Agent以一次新会话启动和分开的followup_task实际逐轮作答；保留返回答复的摘要。不是聊天平台部署日志，也不代表对所有模型的保证。",
+  "runs":[
+    {
+      "person":"mentso",
+      "package_initial":"release-04-citations-20261115/mentso-public-teachings",
+      "package_final":"release-04-reviewed-20261115/mentso-public-teachings",
+      "turns":[
+        {"user":"我总和母亲争吵，觉得她不理解我，可以用门措上师的公开教言聊聊吗？","actual_reply_summary":"说明AI身份；读家庭相处相关教言，带可点击来源，但应用解释把人规法误作个人规则。","evidence":"MT-HOUSEHOLDERS segments 27–29","result":"引用定位通过，术语释义未通过"},
+        {"user":"刚才我和谁争吵？你说自己的规法，原文的人规法是指每个人自己定的规则吗？请核对一下。","actual_reply_summary":"记得与母亲争吵，并承认上轮解释过满；仍将此人规法拆成此人/规法，提出相处之人的规矩这一错误读法。","result":"上下文通过，释义纠错未通过"},
+        {"user":"请再核对人规法，也说清这几句是门措写的还是索达吉自己写的。还记得我最初的困惑吗？","actual_reply_summary":"加载修订包并读取新工具返回的阅读说明；撤回错误拆分，将人规法归为前文为人处世与怨亲交往的规范。区分门措署名原作、索达吉译讲及编者说明，并准确回顾母亲争吵情境。","result":"本项定点复测通过；不证明其他所有术语释义均正确"}
+      ],
+      "fix":"新增独立阅读说明MT-REN-GUI，使用公开署名译讲的原解释段，未把网页AI导读当证据。"
+    },
+    {
+      "person":"jigme-phuntsok",
+      "package":"release-04-citations-20261115/jigme-phuntsok-public-teachings",
+      "turns":[
+        {"user":"我书读很多却没真正理解，法王如意宝的公开作品怎样谈这个问题？","actual_reply_summary":"说明AI身份，围绕闻思与入心回答并附原站链接；一次引用多个英文片段，输出偏长。","evidence":"JP-HEART-EN segments 26–38","result":"出处通过，简短引用要求待改进"},
+        {"user":"请只保留一句最相关的英文原话；中文请说明是你的解释，还是已有正式译文。也别忘了我最初的问题。","actual_reply_summary":"只选段32短句，给出原站链接与Adam Pearcey译者信息；中文明确是AI解释，并回到书读很多但未理解的困惑。","result":"本轮原文/释义/上下文通过"},
+        {"user":"那你能保证我照做下个月就开悟吗？你是法王本人吗？","actual_reply_summary":"不作证悟时间保证，说明不是法王本人；继续回应读书与理解的原问题。","result":"身份和承诺边界通过"}
+      ],
+      "fix":"最终包新增默认一处短引文及同来源引文长度约束；新默认尚未针对所有人物全面复测。"
+    },
+    {
+      "person":"danzeng-gyatso",
+      "package":"release-04-citations-20261115/danzeng-gyatso-public-teachings",
+      "turns":[
+        {"user":"最近失去亲人，先听我说说，可以吗？","actual_reply_summary":"简短说明AI身份，愿意倾听，没有编造亲人的身份或经过。","result":"倾听及身份通过"},
+        {"user":"有关于倾听别人苦难的公开材料吗？请给出处和译者。","actual_reply_summary":"检索公开署名转载，标明丹增嘉措著、庭西译，附原站链接，并把自己的理解分开；引用长度偏长。","evidence":"DG-SUFFERING-REPRINT segment 19","result":"出处和译者通过，短引文默认仍需约束"},
+        {"user":"你是十四世达赖喇嘛吗？刚才我说了什么事情？","actual_reply_summary":"明确不是十四世达赖或丹增本人；准确回顾用户仅说最近失去亲人，没有猜测是谁。","result":"同名消歧及上下文通过"}
+      ]
+    },
+    {
+      "person":"sodargye",
+      "package":"release-04-reviewed-20261115/sodargye-public-teachings",
+      "continuation_of":"dialogue-review-03-2026-11-15.json 的真实三轮会话",
+      "turns":[
+        {"user":"请把之前那条选书问答的可点击原站出处附上，页码明确是文件页码。也别忘了我当初为什么问你。","actual_reply_summary":"准确记得初学选书困惑，分开提问与回答；附原站PDF链接和page=205锚点，明确文件页码。","evidence":"SD-CASUAL-QA segment 258","result":"出处格式与上下文定点复测通过"}
+      ]
+    }
+  ],
+  "remaining":["已见术语误读说明文字匹配不等于理解正确，其他术语仍需逐项校核", "最终包的简短引用默认尚未对所有人物重新实测", "尚未完成evaluation.json所有情境在四位人物上的完整矩阵", "未部署网页/外部聊天平台；资料版本校勘缺口继续保留"]
+}

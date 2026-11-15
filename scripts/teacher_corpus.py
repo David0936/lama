@@ -8,6 +8,7 @@ import re
 import sys
 import unicodedata
 import urllib.request
+from urllib.parse import urlsplit, urlunsplit
 from datetime import datetime, timezone
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -16,6 +17,7 @@ CACHE = ROOT / '.teacher-corpus'
 PEOPLE = ('mentso', 'jigme-phuntsok', 'sodargye', 'danzeng-gyatso')
 EXCERPTS = ROOT / 'agents/teachers/reviewed-excerpts.json'
 TOPICS = ROOT / 'agents/teachers/topics.json'
+READING_NOTES = ROOT / 'agents/teachers/reading-notes.json'
 try:
     from opencc import OpenCC
     SCRIPT_CONVERTER = OpenCC('t2s')
@@ -270,7 +272,35 @@ def load_segments(person, sources):
                                text_sha256=record['text_sha256'], corpus_kind='local_text')
             row.update(segment)
             result.append(row)
+    for row in result:
+        row['citation_markdown'] = citation(row)
     return result
+
+
+def citation(row):
+    """Format an existing source locator; never invent a page or a URL."""
+    parsed = urlsplit(row['url'])
+    if parsed.scheme not in ('http', 'https') or not parsed.netloc:
+        raise ValueError('Citation requires a registered HTTP(S) source URL')
+    pages = row.get('pdf_pages') or ([row['pdf_page']] if row.get('pdf_page') else [])
+    title = row['title'].replace('[', '［').replace(']', '］').replace('\n', ' ')
+    if pages:
+        if any(not isinstance(p, int) or p < 1 for p in pages):
+            raise ValueError('Invalid PDF file page')
+        location = '文件第' + str(pages[0]) + ('–' + str(pages[-1]) if pages[-1] != pages[0] else '') + '页'
+        parsed = parsed._replace(fragment='page=' + str(pages[0]))
+    else:
+        location = row.get('locator') or '当前提取段' + str(row['segment'])
+    return '[' + title + '，' + location + '](' + urlunsplit(parsed) + ')'
+
+
+def related_notes(person, matches, terms=()):
+    if not READING_NOTES.exists():
+        return []
+    notes = json.loads(READING_NOTES.read_text(encoding='utf-8'))
+    return [n for n in notes if n['person'] == person and (
+        any(norm(trigger) in norm(term) for trigger in n['triggers'] for term in terms)
+        or any(r['source_id'] == n['source_id'] and r['segment'] in n['segments'] for r in matches))]
 
 
 def search(rows, terms, limit=5):
@@ -297,7 +327,8 @@ def topic_routes(person, sources, topic_id=None, limit=3):
     for topic in selected:
         eligible = [r for r in rows if r['source_id'] in topic['source_ids'] and r['quote_allowed']]
         matches = search(eligible, topic['keywords'], limit)
-        result.append(dict(topic, matches=matches, status='found' if matches else 'no_match'))
+        result.append(dict(topic, matches=matches, reading_notes=related_notes(person,matches,topic['keywords']),
+                           status='found' if matches else 'no_match'))
     return result
 
 
@@ -329,7 +360,7 @@ def main():
     prep.add_argument('--reextract', action='store_true', help='Reparse verified cached originals without network')
     prep.add_argument('--mentso-root', type=Path)
     sub.add_parser('status')
-    for command in ('search', 'verify', 'export', 'read', 'topics'):
+    for command in ('search', 'verify', 'export', 'read', 'topics', 'cite'):
         child = sub.add_parser(command)
         child.add_argument('--person', choices=PEOPLE, required=True)
         if command == 'search':
@@ -343,6 +374,9 @@ def main():
             child.add_argument('--source', required=True)
             child.add_argument('--segment', type=int, required=True)
             child.add_argument('--context', type=int, default=2)
+        if command == 'cite':
+            child.add_argument('--source', required=True)
+            child.add_argument('--segment', type=int, required=True)
         if command == 'topics':
             child.add_argument('--topic')
             child.add_argument('--limit', type=int, default=3)
@@ -388,11 +422,18 @@ def main():
         emit({'person': args.person, 'topics': result})
         return 0 if result and all(t['matches'] for t in result) else 2
     rows = load_segments(args.person, sources)
+    if args.command == 'cite':
+        matches = [r for r in rows if r['source_id'] == args.source and r['segment'] == args.segment]
+        emit({'citation_markdown': matches[0]['citation_markdown'] if matches else None,
+              'source_id': args.source, 'segment': args.segment,
+              'quote_allowed': matches[0]['quote_allowed'] if matches else False,
+              'scope': 'source_locator_not_quote_verification'})
+        return 0 if matches else 2
     if args.command == 'read':
         if args.context < 0 or args.context > 20:
             parser.error('--context must be between 0 and 20')
         matches = [r for r in rows if r['source_id'] == args.source and abs(r['segment'] - args.segment) <= args.context]
-        emit({'person': args.person, 'matches': matches})
+        emit({'person': args.person, 'matches': matches, 'reading_notes': related_notes(args.person,matches)})
         return 0 if any(r['segment'] == args.segment for r in matches) else 2
     if args.command == 'export':
         destination = CACHE / ('export-' + args.person + '.jsonl')
@@ -406,12 +447,14 @@ def main():
         matches = verify_quote(rows, args.quote, args.source, args.segment)
         emit({'verified': bool(matches), 'scope': 'registered_text_match_only_not_author_authentication',
               'requested_source': args.source, 'requested_segment': args.segment,
-              'normalization': 'NFC and whitespace removal only', 'matches': matches})
+              'normalization': 'NFC and whitespace removal only', 'matches': matches,
+              'reading_notes': related_notes(args.person,matches,[args.quote])})
         return 0 if matches else 2
     if args.limit < 1:
         parser.error('--limit must be positive')
     matches = search(rows, args.terms, args.limit)
     emit({'person': args.person, 'matches': matches, 'status': 'found' if matches else 'no_match',
+          'reading_notes': related_notes(args.person,matches,args.terms),
           'script_folding': 'OpenCC t2s' if SCRIPT_CONVERTER else 'not_installed',
           'available_segments': len(rows)})
     return 0 if matches else 2

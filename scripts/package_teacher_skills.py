@@ -69,11 +69,14 @@ python3 scripts/teacher_corpus.py topics --person {person} --limit 2
 python3 scripts/teacher_corpus.py search --person {person} 关键词 --limit 5
 python3 scripts/teacher_corpus.py read --person {person} --source 来源ID --segment 段号 --context 2
 python3 scripts/teacher_corpus.py verify --person {person} --source 来源ID --segment 段号 --quote '所引原句'
+python3 scripts/teacher_corpus.py cite --person {person} --source 来源ID --segment 段号
 ```
 
-具体教言先检索并读上下文，优先用主题导航缩小范围。人物生平先看人物说明中链接的研究时间线和来源底稿，保留研究日期与叙述主体。研究笔记是导航，不能当成本人逐字教言。搜索无命中时换同义词、繁简或原文语言；仍无证据就说明当前资料未找到。当前职务或网传语录不能从教言概括中补全。查询未取得的材料时明确缺口。
+具体教言先检索并读上下文，优先用主题导航缩小范围。结果带有reading_notes时先核对对应的术语说明和证据；那是编者阅读说明，不是上师原话。人物生平先看人物说明中链接的研究时间线和来源底稿，保留研究日期与叙述主体。研究笔记是导航，不能当成本人逐字教言。搜索无命中时换同义词、繁简或原文语言；仍无证据就说明当前资料未找到。当前职务或网传语录不能从教言概括中补全。查询未取得的材料时明确缺口。
 
-每段引文附作品、URL、文件页码或当前段号；有译者时保留译者。原话、翻译和 AI 释义分开；新情境建议属于应用理解，不伪称本人曾如此回答。核验结果只证明指定材料内文字匹配，不证明原创或作者身份。问答保留问题及前后轮次；提问、附录和他人引语不能误归上师。
+引用时把工具返回的 `citation_markdown` 原样附在引文或相关说明之后；search/read/verify均返回该字段，也可用cite单独取得。不只写书名与页码，不能丢掉可点击原站链接。有译者时保留译者。原话、翻译和 AI 释义分开；新情境建议属于应用理解，不伪称本人曾如此回答。核验结果只证明指定材料内文字匹配，不证明原创或作者身份。问答保留问题及前后轮次；提问、附录和他人引语不能误归上师。
+
+日常答复优先选择一处最相关短引文，其余用带出处的释义。同一公开第三方来源一次回复合计最多引20个英文单词或30个汉字，避免把整组段落逐句抄入答复；用户自己提供的文本按当次要求处理。
 
 先承接用户所说的事情，再用一两个相关意思解释，给一个适合当前情况的小行动或继续追问。用户需要考据时再展开版本信息。延续本会话最初的求助及后续澄清；核对出处不替代原始困惑。用户问“我的问题是什么”或要求回顾时，先复述原始求助，再说明最新追问，不只重复最近一句。不要编造用户未说的经历；退出时恢复普通助手。首次说明之后不机械重复身份声明。
 
@@ -86,12 +89,16 @@ def build_package(destination, profile, include_corpus, mentso_root=None):
     sources = [s for s in json.loads(corpus.CONFIG.read_text(encoding='utf-8')) if s['person'] == person]
     excerpts = [e for e in json.loads(corpus.EXCERPTS.read_text(encoding='utf-8')) if e['person'] == person]
     topics = [t for t in json.loads(corpus.TOPICS.read_text(encoding='utf-8')) if t['person'] == person]
+    reading_notes = ([n for n in json.loads(corpus.READING_NOTES.read_text(encoding='utf-8'))
+                      if n['person'] == person and n['source_id'] in {s['id'] for s in sources}]
+                     if corpus.READING_NOTES.exists() else [])
     if not sources or not topics:
         raise ValueError('Missing sources or topics for ' + person)
     destination.mkdir()
     write_json(destination / 'agents/teachers/sources.json', sources)
     write_json(destination / 'agents/teachers/reviewed-excerpts.json', excerpts)
     write_json(destination / 'agents/teachers/topics.json', topics)
+    write_json(destination / 'agents/teachers/reading-notes.json', reading_notes)
     write_json(destination / 'references/profile.json', profile)
     (destination / 'scripts').mkdir()
     shutil.copy2(ROOT / 'scripts/teacher_corpus.py', destination / 'scripts/teacher_corpus.py')

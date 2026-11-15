@@ -18,6 +18,7 @@ python3 scripts/teacher_corpus.py read --person jigme-phuntsok --source JP-HEART
 python3 scripts/teacher_corpus.py search --person danzeng-gyatso 痛苦
 python3 scripts/teacher_corpus.py verify --person mentso --quote '量入为出当知足'
 python3 scripts/teacher_corpus.py verify --person sodargye --source SD-CASUAL-QA --segment 258 --quote '《大圆满前行》和《入菩萨行论》。'
+python3 scripts/teacher_corpus.py cite --person sodargye --source SD-CASUAL-QA --segment 258
 python3 scripts/teacher_corpus.py export --person mentso
 ```
 
@@ -34,6 +35,10 @@ python3 scripts/teacher_corpus.py export --person mentso
 `prepare --source ID --reextract` 从校验过的本地原件重新提取，不重新下载。读取问答时保留完整提问、回答和跨页页码；`verify` 仅在回答部分匹配，提问不会作为上师原话通过。回答中的他人引语仍须回看上下文，逐字匹配不证明原创。相邻问答可能相互承接，应按 `previous_segment`／`next_segment` 回读。
 
 引用具体命中时用 `verify --source ID --segment N` 限定定位；不限定时只证明该人物库某处有此文字，不能证明所选段落就是出处。目录和正文标题相同时尤其需要限定段号。
+
+`search/read/verify` 的每条命中都含可直接复制到答复的 `citation_markdown`；`cite` 可单独生成这一字段，PDF附文件页码链接，网页标当前提取段号。`cite` 只提供已登记出处，不证明引文正确或原站此刻可访问，逐字核验仍用 `verify`。
+
+`reading-notes.json` 为有实际误读案例的术语保存编者阅读说明，含来源与定位。结果中相关说明置于独立的 `reading_notes` 字段，不作为作者正文参与引文核验。首条纠正《致善男信女语》中“人规法”的误拆，依据公开署名译讲，保留未与音频及藏文校勘的状态。
 
 ## 回答约定
 

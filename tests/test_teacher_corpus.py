@@ -10,6 +10,21 @@ SPEC.loader.exec_module(corpus)
 
 
 class CorpusTests(unittest.TestCase):
+    def test_reading_notes_are_not_author_quotes_or_other_people(self):
+        notes=corpus.related_notes('mentso',[],['人规法'])
+        self.assertEqual(len(notes),1)
+        self.assertEqual(notes[0]['kind'],'editorial_reading_note_not_teacher_quote')
+        self.assertEqual(corpus.related_notes('sodargye',[],['人规法']),[])
+        self.assertEqual(corpus.related_notes('mentso',[{'source_id':'MT-HOUSEHOLDERS','segment':29}])[0]['id'],'MT-REN-GUI')
+
+    def test_citations_use_file_pages_and_registered_url(self):
+        row = dict(title='书名', url='https://example.org/book.pdf?version=2#old', pdf_pages=[6,7], segment=2)
+        self.assertEqual(corpus.citation(row), '[书名，文件第6–7页](https://example.org/book.pdf?version=2#page=6)')
+        html = dict(title='文[题]',url='https://example.org/article',segment=19)
+        self.assertEqual(corpus.citation(html), '[文［题］，当前提取段19](https://example.org/article)')
+        with self.assertRaises(ValueError):
+            corpus.citation(dict(html,url='javascript:bad'))
+
     def test_html_excludes_navigation_and_scripts(self):
         html = '<nav>wrong person</nav><div id="maintext"><p>Real <em>teaching</em><br/>next line</p><script>bad()</script></div><footer>wrong author</footer>'
         lines = corpus.paragraphs(html, 'maintext')

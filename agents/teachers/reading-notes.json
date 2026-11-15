@@ -1,0 +1,20 @@
+[
+  {
+    "id":"MT-REN-GUI",
+    "person":"mentso",
+    "triggers":["人规","规法","此人"],
+    "source_id":"MT-HOUSEHOLDERS",
+    "segments":[28,29],
+    "kind":"editorial_reading_note_not_teacher_quote",
+    "note":"《致善男信女语》的‘此人规法’不要拆成‘此人／规法’而解释为某个人自己的规则。公开译讲把该句对应为前文的世间教言与人规，即为人处世、与怨亲交往的规范。这里按‘此／人规法’理解。说明时标为依据译讲的阅读解释，不能署名为门措新增原话；日常相处建议也须另标AI应用。",
+    "evidence":[{
+      "url":"https://www.093.guru/学习资料/近期新课/2025年课程/致善男信女语/致善男信女语1",
+      "title":"致善男信女语 第一课",
+      "locator":"‘上述世人急需语’及‘若不知此人规法’两句后的解释段，继而说明以上为世间法",
+      "attribution":"页面署名门措空行母造、索达吉堪布译讲",
+      "type":"attributed_commentary_reprint",
+      "reviewed_at":"2026-11-15",
+      "limitation":"核读公开转载文字，未与现场音频或藏文底本校勘；网页中的讲解不作为门措本人原话。"
+    }]
+  }
+]
