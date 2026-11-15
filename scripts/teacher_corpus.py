@@ -15,10 +15,16 @@ CONFIG = ROOT / 'agents/teachers/sources.json'
 CACHE = ROOT / '.teacher-corpus'
 PEOPLE = ('mentso', 'jigme-phuntsok', 'sodargye', 'danzeng-gyatso')
 EXCERPTS = ROOT / 'agents/teachers/reviewed-excerpts.json'
+try:
+    from opencc import OpenCC
+    SCRIPT_CONVERTER = OpenCC('t2s')
+except ImportError:
+    SCRIPT_CONVERTER = None
 
 
 def norm(value):
-    return re.sub(r'\s+', '', unicodedata.normalize('NFC', value)).casefold()
+    text = re.sub(r'\s+', '', unicodedata.normalize('NFC', value)).replace('༌', '་').casefold()
+    return SCRIPT_CONVERTER.convert(text) if SCRIPT_CONVERTER else text
 
 
 def quote_norm(value):
@@ -30,21 +36,28 @@ def digest(data):
 
 
 class BodyText(HTMLParser):
-    def __init__(self, element_id=None):
+    def __init__(self, element_id=None, element_class=None):
         super().__init__()
         self.element_id = element_id
+        self.element_class = element_class
+        self.root_tag = None
         self.depth = 0
         self.suppressed = 0
         self.parts = []
-        self.found = element_id is None
+        self.found = element_id is None and element_class is None
+        self.whole_document = self.found
+        if self.whole_document:
+            self.depth = 1
 
     def handle_starttag(self, tag, attrs):
         void = tag in ('br', 'hr', 'img', 'input', 'meta', 'link', 'wbr', 'source')
         if self.depth:
-            if not void:
+            if tag == self.root_tag and not void:
                 self.depth += 1
-        elif self.element_id is None or dict(attrs).get('id') == self.element_id:
+        elif ((self.element_id is not None and dict(attrs).get('id') == self.element_id)
+              or (self.element_class is not None and self.element_class in dict(attrs).get('class', '').split())):
             self.depth = 1
+            self.root_tag = tag
             self.found = True
         if self.depth:
             if tag in ('script', 'style'):
@@ -63,7 +76,8 @@ class BodyText(HTMLParser):
                 self.suppressed = max(0, self.suppressed - 1)
             if tag in ('p', 'div', 'h1', 'h2', 'h3', 'li'):
                 self.parts.append('\n')
-            self.depth -= 1
+            if not self.whole_document and tag == self.root_tag:
+                self.depth -= 1
 
     def handle_data(self, data):
         if self.depth and not self.suppressed:
@@ -91,17 +105,62 @@ def flight_body(raw):
     return value
 
 
-def paragraphs(raw, element_id=None):
-    parser = BodyText(element_id)
+def paragraphs(raw, element_id=None, element_class=None):
+    parser = BodyText(element_id, element_class)
     parser.feed(raw)
     if not parser.found:
         raise ValueError('Missing expected element: ' + str(element_id))
     return [x.strip() for x in ''.join(parser.parts).splitlines() if x.strip()]
 
 
-def prepare(source, refresh=False, mentso_root=None):
+def qa_segments(pages):
+    """Preserve each question with its answer, including page continuations."""
+    rows, current, mode = [], None, None
+
+    def finish():
+        if current is None:
+            return
+        question = '\n'.join(current['question']).strip()
+        answer = '\n'.join(current['answer']).strip()
+        rows.append({'segment': len(rows) + 1, 'pdf_page': current['pages'][0],
+                     'pdf_pages': current['pages'], 'question': question, 'answer': answer,
+                     'text': '问：' + question + '\n堪布：' + answer,
+                     'quote_text': answer, 'speaker': '索达吉堪布' if answer else None,
+                     'quote_allowed': bool(answer), 'text_role': 'question_and_speaker_answer',
+                     'parse_status': 'parsed' if answer else 'answer_not_identified',
+                     'attribution_note': '问答记录；回答可能引用他人，不据此认作原创格言。'})
+
+    for page, text in pages:
+        for line in text.splitlines():
+            line = line.strip()
+            if not line or re.fullmatch(r'\d{1,3}', line):
+                continue
+            question = re.match(r'^(?:⊙\s*)?问\s*[：:]\s*(.*)', line)
+            answer = re.match(r'^堪\s*布\s*[：:]\s*(.*)', line)
+            if question:
+                finish()
+                current = {'question': [question[1]], 'answer': [], 'pages': [page]}
+                mode = 'question'
+            elif answer and current is not None:
+                mode = 'answer'
+                current['answer'].append(answer[1])
+            elif current is not None:
+                current[mode].append(line)
+            if current is not None and page not in current['pages']:
+                current['pages'].append(page)
+    finish()
+    if not rows or not any(r['answer'] for r in rows):
+        raise ValueError('No question/answer pairs identified; review PDF extraction')
+    for index, row in enumerate(rows):
+        row['previous_segment'] = rows[index - 1]['segment'] if index else None
+        row['next_segment'] = rows[index + 1]['segment'] if index + 1 < len(rows) else None
+        row['read_adjacent_turns'] = True
+    return rows
+
+
+def prepare(source, refresh=False, mentso_root=None, reextract=False):
     folder = CACHE / source['id']
-    if (folder / 'record.json').exists() and not refresh:
+    if (folder / 'record.json').exists() and not refresh and not reextract:
         record = json.loads((folder / 'record.json').read_text())
         raw_path = folder / 'source.bin'
         texts = folder / 'segments.json'
@@ -109,6 +168,7 @@ def prepare(source, refresh=False, mentso_root=None):
             raise ValueError('Cached checksum mismatch; review before refresh')
         return record
     acquisition = 'public_url'
+    fetched_at = datetime.now(timezone.utc).isoformat()
     if mentso_root and source.get('local_mirror'):
         raw = (Path(mentso_root) / source['local_mirror']).read_bytes()
         final_url = source['url']
@@ -116,9 +176,17 @@ def prepare(source, refresh=False, mentso_root=None):
         text_blocks = raw.decode('utf-8').splitlines()
         units = [(None, x.strip()) for x in text_blocks if x.strip()]
     else:
-        with urllib.request.urlopen(source['url'], timeout=40) as response:
-            raw = response.read()
-            final_url = response.geturl()
+        if reextract:
+            prior = json.loads((folder / 'record.json').read_text())
+            raw = (folder / 'source.bin').read_bytes()
+            if digest(raw) != prior['sha256'] or source['url'] != prior['url']:
+                raise ValueError('Cannot reextract changed original or changed URL')
+            fetched_at, acquisition = prior['fetched_at'], prior['acquisition']
+            final_url = prior['final_url']
+        else:
+            with urllib.request.urlopen(source['url'], timeout=40) as response:
+                raw = response.read()
+                final_url = response.geturl()
         if source['format'] == 'pdf':
             if not raw.startswith(b'%PDF'):
                 raise ValueError('Expected PDF, received another content type')
@@ -133,16 +201,19 @@ def prepare(source, refresh=False, mentso_root=None):
             html = raw.decode('utf-8')
             if source['format'] == 'flight':
                 html = flight_body(html)
-            units = [(None, x) for x in paragraphs(html, source.get('element_id'))]
+            units = [(None, x) for x in paragraphs(html, source.get('element_id'), source.get('element_class'))]
     if sum(len(t) for _, t in units) < 100:
         raise ValueError('Body too short; review extraction')
     segments = []
-    for number, (page, text) in enumerate(units, 1):
-        if not text:
-            continue
-        segments.append({'segment': number, 'pdf_page': page, 'text': text})
+    if source.get('segmentation') == 'qa':
+        segments = qa_segments(units)
+    else:
+        for number, (page, text) in enumerate(units, 1):
+            if not text:
+                continue
+            segments.append({'segment': number, 'pdf_page': page, 'text': text})
     encoded = (json.dumps(segments, ensure_ascii=False, indent=2) + '\n').encode()
-    record = dict(source, fetched_at=datetime.now(timezone.utc).isoformat(), final_url=final_url,
+    record = dict(source, fetched_at=fetched_at, extracted_at=datetime.now(timezone.utc).isoformat(), final_url=final_url,
                   acquisition=acquisition, sha256=digest(raw), text_sha256=digest(encoded),
                   segments=len(segments), characters=sum(len(x['text']) for x in segments))
     folder.mkdir(parents=True, exist_ok=True)
@@ -177,7 +248,8 @@ def load_segments(person, sources):
         start, end = 0, len(segments)
         for field in ('quote_start', 'quote_end'):
             if source.get(field):
-                found = next((i for i, s in enumerate(segments) if re.search(source[field], s['text'])), None)
+                found = next((i for i, s in enumerate(segments)
+                              if i >= start and re.search(source[field], s['text'])), None)
                 if found is None:
                     raise ValueError('Missing expected quote boundary: ' + source['id'] + ':' + field)
                 if field == 'quote_start':
@@ -187,14 +259,16 @@ def load_segments(person, sources):
         if end <= start:
             raise ValueError('Invalid quote boundaries: ' + source['id'])
         for index, segment in enumerate(segments):
-            result.append(dict(source_id=source['id'], person=person, title=source['title'],
+            row = dict(source_id=source['id'], person=person, title=source['title'],
                                author=source['author'], translator=source.get('translator'),
                                role=source['role'], language=source['language'], url=source['url'],
                                fetched_at=record['fetched_at'], acquisition=record['acquisition'],
                                final_url=record['final_url'], source_sha256=record['sha256'],
                                quote_allowed=start <= index < end,
                                text_role='author_text' if start <= index < end else 'paratext_not_author_quote',
-                               text_sha256=record['text_sha256'], corpus_kind='local_text', **segment))
+                               text_sha256=record['text_sha256'], corpus_kind='local_text')
+            row.update(segment)
+            result.append(row)
     return result
 
 
@@ -207,8 +281,29 @@ def search(rows, terms, limit=5):
     return sorted(ranked, key=lambda x: (-x['hits'], x['source_id'], x['segment']))[:limit]
 
 
+def verify_quote(rows, quote, source_id=None, segment=None):
+    return [r for r in rows if r['quote_allowed'] and quote_norm(quote)
+            and (source_id is None or r['source_id'] == source_id)
+            and (segment is None or r['segment'] == segment)
+            and quote_norm(quote) in quote_norm(r.get('quote_text', r['text']))]
+
+
 def emit(value):
     print(json.dumps(value, ensure_ascii=False))
+
+
+def save_outcomes(outcomes):
+    CACHE.mkdir(exist_ok=True)
+    manifest = CACHE / 'manifest.json'
+    previous = json.loads(manifest.read_text(encoding='utf-8')) if manifest.exists() else []
+    combined = {r['id']: r for r in previous}
+    stamp = datetime.now(timezone.utc).isoformat()
+    with (CACHE / 'fetch-history.jsonl').open('a', encoding='utf-8') as history:
+        for item in outcomes:
+            attempt = dict(item, attempted_at=stamp)
+            combined[item['id']] = attempt
+            history.write(json.dumps(attempt, ensure_ascii=False) + '\n')
+    manifest.write_text(json.dumps(list(combined.values()), ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
 
 def main():
@@ -216,7 +311,9 @@ def main():
     sub = parser.add_subparsers(dest='command', required=True)
     prep = sub.add_parser('prepare')
     prep.add_argument('--person', choices=PEOPLE)
+    prep.add_argument('--source', action='append', help='Prepare only named source IDs; repeatable')
     prep.add_argument('--refresh', action='store_true')
+    prep.add_argument('--reextract', action='store_true', help='Reparse verified cached originals without network')
     prep.add_argument('--mentso-root', type=Path)
     sub.add_parser('status')
     for command in ('search', 'verify', 'export', 'read'):
@@ -227,28 +324,36 @@ def main():
             child.add_argument('--limit', type=int, default=5)
         if command == 'verify':
             child.add_argument('--quote', required=True)
+            child.add_argument('--source')
+            child.add_argument('--segment', type=int)
         if command == 'read':
             child.add_argument('--source', required=True)
             child.add_argument('--segment', type=int, required=True)
             child.add_argument('--context', type=int, default=2)
     args = parser.parse_args()
+    if args.command == 'prepare' and args.refresh and args.reextract:
+        parser.error('--refresh and --reextract are mutually exclusive')
     sources = json.loads(CONFIG.read_text(encoding='utf-8'))
     if args.command == 'prepare':
         outcomes = []
+        if args.source and set(args.source) - {s['id'] for s in sources}:
+            parser.error('Unknown source ID')
         for source in sources:
             if args.person and source['person'] != args.person:
                 continue
+            if args.source and source['id'] not in args.source:
+                continue
             if not source.get('enabled', True):
                 outcomes.append({'id': source['id'], 'status': 'disabled', 'reason': source['disabled_reason']})
+                emit(outcomes[-1])
                 continue
             try:
-                record = prepare(source, args.refresh, args.mentso_root)
+                record = prepare(source, args.refresh, args.mentso_root, args.reextract)
                 outcomes.append({'id': source['id'], 'status': 'ready', 'record': record})
             except Exception as exc:
                 outcomes.append({'id': source['id'], 'status': 'error', 'error': str(exc)})
             emit({k: v for k, v in outcomes[-1].items() if k != 'record'})
-        CACHE.mkdir(exist_ok=True)
-        (CACHE / 'manifest.json').write_text(json.dumps(outcomes, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        save_outcomes(outcomes)
         return int(any(x['status'] == 'error' for x in outcomes))
     if args.command == 'status':
         for person in PEOPLE:
@@ -274,14 +379,18 @@ def main():
         emit({'file': str(destination), 'segments': len(rows)})
         return 0 if rows else 2
     if args.command == 'verify':
-        matches = [r for r in rows if r['quote_allowed'] and quote_norm(args.quote) and quote_norm(args.quote) in quote_norm(r['text'])]
+        if args.segment is not None and not args.source:
+            parser.error('--segment requires --source for verification')
+        matches = verify_quote(rows, args.quote, args.source, args.segment)
         emit({'verified': bool(matches), 'scope': 'registered_text_match_only_not_author_authentication',
+              'requested_source': args.source, 'requested_segment': args.segment,
               'normalization': 'NFC and whitespace removal only', 'matches': matches})
         return 0 if matches else 2
     if args.limit < 1:
         parser.error('--limit must be positive')
     matches = search(rows, args.terms, args.limit)
     emit({'person': args.person, 'matches': matches, 'status': 'found' if matches else 'no_match',
+          'script_folding': 'OpenCC t2s' if SCRIPT_CONVERTER else 'not_installed',
           'available_segments': len(rows)})
     return 0 if matches else 2
 

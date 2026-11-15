@@ -16,6 +16,53 @@ class CorpusTests(unittest.TestCase):
         self.assertEqual(lines, ['Real teaching', 'next line'])
         with self.assertRaises(ValueError):
             corpus.paragraphs('<html>Login required</html>', 'maintext')
+        self.assertEqual(corpus.paragraphs('<div class="zwzw"><p><p>正文</p></div><footer>推荐</footer>', element_class='zwzw'), ['正文'])
+
+    def test_qa_cross_page_and_speaker_whitespace(self):
+        rows = corpus.qa_segments([(5, '001\n⊙ 问：怎样\n学习？\n堪 布 ：先阅读。'),
+                                  (6, '002\n然后思考。\n⊙ 问：后续问题\n堪布：后续回答。')])
+        self.assertEqual(len(rows), 2)
+        self.assertEqual(rows[0]['pdf_pages'], [5, 6])
+        self.assertEqual(rows[0]['answer'], '先阅读。\n然后思考。')
+        self.assertNotIn('怎样', rows[0]['quote_text'])
+        self.assertEqual(rows[0]['next_segment'], 2)
+        self.assertEqual(rows[1]['previous_segment'], 1)
+        incomplete = corpus.qa_segments([(1, '问：没有直接答复\n问：下一问\n堪布：下一答')])
+        self.assertFalse(incomplete[0]['quote_allowed'])
+        self.assertEqual(incomplete[0]['parse_status'], 'answer_not_identified')
+
+    def test_search_folds_script_without_altering_quotes(self):
+        if corpus.SCRIPT_CONVERTER is None:
+            self.skipTest('Install requirements-teachers.txt for OpenCC checks')
+        rows = [{'source_id':'test', 'segment':1, 'text':'傾聽苦難經歷。'}]
+        found = corpus.search(rows, ['倾听'])
+        self.assertEqual(len(found), 1)
+        self.assertEqual(found[0]['text'], '傾聽苦難經歷。')
+        self.assertNotEqual(corpus.quote_norm('傾聽'), corpus.quote_norm('倾听'))
+
+    def test_attempt_history_preserves_unselected_sources(self):
+        before = corpus.CACHE
+        with tempfile.TemporaryDirectory() as temporary:
+            corpus.CACHE = Path(temporary)
+            try:
+                corpus.save_outcomes([{'id':'A','status':'ready'}])
+                corpus.save_outcomes([{'id':'B','status':'error','error':'403'}])
+                latest = json.loads((corpus.CACHE / 'manifest.json').read_text())
+                self.assertEqual({r['id'] for r in latest}, {'A','B'})
+                corpus.save_outcomes([{'id':'B','status':'ready'}])
+                history = [json.loads(line) for line in (corpus.CACHE / 'fetch-history.jsonl').read_text().splitlines()]
+                self.assertEqual([r['status'] for r in history], ['ready','error','ready'])
+            finally:
+                corpus.CACHE = before
+
+    def test_scoped_verify_cannot_substitute_another_segment(self):
+        rows = [dict(source_id='book', segment=1, text='相同标题', quote_allowed=False),
+                dict(source_id='book', segment=2, text='相同标题', quote_allowed=True),
+                dict(source_id='qa', segment=1, text='问：提问内容\n答：本人回答', quote_text='本人回答', quote_allowed=True)]
+        self.assertTrue(corpus.verify_quote(rows, '相同标题'))
+        self.assertFalse(corpus.verify_quote(rows, '相同标题', 'book', 1))
+        self.assertTrue(corpus.verify_quote(rows, '相同标题', 'book', 2))
+        self.assertFalse(corpus.verify_quote(rows, '提问内容', 'qa', 1))
 
     def test_person_isolation_provenance_and_tamper(self):
         before, before_excerpts = corpus.CACHE, corpus.EXCERPTS

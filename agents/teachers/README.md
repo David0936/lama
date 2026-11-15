@@ -2,18 +2,22 @@
 
 本目录为门措上师、法王如意宝、索达吉堪布、丹增嘉措建立共用的原文检索与引文核验入口。人物研究页负责背景，回答具体教言时使用取得的正文。当前是供具备本地工具能力的助手调用的资料层，不含模型服务或聊天网页。
 
+最新接入情况见[第二批正文扩充记录](expansion-02-2026-11-15.md)：门措四篇中文教言；法王《心要·心语》英藏与《胜利道歌》藏汉版本；索达吉258组中文问答；丹增《如何面对痛苦》署名转载正文。跨版本校勘与完整多轮评测继续推进。
+
 ## 使用
 
-在仓库根目录运行（Python 3.9+；PDF 提取需要 `pypdf`）：
+在仓库根目录运行（Python 3.9+；依赖见 `requirements-teachers.txt`，可安装在自己的虚拟环境。也可用 `uv run --with pypdf --with opencc-python-reimplemented python ...` 临时环境运行）：
 
 ```sh
 python3 scripts/teacher_corpus.py prepare
+python3 scripts/teacher_corpus.py prepare --source DG-SUFFERING-REPRINT --source SD-CASUAL-QA
 python3 scripts/teacher_corpus.py status
 python3 scripts/teacher_corpus.py search --person mentso 量入为出
 python3 scripts/teacher_corpus.py search --person jigme-phuntsok reflection
 python3 scripts/teacher_corpus.py read --person jigme-phuntsok --source JP-HEART-EN --segment 30 --context 3
 python3 scripts/teacher_corpus.py search --person danzeng-gyatso 痛苦
 python3 scripts/teacher_corpus.py verify --person mentso --quote '量入为出当知足'
+python3 scripts/teacher_corpus.py verify --person sodargye --source SD-CASUAL-QA --segment 258 --quote '《大圆满前行》和《入菩萨行论》。'
 python3 scripts/teacher_corpus.py export --person mentso
 ```
 
@@ -21,9 +25,15 @@ python3 scripts/teacher_corpus.py export --person mentso
 
 全文、原件、索引及导出位于忽略目录 `.teacher-corpus/`，不随 Git 推送。登记表 `sources.json` 可审阅，逐次取得的时间、原件 SHA-256、提取文本 SHA-256、最终 URL 和错误在本地 `manifest.json`。公开可读不自动等于可再分发。
 
+`manifest.json` 保留各来源最后一次准备状态；`fetch-history.jsonl` 追加记录取得尝试，保留错误和重试轨迹。指定单个来源准备时，其他来源的记录会保留。
+
 `reviewed-excerpts.json` 保留经网页工具核读的少量短摘，供命令行无法取得整篇时仍可定位。结果以 `reviewed_excerpt_not_fulltext` 标识，不能据此宣称已取得全文。丹增嘉措 PDF 摘句尚待视觉复核；索达吉英文摘句尚未与原声对听。逐字命中证明的是本地登记文本一致，并不替代这些版本校核。
 
-当前检索为关键词匹配，未内置繁简转换或语义向量。简体无命中时尝试繁体、原文语言或同义词。搜索按相关性排序，回读上下文使用 `read` 的段号顺序。逐字核验保留原文大小写与繁简字形。
+当前检索为关键词匹配；装有 OpenCC 时将检索词和匹配用副本转为简体，原文与引文验证保持原字形。未装时结果明确显示 `script_folding: not_installed`。语义向量尚未接入。搜索按相关性排序，回读上下文使用 `read` 的段号顺序。
+
+`prepare --source ID --reextract` 从校验过的本地原件重新提取，不重新下载。读取问答时保留完整提问、回答和跨页页码；`verify` 仅在回答部分匹配，提问不会作为上师原话通过。回答中的他人引语仍须回看上下文，逐字匹配不证明原创。相邻问答可能相互承接，应按 `previous_segment`／`next_segment` 回读。
+
+引用具体命中时用 `verify --source ID --segment N` 限定定位；不限定时只证明该人物库某处有此文字，不能证明所选段落就是出处。目录和正文标题相同时尤其需要限定段号。
 
 ## 回答约定
 
