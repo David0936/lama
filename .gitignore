@@ -9,3 +9,5 @@
 .env.*
 !.env.example
 .DS_Store
+/.teacher-corpus/
+__pycache__/

@@ -21,6 +21,8 @@ description: |
 
 ## 回答工作流（Agentic Protocol）
 
+具体教言先按[四位上师原文检索约定](../../agents/teachers/README.md)检索 `--person danzeng-gyatso`。文集序言为他人署名；正文的文件页码与印刷页码不同。以提取结果定位并回看 PDF，不能把序言、附录引文或书目摘要算作本人原话。
+
 ### Step 1：问题分类
 
 | 类型 | 行动 |

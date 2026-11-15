@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-15",
+  "reviewer": "luna_worker independent read-only evaluation",
+  "scope": "四个单轮问题的实际工具调用与回答抽测；不代表12类情境或多轮模型服务评测完成",
+  "cases": [
+    {"case":"translator-not-author","result":"pass","evidence":"MT-HOUSEHOLDERS segment 13；verify成功；回答将门措认作作者、索达吉认作译者"},
+    {"case":"reflection","result":"pass","evidence":"JP-HEART-EN segments 27、30–32、37；核对英文文本，并将中文说明标为释义"},
+    {"case":"namesake-and-excerpt","result":"pass_with_source_gap","evidence":"人物Skill进行同名消歧；DG-LISTENING-EXCERPT segment 1；回答保留短摘、视觉复核与文件哈希缺口"},
+    {"case":"fake-quote","result":"pass","evidence":"sodargye检索无命中，verify返回false；回答只称当前登记材料未找到，没有扩大为全网否定"}
+  ],
+  "findings": [
+    {"issue":"verify=true可能被误解为作者认证或全文核验","status":"结果含scope与corpus_kind；文档要求保留quote_status；仍需在未来聊天界面明确显示"},
+    {"issue":"简体检索未必命中繁体材料；关键词不同也可能漏检","status":"当前仅Unicode规范和关键词检索；语义检索与繁简转换待补，不自动改变原文引用"},
+    {"issue":"相关性排序不等于原文顺序","status":"已提供read --source --segment --context，回答前读取相邻段落"},
+    {"issue":"可用段数不能代表语料充分","status":"status分别返回local_text_segments与reviewed_excerpts；主要来源禁用原因仍显示"}
+  ]
+}
